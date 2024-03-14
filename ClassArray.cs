@@ -99,6 +99,17 @@ namespace Donet8
                 }
             }
 
+
+            // Displays the properties of the Array.
+            Console.WriteLine("The Array has {0} dimension(s) and a total of {1} elements.", myArr.Rank, myArr.Length);
+            Console.WriteLine("\tLength\tLower\tUpper");
+            for (int i = 0; i < myArr.Rank; i++)
+            {
+                Console.Write("{0}:\t{1}", i, myArr.GetLength(i));
+                Console.WriteLine("\t{0}\t{1}", myArr.GetLowerBound(i), myArr.GetUpperBound(i));
+            }
+
+
         }
 
 
