@@ -37,6 +37,13 @@ namespace Donet8
             // Copies the last two elements from the Object array to the integer array.
             System.Array.Copy(myObjArray, myObjArray.GetUpperBound(0) - 1, myIntArray, myIntArray.GetUpperBound(0) - 1, 2);
 
+            // Prints the values of the modified arrays.
+            Console.WriteLine("\nAfter copying the last two elements of the Object array to the integer array,");
+            Console.Write("integer array:");
+            PrintValues(myIntArray);
+            Console.Write("Object array: ");
+            PrintValues(myObjArray);
+
 
 
         }
