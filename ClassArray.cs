@@ -34,6 +34,10 @@ namespace Donet8
             Console.Write("Object array: ");
             PrintValues(myObjArray);
 
+            // Copies the last two elements from the Object array to the integer array.
+            System.Array.Copy(myObjArray, myObjArray.GetUpperBound(0) - 1, myIntArray, myIntArray.GetUpperBound(0) - 1, 2);
+
+
 
         }
     }
