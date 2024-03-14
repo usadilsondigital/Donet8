@@ -27,6 +27,13 @@ namespace Donet8
             // Copies the first two elements from the integer array to the Object array.
             System.Array.Copy(myIntArray, myObjArray, 2);
 
+            // Prints the values of the modified arrays.
+            Console.WriteLine("\nAfter copying the first two elements of the integer array to the Object array,");
+            Console.Write("integer array:");
+            PrintValues(myIntArray);
+            Console.Write("Object array: ");
+            PrintValues(myObjArray);
+
 
         }
     }
