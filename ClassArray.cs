@@ -10,5 +10,12 @@ namespace Donet8
     //manipulating, searching, and sorting arrays, thereby serving as the base class for all arrays in the common language runtime.
     public class ClassArray
     {
+        public  void TestCase()
+        {
+
+            // Creates and initializes a new integer array and a new Object array.
+            int[] myIntArray = new int[5] { 1, 2, 3, 4, 5 };
+            Object[] myObjArray = new Object[5] { 26, 27, 28, 29, 30 };
+        }
     }
 }
