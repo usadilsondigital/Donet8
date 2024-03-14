@@ -33,6 +33,20 @@ namespace Donet8
             Console.WriteLine("   {0,-35} {1,20:N0}", "Total Number of Milliseconds:", interval.TotalMilliseconds);
             Console.WriteLine("   {0,-35} {1,20:N0}", "Ticks:", interval.Ticks);
 
+            // This example displays the following output:
+            //       8/18/2010 1:30:30 PM - 1/1/2010 8:00:15 AM = 229.05:30:15
+            //          Value of Days Component:                             229
+            //          Total Number of Days:                   229.229340277778
+            //          Value of Hours Component:                              5
+            //          Total Number of Hours:                  5501.50416666667
+            //          Value of Minutes Component:                           30
+            //          Total Number of Minutes:                       330090.25
+            //          Value of Seconds Component:                           15
+            //          Total Number of Seconds:                      19,805,415
+            //          Value of Milliseconds Component:                       0
+            //          Total Number of Milliseconds:             19,805,415,000
+            //          Ticks:                               198,054,150,000,000
+
 
         }
     }
