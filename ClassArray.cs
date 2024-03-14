@@ -16,6 +16,15 @@ namespace Donet8
             // Creates and initializes a new integer array and a new Object array.
             int[] myIntArray = new int[5] { 1, 2, 3, 4, 5 };
             Object[] myObjArray = new Object[5] { 26, 27, 28, 29, 30 };
+
+            // Prints the initial values of both arrays.
+            Console.WriteLine("Initially,");
+            Console.Write("integer array:");
+            PrintValues(myIntArray);
+            Console.Write("Object array: ");
+            PrintValues(myObjArray);
+
+
         }
     }
 }
