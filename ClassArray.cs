@@ -82,7 +82,24 @@ namespace Donet8
             Console.WriteLine();
         }
 
+        //////
+        ///
+        public void ArrayThreeDimensional() {
 
+            // Creates and initializes a new three-dimensional Array of type int.
+            Array myArr = Array.CreateInstance(typeof(int), 2, 3, 4);
+            for (int i = myArr.GetLowerBound(0); i <= myArr.GetUpperBound(0); i++)
+            {
+                for (int j = myArr.GetLowerBound(1); j <= myArr.GetUpperBound(1); j++)
+                {
+                    for (int k = myArr.GetLowerBound(2); k <= myArr.GetUpperBound(2); k++)
+                    {
+                        myArr.SetValue((i * 100) + (j * 10) + k, i, j, k);
+                    }
+                }
+            }
+
+        }
 
 
 
