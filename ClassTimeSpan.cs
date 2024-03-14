@@ -27,6 +27,12 @@ namespace Donet8
             Console.WriteLine("   {0,-35} {1,20}", "Value of Minutes Component:", interval.Minutes);
             Console.WriteLine("   {0,-35} {1,20}", "Total Number of Minutes:", interval.TotalMinutes);
 
+            Console.WriteLine("   {0,-35} {1,20:N0}", "Value of Seconds Component:", interval.Seconds);
+            Console.WriteLine("   {0,-35} {1,20:N0}", "Total Number of Seconds:", interval.TotalSeconds);
+            Console.WriteLine("   {0,-35} {1,20:N0}", "Value of Milliseconds Component:", interval.Milliseconds);
+            Console.WriteLine("   {0,-35} {1,20:N0}", "Total Number of Milliseconds:", interval.TotalMilliseconds);
+            Console.WriteLine("   {0,-35} {1,20:N0}", "Ticks:", interval.Ticks);
+
 
         }
     }
