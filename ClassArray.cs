@@ -59,6 +59,16 @@ namespace Donet8
         }
 
 
+        public static void PrintValues(int[] myArr)
+        {
+            foreach (int i in myArr)
+            {
+                Console.Write("\t{0}", i);
+            }
+            Console.WriteLine();
+        }
+
+
 
     }
 }
