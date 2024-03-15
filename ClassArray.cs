@@ -167,7 +167,7 @@ namespace Donet8
 
         public long LongLength { get; }//Gets a 64-bit integer that represents the total number of elements in all the dimensions of the Array.
 
-        public static int MaxLength { get; }
+        public static int MaxLength { get; }//Gets the maximum number of elements that may be contained in an array.
 
 
     }
