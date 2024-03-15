@@ -119,5 +119,13 @@ namespace Donet8
 
 
 
+        void PrintValues(Array myArray)
+        {
+            System.Collections.IEnumerator myEnumerator = myArray.GetEnumerator();
+            int i = 0;
+            int cols = myArray.GetLength(myArray.Rank - 1);
+           
+        }
+
     }
 }
