@@ -164,5 +164,7 @@ namespace Donet8
         public bool IsSynchronized { get; } //Gets a value indicating whether access to the Array is synchronized (thread safe).
 
         public int Length { get; }//Gets the total number of elements in all the dimensions of the Array.
+
+        public long LongLength { get; }
     }
 }
