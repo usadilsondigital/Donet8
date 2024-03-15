@@ -171,6 +171,8 @@ namespace Donet8
 
         public int Rank { get; }//Gets the rank (number of dimensions) of the Array. For example, a one-dimensional array returns 1, a two-dimensional array returns 2, and so on.
 
+        public object SyncRoot { get; }
+
 
     }
 }
