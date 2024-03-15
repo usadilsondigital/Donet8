@@ -163,6 +163,6 @@ namespace Donet8
 
         public bool IsSynchronized { get; }
 
-        public int Length { get; }
+        public int Length { get; }//Gets the total number of elements in all the dimensions of the Array.
     }
 }
