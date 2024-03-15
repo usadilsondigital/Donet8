@@ -159,7 +159,7 @@ namespace Donet8
 
         //PROPERTIES
         public bool IsFixedSize { get; }
-        public bool IsReadOnly { get; }
+        public bool IsReadOnly { get; }//Gets a value indicating whether the Array is read-only.
 
         public bool IsSynchronized { get; } //Gets a value indicating whether access to the Array is synchronized (thread safe).
 
