@@ -108,6 +108,11 @@ namespace Donet8
                 Console.Write("{0}:\t{1}", i, myArr.GetLength(i));
                 Console.WriteLine("\t{0}\t{1}", myArr.GetLowerBound(i), myArr.GetUpperBound(i));
             }
+            // Displays the contents of the Array.
+            Console.WriteLine("The Array contains the following values:");
+            PrintValues(myArr);
+
+
 
 
         }
