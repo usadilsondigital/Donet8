@@ -157,7 +157,8 @@ namespace Donet8
         //    110    111    112    113
         //    120    121    122    123
 
-
+        //PROPERTIES
+        public bool IsFixedSize { get; }
 
     }
 }
