@@ -169,7 +169,7 @@ namespace Donet8
 
         public static int MaxLength { get; }//Gets the maximum number of elements that may be contained in an array.
 
-        public int Rank { get; }
+        public int Rank { get; }//Gets the rank (number of dimensions) of the Array. For example, a one-dimensional array returns 1, a two-dimensional array returns 2, and so on.
 
 
     }
