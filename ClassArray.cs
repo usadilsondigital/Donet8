@@ -124,7 +124,11 @@ namespace Donet8
             System.Collections.IEnumerator myEnumerator = myArray.GetEnumerator();
             int i = 0;
             int cols = myArray.GetLength(myArray.Rank - 1);
-           
+            while (myEnumerator.MoveNext())
+            {
+               
+            }
+            Console.WriteLine();
         }
 
     }
