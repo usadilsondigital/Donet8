@@ -159,6 +159,6 @@ namespace Donet8
 
         //PROPERTIES
         public bool IsFixedSize { get; }
-
+        public bool IsReadOnly { get; }
     }
 }
