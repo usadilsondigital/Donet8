@@ -140,5 +140,14 @@ namespace Donet8
             Console.WriteLine();
         }
 
+        // This code produces the following output.
+
+        // The Array has 3 dimension(s) and a total of 24 elements.
+        //     Length    Lower    Upper
+        // 0:  2    0    1
+        // 1:  3    0    2
+        // 2:  4    0    3
+        //
+
     }
 }
