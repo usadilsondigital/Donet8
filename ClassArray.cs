@@ -169,6 +169,8 @@ namespace Donet8
 
         public static int MaxLength { get; }//Gets the maximum number of elements that may be contained in an array.
 
+        public int Rank { get; }
+
 
     }
 }
