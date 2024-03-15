@@ -162,5 +162,7 @@ namespace Donet8
         public bool IsReadOnly { get; }
 
         public bool IsSynchronized { get; }
+
+        public int Length { get; }
     }
 }
