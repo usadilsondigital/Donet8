@@ -126,7 +126,16 @@ namespace Donet8
             int cols = myArray.GetLength(myArray.Rank - 1);
             while (myEnumerator.MoveNext())
             {
-               
+                if (i < cols)
+                {
+                    i++;
+                }
+                else
+                {
+                    Console.WriteLine();
+                    i = 1;
+                }
+                Console.Write("\t{0}", myEnumerator.Current);
             }
             Console.WriteLine();
         }
