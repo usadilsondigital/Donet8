@@ -165,6 +165,6 @@ namespace Donet8
 
         public int Length { get; }//Gets the total number of elements in all the dimensions of the Array.
 
-        public long LongLength { get; }
+        public long LongLength { get; }//Gets a 64-bit integer that represents the total number of elements in all the dimensions of the Array.
     }
 }
