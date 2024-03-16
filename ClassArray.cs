@@ -188,6 +188,7 @@ namespace Donet8
         //Clears the contents of an array.
         public static void Clear(Array array);
 
+        public object Clone();
 
 
 
