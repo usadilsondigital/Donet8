@@ -173,6 +173,6 @@ namespace Donet8
 
         public object SyncRoot { get; }//Gets an object that can be used to synchronize access to the Array.
 
-
+        //METHODS
     }
 }
