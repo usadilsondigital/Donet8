@@ -177,5 +177,8 @@ namespace Donet8
 
 
         public static System.Collections.ObjectModel.ReadOnlyCollection<T> AsReadOnly<T>(T[] array);
+
+
+        public static int BinarySearch(Array array, object? value);
     }
 }
