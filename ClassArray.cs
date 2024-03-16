@@ -176,6 +176,7 @@ namespace Donet8
         //METHODS
 
 
+        //Returns a read-only wrapper for the specified array.
         public static System.Collections.ObjectModel.ReadOnlyCollection<T> AsReadOnly<T>(T[] array);
 
 
