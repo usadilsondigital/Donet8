@@ -174,5 +174,8 @@ namespace Donet8
         public object SyncRoot { get; }//Gets an object that can be used to synchronize access to the Array.
 
         //METHODS
+
+
+        public static System.Collections.ObjectModel.ReadOnlyCollection<T> AsReadOnly<T>(T[] array);
     }
 }
