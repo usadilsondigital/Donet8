@@ -194,6 +194,8 @@ namespace Donet8
         //Copies a range of elements from an Array starting at the specified source inde
         public static void ConstrainedCopy(Array sourceArray, int sourceIndex, Array destinationArray, int destinationIndex, int length);
 
+        public static TOutput[] ConvertAll<TInput, TOutput>(TInput[] array, Converter<TInput, TOutput> converter);
+
     }
 
 }
