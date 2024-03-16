@@ -191,6 +191,7 @@ namespace Donet8
         //Creates a shallow copy of the Array.
         public object Clone();
 
+        //Copies a range of elements from an Array starting at the specified source inde
         public static void ConstrainedCopy(Array sourceArray, int sourceIndex, Array destinationArray, int destinationIndex, int length);
 
     }
