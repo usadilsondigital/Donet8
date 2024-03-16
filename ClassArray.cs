@@ -181,7 +181,6 @@ namespace Donet8
         //Returns a read-only wrapper for the specified array.
         public static System.Collections.ObjectModel.ReadOnlyCollection<T> AsReadOnly<T>(T[] array);
 
-
         //Searches an entire one-dimensional sorted array for a specific element, using the IComparable interface implemented by each element of the array and by the specified object.
         public static int BinarySearch(Array array, object? value);
 
