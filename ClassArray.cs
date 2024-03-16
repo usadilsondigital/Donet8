@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Donet8
 {
@@ -183,7 +185,7 @@ namespace Donet8
         //Searches an entire one-dimensional sorted array for a specific element, using the IComparable interface implemented by each element of the array and by the specified object.
         public static int BinarySearch(Array array, object? value);
 
-
+        //Clears the contents of an array.
         public static void Clear(Array array);
 
 
