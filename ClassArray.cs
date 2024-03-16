@@ -193,7 +193,7 @@ namespace Donet8
 
         //Copies a range of elements from an Array starting at the specified source inde
         public static void ConstrainedCopy(Array sourceArray, int sourceIndex, Array destinationArray, int destinationIndex, int length);
-
+        //Converts an array of one type to an array of another type.
         public static TOutput[] ConvertAll<TInput, TOutput>(TInput[] array, Converter<TInput, TOutput> converter);
 
     }
