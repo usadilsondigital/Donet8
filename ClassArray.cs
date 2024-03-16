@@ -196,6 +196,7 @@ namespace Donet8
         //Converts an array of one type to an array of another type.
         public static TOutput[] ConvertAll<TInput, TOutput>(TInput[] array, Converter<TInput, TOutput> converter);
 
+        public static Array CreateInstance(Type elementType, int length);
     }
 
 }
