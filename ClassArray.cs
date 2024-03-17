@@ -220,6 +220,7 @@ namespace Donet8
         //Performs the specified action on each element of the specified array.
         public static void ForEach<T>(T[] array, Action<T> action);
 
+        //Returns an IEnumerator for the Array.
         public System.Collections.IEnumerator GetEnumerator();
 
 
