@@ -191,6 +191,8 @@ namespace Donet8
 
         //Initializes a new instance of the Array class.
         public static Array CreateInstance(Type elementType, int length);
+
+        public static T[] Empty<T>();
     }
 
 }
