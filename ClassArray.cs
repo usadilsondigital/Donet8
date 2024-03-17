@@ -214,7 +214,7 @@ namespace Donet8
         //Searches for an element that matches the conditions defined by the specified predicate, and returns the last occurrence within the entire Array.
         public static T? FindLast<T>(T[] array, Predicate<T> match);
 
-
+        //Searches for an element that matches the conditions defined by the specified predicate, and returns the zero-based index of the last occurrence within the entire Array.
         public static int FindLastIndex<T>(T[] array, Predicate<T> match);
 
     }
