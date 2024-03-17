@@ -215,6 +215,8 @@ namespace Donet8
         public static T? FindLast<T>(T[] array, Predicate<T> match);
 
 
+        public static int FindLastIndex<T>(T[] array, Predicate<T> match);
+
     }
 
 }
