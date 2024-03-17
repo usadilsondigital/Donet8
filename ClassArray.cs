@@ -201,6 +201,8 @@ namespace Donet8
         //Assigns the given value of type T to each element of the specified array.
         public static void Fill<T>(T[] array, T value);
 
+        public static T? Find<T>(T[] array, Predicate<T> match);
+
     }
 
 }
