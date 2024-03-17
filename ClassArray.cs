@@ -198,6 +198,7 @@ namespace Donet8
         ////Determines whether the specified array contains elements that match the conditions defined by the specified predicate.
         public static bool Exists<T>(T[] array, Predicate<T> match);
 
+        //Assigns the given value of type T to each element of the specified array.
         public static void Fill<T>(T[] array, T value);
 
     }
