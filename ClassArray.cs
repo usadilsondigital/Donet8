@@ -208,6 +208,8 @@ namespace Donet8
 
         public static T[] FindAll<T>(T[] array, Predicate<T> match);
 
+        public static int FindIndex<T>(T[] array, Predicate<T> match);
+
     }
 
 }
