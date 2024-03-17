@@ -162,21 +162,14 @@ namespace Donet8
         //PROPERTIES
         public bool IsFixedSize { get; }//Gets a value indicating whether the Array has a fixed size.
         public bool IsReadOnly { get; }//Gets a value indicating whether the Array is read-only.
-
         public bool IsSynchronized { get; } //Gets a value indicating whether access to the Array is synchronized (thread safe).
-
         public int Length { get; }//Gets the total number of elements in all the dimensions of the Array.
-
         public long LongLength { get; }//Gets a 64-bit integer that represents the total number of elements in all the dimensions of the Array.
-
         public static int MaxLength { get; }//Gets the maximum number of elements that may be contained in an array.
-
         public int Rank { get; }//Gets the rank (number of dimensions) of the Array. For example, a one-dimensional array returns 1, a two-dimensional array returns 2, and so on.
-
         public object SyncRoot { get; }//Gets an object that can be used to synchronize access to the Array.
 
         //METHODS
-
 
         //Returns a read-only wrapper for the specified array.
         public static System.Collections.ObjectModel.ReadOnlyCollection<T> AsReadOnly<T>(T[] array);
@@ -196,6 +189,7 @@ namespace Donet8
         //Converts an array of one type to an array of another type.
         public static TOutput[] ConvertAll<TInput, TOutput>(TInput[] array, Converter<TInput, TOutput> converter);
 
+        //Initializes a new instance of the Array class.
         public static Array CreateInstance(Type elementType, int length);
     }
 
