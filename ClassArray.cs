@@ -195,7 +195,7 @@ namespace Donet8
         //Returns an empty array
         public static T[] Empty<T>();
 
-        
+        ////Determines whether the specified array contains elements that match the conditions defined by the specified predicate.
         public static bool Exists<T>(T[] array, Predicate<T> match);
 
     }
