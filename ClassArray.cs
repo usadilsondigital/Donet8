@@ -204,6 +204,7 @@ namespace Donet8
         //Searches for an element that matches the conditions defined by the specified predicate, and returns the first occurrence within the entire Array.
         public static T? Find<T>(T[] array, Predicate<T> match);
 
+        //Retrieves all the elements that match the conditions defined by the specified predicate.
 
         public static T[] FindAll<T>(T[] array, Predicate<T> match);
 
