@@ -230,7 +230,7 @@ namespace Donet8
         public long GetLongLength(int dimension);
 
 
-
+        //Gets the index of the first element of the specified dimension in the array.
         public int GetLowerBound(int dimension);
 
 
