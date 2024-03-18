@@ -262,6 +262,9 @@ namespace Donet8
         //Sets a value to the element at the specified position in the one-dimensional Array. The index is specified as a 32-bit integer.
         public void SetValue(object? value, int index);
 
+
+        public static void Sort(Array keys, Array? items, int index, int length, System.Collections.IComparer? comparer);
+
     }
 
 }
