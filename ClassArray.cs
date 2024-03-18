@@ -258,6 +258,10 @@ namespace Donet8
         //Reverses the sequence of the elements in the entire one-dimensional Array.
         public static void Reverse(Array array);
 
+
+
+        public void SetValue(object? value, int index);
+
     }
 
 }
