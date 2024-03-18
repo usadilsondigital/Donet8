@@ -244,6 +244,16 @@ namespace Donet8
         public static int IndexOf(Array array, object? value);
 
 
+
+        public void Initialize();
+
+
+
+
+
+
+
+
     }
 
 }
