@@ -249,6 +249,9 @@ namespace Donet8
 
 
 
+        public static int LastIndexOf(Array array, object? value);
+
+
 
 
 
