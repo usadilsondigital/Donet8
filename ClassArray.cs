@@ -223,7 +223,7 @@ namespace Donet8
         //Returns an IEnumerator for the Array.
         public System.Collections.IEnumerator GetEnumerator();
 
-        
+        //Gets a 32-bit integer that represents the number of elements in the specified dimension of the Array.
         public int GetLength(int dimension);
 
 
