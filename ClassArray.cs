@@ -259,7 +259,7 @@ namespace Donet8
         public static void Reverse(Array array);
 
 
-
+        //Sets a value to the element at the specified position in the one-dimensional Array. The index is specified as a 32-bit integer.
         public void SetValue(object? value, int index);
 
     }
