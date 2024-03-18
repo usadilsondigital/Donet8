@@ -240,7 +240,7 @@ namespace Donet8
         //Gets the value at the specified position in the one-dimensional Array. The index is specified as a 32-bit integer.
         public object? GetValue(int index);
 
-
+        //Searches for the specified object and returns the index of its first occurrence in a one-dimensional array.
         public static int IndexOf(Array array, object? value);
 
 
