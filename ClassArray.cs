@@ -252,7 +252,7 @@ namespace Donet8
         public static int LastIndexOf(Array array, object? value);
 
 
-
+        //Changes the number of elements of a one-dimensional array to the specified new size.
         public static void Resize<T>(ref T[]? array, int newSize);
 
 
