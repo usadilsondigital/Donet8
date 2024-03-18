@@ -241,6 +241,8 @@ namespace Donet8
         public object? GetValue(int index);
 
 
+        public static int IndexOf(Array array, object? value);
+
 
     }
 
