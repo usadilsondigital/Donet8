@@ -244,7 +244,7 @@ namespace Donet8
         public static int IndexOf(Array array, object? value);
 
 
-
+        //Initializes every element of the value-type Array by calling the parameterless constructor of the value type.
         public void Initialize();
 
 
