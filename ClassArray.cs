@@ -267,7 +267,7 @@ namespace Donet8
         //the corresponding items) based on the keys in the first Array using the specified IComparer.
         public static void Sort(Array keys, Array? items, int index, int length, System.Collections.IComparer? comparer);
 
-
+        //Determines whether every element in the array matches the conditions defined by the specified predicate.
         public static bool TrueForAll<T>(T[] array, Predicate<T> match);
 
     }
