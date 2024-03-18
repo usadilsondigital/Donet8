@@ -238,6 +238,10 @@ namespace Donet8
 
 
 
+        public object? GetValue(int index);
+
+
+
     }
 
 }
