@@ -227,6 +227,8 @@ namespace Donet8
         public int GetLength(int dimension);
 
 
+        public long GetLongLength(int dimension);
+
     }
 
 }
