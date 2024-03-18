@@ -253,7 +253,7 @@ namespace Donet8
 
 
 
-
+        public static void Resize<T>(ref T[]? array, int newSize);
 
 
 
