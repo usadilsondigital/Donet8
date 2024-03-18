@@ -248,7 +248,7 @@ namespace Donet8
         public void Initialize();
 
 
-
+        //Searches for the specified object and returns the index of the last occurrence within the entire one-dimensional Array.
         public static int LastIndexOf(Array array, object? value);
 
 
