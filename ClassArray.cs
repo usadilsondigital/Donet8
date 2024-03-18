@@ -263,6 +263,8 @@ namespace Donet8
         public void SetValue(object? value, int index);
 
 
+        //Sorts a range of elements in a pair of one-dimensional Array objects (one contains the keys and the other contains
+        //the corresponding items) based on the keys in the first Array using the specified IComparer.
         public static void Sort(Array keys, Array? items, int index, int length, System.Collections.IComparer? comparer);
 
     }
