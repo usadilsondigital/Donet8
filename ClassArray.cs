@@ -234,6 +234,9 @@ namespace Donet8
         public int GetLowerBound(int dimension);
 
 
+        public int GetUpperBound(int dimension);
+
+
 
     }
 
