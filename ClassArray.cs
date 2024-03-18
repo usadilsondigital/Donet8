@@ -229,6 +229,12 @@ namespace Donet8
         //Gets a 64-bit integer that represents the number of elements in the specified dimension of the Array.
         public long GetLongLength(int dimension);
 
+
+
+        public int GetLowerBound(int dimension);
+
+
+
     }
 
 }
