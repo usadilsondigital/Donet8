@@ -233,7 +233,7 @@ namespace Donet8
         //Gets the index of the first element of the specified dimension in the array.
         public int GetLowerBound(int dimension);
 
-
+        //Gets the index of the last element of the specified dimension in the array.
         public int GetUpperBound(int dimension);
 
 
