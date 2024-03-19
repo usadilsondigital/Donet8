@@ -295,6 +295,10 @@ namespace Donet8
             object myObjectOdd = 1;
             FindMyObject(myIntArray, myObjectOdd);
 
+            // Locates an object that exists in the Array.
+            object myObjectEven = 6;
+            FindMyObject(myIntArray, myObjectEven);
+
         }
 
 
