@@ -287,6 +287,10 @@ namespace Donet8
             // Do the required sort first
             Array.Sort(myIntArray);
 
+            // Displays the values of the Array.
+            Console.WriteLine("The int array contains the following:");
+            PrintValues(myIntArray);
+
             
 
         }
