@@ -346,6 +346,14 @@ namespace Donet8
             string[] dinosaurs = {"Pachycephalosaurus","Amargasaurus","Tyrannosaurus","Mamenchisaurus",
                               "Deinonychus","Edmontosaurus"};
 
+            Console.WriteLine();
+            foreach (string dinosaur in dinosaurs)
+            {
+                Console.WriteLine(dinosaur);
+            }
+
+
+
         }
 
     }
