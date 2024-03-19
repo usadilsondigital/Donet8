@@ -401,21 +401,27 @@ namespace Donet8
         }
         /* This code example produces the following output:
 
-Pachycephalosaurus
-Amargasaurus
-Tyrannosaurus
-Mamenchisaurus
-Deinonychus
-Edmontosaurus
-        Sort
+                Pachycephalosaurus
+                Amargasaurus
+                Tyrannosaurus
+                Mamenchisaurus
+                Deinonychus
+                Edmontosaurus
+                        Sort
 
-Amargasaurus
-Deinonychus
-Edmontosaurus
-Mamenchisaurus
-Pachycephalosaurus
-Tyrannosaurus
-        */
+                Amargasaurus
+                Deinonychus
+                Edmontosaurus
+                Mamenchisaurus
+                Pachycephalosaurus
+                Tyrannosaurus
+                        BinarySearch for 'Coelophysis':
+                Not found. Sorts between: Amargasaurus and Deinonychus.
+
+                BinarySearch for 'Tyrannosaurus':
+                Found at index 5.
+        
+                         */
 
     }
 
