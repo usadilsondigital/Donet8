@@ -406,7 +406,16 @@ Amargasaurus
 Tyrannosaurus
 Mamenchisaurus
 Deinonychus
-Edmontosaurus*/
+Edmontosaurus
+        Sort
+
+Amargasaurus
+Deinonychus
+Edmontosaurus
+Mamenchisaurus
+Pachycephalosaurus
+Tyrannosaurus
+        */
 
     }
 
