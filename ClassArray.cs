@@ -318,7 +318,19 @@ namespace Donet8
         {
             int i = 0;
             int cols = myArr.GetLength(myArr.Rank - 1);
-            
+            foreach (object o in myArr)
+            {
+                if (i < cols)
+                {
+                    i++;
+                }
+                else
+                {
+                    Console.WriteLine();
+                    i = 1;
+                }
+                Console.Write("\t{0}", o);
+            }
             Console.WriteLine();
         }
 
