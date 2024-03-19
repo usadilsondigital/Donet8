@@ -352,6 +352,8 @@ namespace Donet8
                 Console.WriteLine(dinosaur);
             }
 
+            Console.WriteLine("\nSort");
+            Array.Sort(dinosaurs);
 
 
         }
