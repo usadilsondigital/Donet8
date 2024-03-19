@@ -270,6 +270,23 @@ namespace Donet8
         //Determines whether every element in the array matches the conditions defined by the specified predicate.
         public static bool TrueForAll<T>(T[] array, Predicate<T> match);
 
+
+        ///////
+        ///EXAMPLES
+        public void BinarySearchExample()
+        {
+            // Creates and initializes a new Array.
+            Array myIntArray = Array.CreateInstance(typeof(int), 5);
+
+            myIntArray.SetValue(8, 0);
+            myIntArray.SetValue(2, 1);
+            myIntArray.SetValue(6, 2);
+            myIntArray.SetValue(3, 3);
+            myIntArray.SetValue(7, 4);
+
+        }
+
+
     }
 
 }
