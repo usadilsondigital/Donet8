@@ -298,7 +298,19 @@ namespace Donet8
             // Locates an object that exists in the Array.
             object myObjectEven = 6;
             FindMyObject(myIntArray, myObjectEven);
+        }
 
+        public static void FindMyObject(Array myArr, object myObject)
+        {
+            int myIndex = Array.BinarySearch(myArr, myObject);
+            if (myIndex < 0)
+            {
+                Console.WriteLine("The object to search for ({0}) is not found. The next larger object is at index {1}.", myObject, ~myIndex);
+            }
+            else
+            {
+                Console.WriteLine("The object to search for ({0}) is at index {1}.", myObject, myIndex);
+            }
         }
 
 
