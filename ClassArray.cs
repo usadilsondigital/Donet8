@@ -284,6 +284,11 @@ namespace Donet8
             myIntArray.SetValue(3, 3);
             myIntArray.SetValue(7, 4);
 
+            // Do the required sort first
+            Array.Sort(myIntArray);
+
+            
+
         }
 
 
