@@ -13,7 +13,7 @@ namespace Donet8
     //manipulating, searching, and sorting arrays, thereby serving as the base class for all arrays in the common language runtime.
     public class ClassArray
     {
-        public  void TestCase()
+        public void TestCase()
         {
 
             // Creates and initializes a new integer array and a new Object array.
@@ -186,7 +186,7 @@ namespace Donet8
 
         //Copies a range of elements from an Array starting at the specified source inde
         public static void ConstrainedCopy(Array sourceArray, int sourceIndex, Array destinationArray, int destinationIndex, int length);
-        
+
         //Converts an array of one type to an array of another type.
         public static TOutput[] ConvertAll<TInput, TOutput>(TInput[] array, Converter<TInput, TOutput> converter);
 
@@ -341,6 +341,12 @@ namespace Donet8
             //The object to search for (6) is at index 2.
         }
 
+        public  void BinarySearchExample2()
+        {
+            string[] dinosaurs = {"Pachycephalosaurus","Amargasaurus","Tyrannosaurus","Mamenchisaurus",
+                              "Deinonychus","Edmontosaurus"};
+
+        }
 
     }
 
