@@ -291,7 +291,9 @@ namespace Donet8
             Console.WriteLine("The int array contains the following:");
             PrintValues(myIntArray);
 
-            
+            // Locates a specific object that does not exist in the Array.
+            object myObjectOdd = 1;
+            FindMyObject(myIntArray, myObjectOdd);
 
         }
 
