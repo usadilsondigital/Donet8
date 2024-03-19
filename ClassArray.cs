@@ -314,6 +314,15 @@ namespace Donet8
         }
 
 
+        public static void PrintValues(Array myArr)
+        {
+            int i = 0;
+            int cols = myArr.GetLength(myArr.Rank - 1);
+            
+            Console.WriteLine();
+        }
+
+
     }
 
 }
