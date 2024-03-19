@@ -399,6 +399,14 @@ namespace Donet8
                 Console.WriteLine("Found at index {0}.", index);
             }
         }
+        /* This code example produces the following output:
+
+Pachycephalosaurus
+Amargasaurus
+Tyrannosaurus
+Mamenchisaurus
+Deinonychus
+Edmontosaurus*/
 
     }
 
