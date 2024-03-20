@@ -423,6 +423,21 @@ namespace Donet8
         
                          */
 
+
+        ////CLEAR
+        public void Clear1()
+        {
+            Console.WriteLine("One dimension (Rank=1):");
+            int[] numbers1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            for (int i = 0; i < 9; i++)
+            {
+                Console.Write("{0} ", numbers1[i]);
+            }
+            Console.WriteLine();
+            Console.WriteLine();
+        }
+
     }
 
 }
