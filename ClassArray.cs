@@ -438,7 +438,11 @@ namespace Donet8
             Console.WriteLine();
 
             Console.WriteLine("Array.Clear(numbers1, 2, 5)");
-            Array.Clear(numbers1, 2, 5);
+            Array.Clear(numbers1, 2, 5); 
+            for (int i = 0; i < 9; i++)
+            {
+                Console.Write("{0} ", numbers1[i]);
+            }
 
         }
 
