@@ -457,6 +457,9 @@ namespace Donet8
                 }
                 Console.WriteLine();
             }
+            Console.WriteLine();
+            Console.WriteLine("Array.Clear(numbers2, 2, 5)");
+            Array.Clear(numbers2, 2, 5);
 
 
 
