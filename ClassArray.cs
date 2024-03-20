@@ -470,7 +470,10 @@ namespace Donet8
             }
 
 
-
+            Console.WriteLine("Three dimensions (Rank=3):");
+            int[,,] numbers3 = {{{1, 2}, {3, 4}},
+                             {{5, 6}, {7, 8}},
+                             {{9, 10}, {11, 12}}};
 
 
 
