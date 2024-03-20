@@ -443,6 +443,11 @@ namespace Donet8
             {
                 Console.Write("{0} ", numbers1[i]);
             }
+            Console.WriteLine();
+            Console.WriteLine();
+
+            Console.WriteLine("Two dimensions (Rank=2):");
+            int[,] numbers2 = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
 
         }
 
