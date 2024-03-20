@@ -460,6 +460,19 @@ namespace Donet8
             Console.WriteLine();
             Console.WriteLine("Array.Clear(numbers2, 2, 5)");
             Array.Clear(numbers2, 2, 5);
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    Console.Write("{0} ", numbers2[i, j]);
+                }
+                Console.WriteLine();
+            }
+
+
+
+
+
 
 
 
