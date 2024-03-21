@@ -14,6 +14,11 @@ namespace Donet8
                 "Earth", "Mars", "Jupiter",
                 "Saturn", "Uranus", "Neptune" };
 
+
+            Console.WriteLine("One or more planets begin with 'M': {0}",
+                Array.Exists(planets, element => element.StartsWith("M")));
+
+
         }
     }
 }
