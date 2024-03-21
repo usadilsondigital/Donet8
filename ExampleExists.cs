@@ -19,6 +19,10 @@ namespace Donet8
                 Array.Exists(planets, element => element.StartsWith("M")));
 
 
+            Console.WriteLine("One or more planets begin with 'T': {0}",
+                Array.Exists(planets, element => element.StartsWith("T")));
+
+
         }
     }
 }
