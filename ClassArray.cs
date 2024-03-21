@@ -491,10 +491,24 @@ namespace Donet8
             Console.WriteLine("Array.Clear(numbers3, 2, 5)");
             Array.Clear(numbers3, 2, 5);
 
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    for (int k = 0; k < 2; k++)
+                    {
+                        Console.Write("{0} ", numbers3[i, j, k]);
+                    }
+                    Console.WriteLine();
+                }
+                Console.WriteLine();
+            }
+        
 
 
 
-        }
+
+    }
 
     }
 
