@@ -23,6 +23,11 @@ namespace Donet8
                 Array.Exists(planets, element => element.StartsWith("T")));
 
 
+
+            Console.WriteLine("Is Pluto one of the planets? {0}",
+                Array.Exists(planets, element => element == "Pluto"));
+
+
         }
     }
 }
