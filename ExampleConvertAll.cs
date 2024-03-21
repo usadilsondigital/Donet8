@@ -26,5 +26,12 @@ namespace Donet8
             Point[] ap = Array.ConvertAll(apf,
                 new Converter<PointF, Point>(PointFToPoint));
 
+            // Display each element in the Point array.
+            Console.WriteLine();
+            foreach (Point p in ap)
+            {
+                Console.WriteLine(p);
+            }
+
         }
 }
