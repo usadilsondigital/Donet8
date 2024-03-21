@@ -22,5 +22,9 @@ namespace Donet8
             foreach (PointF p in apf)
                 Console.WriteLine(p);
 
+            // Convert each PointF element to a Point object.
+            Point[] ap = Array.ConvertAll(apf,
+                new Converter<PointF, Point>(PointFToPoint));
+
         }
 }
