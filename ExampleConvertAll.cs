@@ -40,4 +40,14 @@ namespace Donet8
         }
     
     }
+    /* This code example produces the following output:
+
+        {X=27.8, Y=32.62}
+        {X=99.3, Y=147.273}
+        {X=7.5, Y=1412.2}
+
+        {X=27,Y=32}
+        {X=99,Y=147}
+        {X=7,Y=1412}
+         */
 }
