@@ -34,4 +34,10 @@ namespace Donet8
             }
 
         }
+        public static Point PointFToPoint(PointF pf)
+        {
+            return new Point(((int)pf.X), ((int)pf.Y));
+        }
+    
+    }
 }
