@@ -15,6 +15,10 @@ namespace Donet8
             Point[] points = { new Point(100, 200),
             new Point(150, 250), new Point(250, 375),
             new Point(275, 395), new Point(295, 450) };
+
+            // Find the first Point structure for which X times Y
+            // is greater than 100000.
+            Point first = Array.Find(points, ProductGT10);
         }
 
     }
