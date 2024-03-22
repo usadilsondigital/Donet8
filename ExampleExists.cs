@@ -27,7 +27,10 @@ namespace Donet8
             Console.WriteLine("Is Pluto one of the planets? {0}",
                 Array.Exists(planets, element => element == "Pluto"));
 
-
+            // The example displays the following output:
+            //       One or more planets begin with 'M': True
+            //       One or more planets begin with 'T': False
+            //       Is Pluto one of the planets? False
         }
     }
 }
