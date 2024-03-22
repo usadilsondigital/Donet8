@@ -15,6 +15,15 @@ namespace Donet8
             this.firstChar = char.ToUpper(firstChar);
         }
 
-      
+        public bool StartsWith(string s)
+        {
+            if (string.IsNullOrEmpty(s)) return false;
+
+            if (s.Substring(0, 1).ToUpper() == firstChar.ToString())
+                return true;
+            else
+                return false;
+        }
+
 
     }
