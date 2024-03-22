@@ -19,6 +19,9 @@ namespace Donet8
             // Find the first Point structure for which X times Y
             // is greater than 100000.
             Point first = Array.Find(points, ProductGT10);
+
+            // Display the first structure found.
+            Console.WriteLine("Found: X = {0}, Y = {1}", first.X, first.Y);
         }
 
     }
