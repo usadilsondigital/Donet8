@@ -68,6 +68,19 @@ namespace Donet8
                          "Veronica", "Wilberforce" };
 
             Char[] charsToFind = { 'A', 'K', 'W', 'Z' };
+            foreach (var charToFind in charsToFind)
+                Console.WriteLine("One or more names begin with '{0}': {1}",
+                                  charToFind,
+                                  Array.Exists(names,
+                                               s => {
+                                                   if (string.IsNullOrEmpty(s))
+                                                       return false;
+
+                                                   if (s.Substring(0, 1).ToUpper() == charToFind.ToString())
+                                                       return true;
+                                                   else
+                                                       return false;
+                                               }));
         }
 
 
