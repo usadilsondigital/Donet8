@@ -22,6 +22,14 @@ namespace Donet8
 
             // Display the first structure found.
             Console.WriteLine("Found: X = {0}, Y = {1}", first.X, first.Y);
+
+
+        }
+
+        // Return true if X times Y is greater than 100000.
+        private static bool ProductGT10(Point p)
+        {
+            return p.X * p.Y > 100000;
         }
 
     }
