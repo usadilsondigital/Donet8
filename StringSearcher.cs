@@ -24,6 +24,11 @@ namespace Donet8
             else
                 return false;
         }
-
+        // The example displays the following output:
+        //       One or more names begin with 'A': True
+        //       One or more names begin with 'K': False
+        //       One or more names begin with 'W': True
+        //       One or more names begin with 'Z': False
 
     }
+}
