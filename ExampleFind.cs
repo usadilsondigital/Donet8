@@ -47,6 +47,9 @@ namespace Donet8
             // Display the first structure found.
             Console.WriteLine("Found: X = {0}, Y = {1}", first.X, first.Y);
 
+            // The example displays the following output:
+            //       Found: X = 275, Y = 395
+
         }
 
     }
