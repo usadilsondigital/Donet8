@@ -32,5 +32,14 @@ namespace Donet8
             return p.X * p.Y > 100000;
         }
 
+
+        public  void exampleWithLambda()
+        {
+            // Create an array of five Point structures.
+            Point[] points = { new Point(100, 200),
+            new Point(150, 250), new Point(250, 375),
+            new Point(275, 395), new Point(295, 450) };
+        }
+
     }
 }
