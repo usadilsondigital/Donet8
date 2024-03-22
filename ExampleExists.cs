@@ -44,6 +44,8 @@ namespace Donet8
                          "Nicole", "Oliver", "Paula", "Robert",
                          "Stephen", "Thomas", "Vanessa",
                          "Veronica", "Wilberforce" };
+
+            Char[] charsToFind = { 'A', 'K', 'W', 'Z' };
         }
     }
 }
