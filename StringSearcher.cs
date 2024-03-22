@@ -10,5 +10,11 @@ namespace Donet8
     {
         char firstChar;
 
-       
+        public StringSearcher(char firstChar)
+        {
+            this.firstChar = char.ToUpper(firstChar);
+        }
+
+      
+
     }
