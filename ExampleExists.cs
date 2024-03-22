@@ -32,5 +32,18 @@ namespace Donet8
             //       One or more planets begin with 'T': False
             //       Is Pluto one of the planets? False
         }
+
+
+
+        public  void example2()
+        {
+            String[] names = { "Adam", "Adel", "Bridgette", "Carla",
+                         "Charles", "Daniel", "Elaine", "Frances",
+                         "George", "Gillian", "Henry", "Irving",
+                         "James", "Janae", "Lawrence", "Miguel",
+                         "Nicole", "Oliver", "Paula", "Robert",
+                         "Stephen", "Thomas", "Vanessa",
+                         "Veronica", "Wilberforce" };
+        }
     }
 }
