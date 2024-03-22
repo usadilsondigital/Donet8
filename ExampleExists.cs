@@ -57,12 +57,21 @@ namespace Donet8
         }
 
 
+        public void searchWithLambaExpression()
+        {
+            String[] names = { "Adam", "Adel", "Bridgette", "Carla",
+                         "Charles", "Daniel", "Elaine", "Frances",
+                         "George", "Gillian", "Henry", "Irving",
+                         "James", "Janae", "Lawrence", "Miguel",
+                         "Nicole", "Oliver", "Paula", "Robert",
+                         "Stephen", "Thomas", "Vanessa",
+                         "Veronica", "Wilberforce" };
+        }
 
 
 
 
 
 
-
-    }
+        }
 }
