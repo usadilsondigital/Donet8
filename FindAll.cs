@@ -15,7 +15,12 @@ namespace Donet8
             int[] values = GetArray(50, 0, 1000);
             int lBound = 300;
             int uBound = 600;
+            int[] matchedItems = Array.FindAll(values, x => 
+                                      x >= lBound && x <= uBound);
+
         }
+
+
 
     }
 }
