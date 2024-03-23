@@ -52,6 +52,7 @@ namespace Donet8
                     break;
             }
             Console.WriteLine( "\nArray.Exists(dinosaurs, \"{0}\"): {1}",Ending,Array.Exists(dinosaurs, dinoType));
+            Console.WriteLine("\nArray.TrueForAll(dinosaurs, \"{0}\"): {1}",Ending,Array.TrueForAll(dinosaurs, dinoType));
 
 
         }
