@@ -18,6 +18,12 @@ namespace Donet8
             int[] matchedItems = Array.FindAll(values, x => 
                                       x >= lBound && x <= uBound);
 
+            for (int ctr = 0; ctr < matchedItems.Length; ctr++)
+            {
+                Console.Write("{0}  ", matchedItems[ctr]);
+            }
+
+
         }
 
 
