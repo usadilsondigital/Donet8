@@ -37,6 +37,9 @@ namespace Donet8
 
             return list.ToArray();
         }
+        // The example displays output similar to the following:
+        //       542  398  356  351  348  301  562  599  575  400  569  306
+        //       535  416  393  385
 
 
 
