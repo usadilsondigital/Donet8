@@ -32,7 +32,8 @@ namespace Donet8
         {
             Random rnd = new Random();
             List<int> list = new List<int>();
-            
+            for (int ctr = 1; ctr <= n; ctr++)
+                list.Add(rnd.Next(lower, upper + 1));
         }
 
 
