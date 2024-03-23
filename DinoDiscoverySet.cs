@@ -51,9 +51,11 @@ namespace Donet8
                     dinoType = EndsWithSaurus;
                     break;
             }
-
+            Console.WriteLine( "\nArray.Exists(dinosaurs, \"{0}\"): {1}",Ending,Array.Exists(dinosaurs, dinoType));
 
 
         }
+
+
     }
 }
