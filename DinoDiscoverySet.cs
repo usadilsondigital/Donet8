@@ -10,12 +10,8 @@ namespace Donet8
     {
         public static void Main()
         {
-            string[] dinosaurs =
-            {
-            "Compsognathus", "Amargasaurus", "Oviraptor",
-            "Velociraptor",  "Deinonychus",  "Dilophosaurus",
-            "Gallimimus",    "Triceratops"
-        };
+            string[] dinosaurs = { "Compsognathus", "Amargasaurus", "Oviraptor",
+            "Velociraptor",  "Deinonychus",  "Dilophosaurus","Gallimimus",    "Triceratops"};
 
         }
     }
