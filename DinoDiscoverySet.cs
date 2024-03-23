@@ -25,6 +25,15 @@ namespace Donet8
         {
             dinosaurs = items;
         }
+        public void DiscoverAll()
+        {
+            Console.WriteLine();
+            foreach (string dinosaur in dinosaurs)
+            {
+                Console.WriteLine(dinosaur);
+            }
+        }
+
 
 
     }
