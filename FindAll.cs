@@ -21,6 +21,8 @@ namespace Donet8
             for (int ctr = 0; ctr < matchedItems.Length; ctr++)
             {
                 Console.Write("{0}  ", matchedItems[ctr]);
+                if ((ctr + 1) % 12 == 0)
+                    Console.WriteLine();
             }
 
 
