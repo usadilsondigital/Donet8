@@ -13,6 +13,11 @@ namespace Donet8
             string[] dinosaurs = { "Compsognathus", "Amargasaurus", "Oviraptor",
             "Velociraptor",  "Deinonychus",  "Dilophosaurus","Gallimimus",    "Triceratops"};
 
+            DinoDiscoverySet GoMesozoic = new DinoDiscoverySet(dinosaurs);
+
+            GoMesozoic.DiscoverAll();
+            GoMesozoic.DiscoverByEnding("saurus");
+
         }
     }
 }
