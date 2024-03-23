@@ -34,6 +34,8 @@ namespace Donet8
             List<int> list = new List<int>();
             for (int ctr = 1; ctr <= n; ctr++)
                 list.Add(rnd.Next(lower, upper + 1));
+
+            return list.ToArray();
         }
 
 
