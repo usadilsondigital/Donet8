@@ -34,7 +34,26 @@ namespace Donet8
             }
         }
 
+        public void DiscoverByEnding(string Ending)
+        {
+            Predicate<string> dinoType;
+
+            switch (Ending.ToLower())
+            {
+                case "raptor":
+                    dinoType = EndsWithRaptor;
+                    break;
+                case "tops":
+                    dinoType = EndsWithTops;
+                    break;
+                case "saurus":
+                default:
+                    dinoType = EndsWithSaurus;
+                    break;
+            }
 
 
+
+        }
     }
 }
