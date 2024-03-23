@@ -21,6 +21,11 @@ namespace Donet8
         }
         private string[] dinosaurs;
 
+        public DinoDiscoverySet(string[] items)
+        {
+            dinosaurs = items;
+        }
+
 
     }
 }
