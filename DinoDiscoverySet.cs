@@ -55,6 +55,8 @@ namespace Donet8
             Console.WriteLine("\nArray.TrueForAll(dinosaurs, \"{0}\"): {1}",Ending,Array.TrueForAll(dinosaurs, dinoType));
             Console.WriteLine("\nArray.Find(dinosaurs, \"{0}\"): {1}",Ending,Array.Find(dinosaurs, dinoType));
             Console.WriteLine("\nArray.FindLast(dinosaurs, \"{0}\"): {1}",Ending,Array.FindLast(dinosaurs, dinoType));
+            Console.WriteLine( "\nArray.FindAll(dinosaurs, \"{0}\"):", Ending);
+
 
         }
 
