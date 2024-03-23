@@ -28,6 +28,13 @@ namespace Donet8
 
         }
 
+        private int[] GetArray(int n, int lower, int upper)
+        {
+            Random rnd = new Random();
+            List<int> list = new List<int>();
+            
+        }
+
 
 
     }
