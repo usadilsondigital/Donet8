@@ -44,7 +44,10 @@ namespace Donet8
             Predicate<string> dinoType;
             switch (Ending.ToLower())
             {
-               
+                case "raptor":
+                    dinoType = EndsWithRaptor;
+                    break;
+                
                 default:
                     dinoType = EndsWithSaurus;
                     break;
