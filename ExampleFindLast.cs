@@ -8,7 +8,7 @@ namespace Donet8
 {
     public class ExampleFindLast
     {
-
+        private string[] dinosaurs;
         public  void Main()
         {
             string[] dinosaurs =
