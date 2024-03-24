@@ -101,5 +101,21 @@ namespace Donet8
             }
         }
 
+
+        // Search predicate returns true if a string ends in "raptor".
+        private bool EndsWithRaptor(String s)
+        {
+            if ((s.Length > 5) &&
+                (s.Substring(s.Length - 6).ToLower() == "raptor"))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+
     }
     }
