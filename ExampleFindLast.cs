@@ -86,5 +86,20 @@ namespace Donet8
             }
         }
 
+
+        // Search predicate returns true if a string ends in "saurus".
+        private bool EndsWithSaurus(string s)
+        {
+            if ((s.Length > 5) &&
+                (s.Substring(s.Length - 6).ToLower() == "saurus"))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
     }
     }
