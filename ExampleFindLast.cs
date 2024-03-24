@@ -77,6 +77,10 @@ namespace Donet8
             Console.WriteLine(
             "\nArray.FindAll(dinosaurs, \"{0}\"):", Ending);
 
+            string[] subArray =
+            Array.FindAll(dinosaurs, dinoType);
+
+
         }
 
     }
