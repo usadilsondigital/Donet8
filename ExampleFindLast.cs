@@ -63,7 +63,10 @@ namespace Donet8
             Ending,
             Array.TrueForAll(dinosaurs, dinoType));
 
-
+            Console.WriteLine(
+            "\nArray.Find(dinosaurs, \"{0}\"): {1}",
+            Ending,
+            Array.Find(dinosaurs, dinoType));
 
 
         }
