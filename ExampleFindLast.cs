@@ -24,5 +24,10 @@ namespace Donet8
             GoMesozoic.DiscoverByEnding("saurus");
 
         }
+
+        public DinoDiscoverySet(string[] items)
+        {
+            dinosaurs = items;
+        }
     }
 }
