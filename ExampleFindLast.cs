@@ -18,6 +18,11 @@ namespace Donet8
             "Gallimimus",    "Triceratops"
         };
 
+            DinoDiscoverySet GoMesozoic = new DinoDiscoverySet(dinosaurs);
+
+            GoMesozoic.DiscoverAll();
+            GoMesozoic.DiscoverByEnding("saurus");
+
         }
     }
 }
