@@ -50,7 +50,7 @@ namespace Donet8
                 case "tops":
                     dinoType = EndsWithTops;
                     break;
-                
+                case "saurus":
                 default:
                     dinoType = EndsWithSaurus;
                     break;
