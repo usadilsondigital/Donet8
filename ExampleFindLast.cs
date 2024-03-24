@@ -8,5 +8,16 @@ namespace Donet8
 {
     public class ExampleFindLast
     {
+
+        public  void Main()
+        {
+            string[] dinosaurs =
+            {
+            "Compsognathus", "Amargasaurus", "Oviraptor",
+            "Velociraptor",  "Deinonychus",  "Dilophosaurus",
+            "Gallimimus",    "Triceratops"
+        };
+
+        }
     }
 }
