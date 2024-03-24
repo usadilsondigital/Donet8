@@ -47,6 +47,9 @@ namespace Donet8
                 case "raptor":
                     dinoType = EndsWithRaptor;
                     break;
+                case "tops":
+                    dinoType = EndsWithTops;
+                    break;
                 
                 default:
                     dinoType = EndsWithSaurus;
