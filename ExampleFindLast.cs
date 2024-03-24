@@ -39,5 +39,10 @@ namespace Donet8
             }
         }
 
+        public void DiscoverByEnding(string Ending)
+        {
+            Predicate<string> dinoType;
+        }
+
+        }
     }
-}
