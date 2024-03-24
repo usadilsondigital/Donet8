@@ -74,6 +74,9 @@ namespace Donet8
             Ending,
             Array.FindLast(dinosaurs, dinoType));
 
+            Console.WriteLine(
+            "\nArray.FindAll(dinosaurs, \"{0}\"):", Ending);
+
         }
 
     }
