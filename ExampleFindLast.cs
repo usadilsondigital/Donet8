@@ -80,7 +80,10 @@ namespace Donet8
             string[] subArray =
             Array.FindAll(dinosaurs, dinoType);
 
-
+            foreach (string dinosaur in subArray)
+            {
+                Console.WriteLine(dinosaur);
+            }
         }
 
     }
