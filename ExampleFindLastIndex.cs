@@ -19,6 +19,12 @@ namespace Donet8
             {
                 Console.WriteLine(dinosaur);
             }
+
+
+            Console.WriteLine(
+          "\nArray.FindLastIndex(dinosaurs, EndsWithSaurus): {0}",
+          Array.FindLastIndex(dinosaurs, EndsWithSaurus));
+
         }
 
     }
