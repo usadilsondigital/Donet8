@@ -22,6 +22,11 @@ namespace Donet8
             myArr[6] = "the";
             myArr[7] = "lazy";
             myArr[8] = "dog";
+
+            // Displays the values of the Array.
+            int i = 0;
+            System.Collections.IEnumerator myEnumerator = myArr.GetEnumerator();
+
         }
 
 
