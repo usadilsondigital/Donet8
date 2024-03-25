@@ -13,7 +13,9 @@ namespace Donet8
             // create a three element array of integers
             int[] intArray = new int[] { 2, 3, 4 };
 
-        
+            // set a delegate for the ShowSquares method
+            Action<int> action = new Action<int>(ShowSquares);
+
         }
 
 
