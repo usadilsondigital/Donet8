@@ -53,5 +53,24 @@ namespace Donet8
             }
         }
 
+        /* This code example produces the following output:
+
+        Compsognathus
+        Amargasaurus
+        Oviraptor
+        Velociraptor
+        Deinonychus
+        Dilophosaurus
+        Gallimimus
+        Triceratops
+
+        Array.FindLastIndex(dinosaurs, EndsWithSaurus): 5
+
+        Array.FindLastIndex(dinosaurs, 4, EndsWithSaurus): 1
+
+        Array.FindLastIndex(dinosaurs, 4, 3, EndsWithSaurus): -1
+         */
+
+
     }
 }
