@@ -21,6 +21,10 @@ namespace Donet8
 
         }
 
+        private static void ShowSquares(int val)
+        {
+            Console.WriteLine("{0:d} squared = {1:d}", val, val * val);
+        }
 
     }
 }
