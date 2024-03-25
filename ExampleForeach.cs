@@ -25,6 +25,13 @@ namespace Donet8
         {
             Console.WriteLine("{0:d} squared = {1:d}", val, val * val);
         }
+        /*
+            This code produces the following output:
+
+            2 squared = 4
+            3 squared = 9
+            4 squared = 16
+            */
 
     }
 }
