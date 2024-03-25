@@ -33,6 +33,22 @@ namespace Donet8
 
         }
 
+        /*
+        This code produces the following output.
+
+        The Array contains the following values:
+        [0] The
+        [1] quick
+        [2] brown
+        [3] fox
+        [4] jumps
+        [5] over
+        [6] the
+        [7] lazy
+        [8] dog
+
+        */
+
 
 
 
