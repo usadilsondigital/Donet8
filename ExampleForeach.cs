@@ -16,6 +16,9 @@ namespace Donet8
             // set a delegate for the ShowSquares method
             Action<int> action = new Action<int>(ShowSquares);
 
+
+            Array.ForEach(intArray, action);
+
         }
 
 
