@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Donet8
 {
-    internal class ExampleFindLastIndex
+    public class ExampleFindLastIndex
     {
+        string[] dinosaurs = { "Compsognathus",
+            "Amargasaurus",   "Oviraptor",      "Velociraptor",
+            "Deinonychus",    "Dilophosaurus",  "Gallimimus",
+            "Triceratops" };
+
     }
 }
