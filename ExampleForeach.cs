@@ -8,6 +8,7 @@ namespace Donet8
 {
     public class ExampleForeach
     {
+        //The following example shows how to use ForEach to display the squares of each element in an integer array.
         public void example()
         {
             // create a three element array of integers
