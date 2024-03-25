@@ -13,5 +13,13 @@ namespace Donet8
             "Deinonychus",    "Dilophosaurus",  "Gallimimus",
             "Triceratops" };
 
+        public void Example() {
+            Console.WriteLine();
+            foreach (string dinosaur in dinosaurs)
+            {
+                Console.WriteLine(dinosaur);
+            }
+        }
+
     }
 }
