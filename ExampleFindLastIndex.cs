@@ -30,6 +30,12 @@ namespace Donet8
           Array.FindLastIndex(dinosaurs, 4, EndsWithSaurus));
 
 
+            Console.WriteLine(
+          "\nArray.FindLastIndex(dinosaurs, 4, 3, EndsWithSaurus): {0}",
+          Array.FindLastIndex(dinosaurs, 4, 3, EndsWithSaurus));
+
+
+
         }
 
     }
