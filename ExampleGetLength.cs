@@ -8,5 +8,10 @@ namespace Donet8
 {
     public class ExampleGetLength
     {
+        public void Example() {
+             // make a single dimension array
+                Array MyArray1 = Array.CreateInstance(typeof(int), 5);
+
+            }
     }
 }
