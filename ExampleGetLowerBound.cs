@@ -30,7 +30,12 @@ namespace Donet8
             int[,] integers2d = { {2, 4}, {3, 9}, {4, 16}, {5, 25},
                            {6, 36}, {7, 49}, {8, 64}, {9, 81} };
 
-            
+
+            // Get the number of dimensions.
+            int rank = integers2d.Rank;
+            Console.WriteLine($"Number of dimensions: {rank}");
+
+
 
         }
     
