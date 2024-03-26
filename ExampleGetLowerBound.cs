@@ -17,6 +17,10 @@ namespace Donet8
             int upper = integers.GetUpperBound(0);
             int lower = integers.GetLowerBound(0);
 
+            Console.WriteLine($"Elements from index {lower} to {upper}:");
+
+
+
         }
     
     
