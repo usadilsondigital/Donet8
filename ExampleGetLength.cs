@@ -33,6 +33,11 @@ namespace Donet8
                         Console.WriteLine("    Length of dimension({0:d}) = {1:d}", j, anArray.GetLength(j));
                     }
                 }
+                else
+                {
+                    Console.WriteLine("Lengths of single dimension array[{0:d}]", i);
+                }
+
             }
 
 
