@@ -37,10 +37,11 @@ namespace Donet8
                 {
                     Console.WriteLine("Lengths of single dimension array[{0:d}]", i);
                 }
+                // show the total length of the entire array or all dimensions
 
             }
 
 
-            }
+        }
     }
 }
