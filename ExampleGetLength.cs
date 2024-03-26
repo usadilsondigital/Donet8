@@ -45,7 +45,18 @@ namespace Donet8
 
             }
 
+            /*
+    This code produces the following output:
 
+Lengths of single dimension array[0]
+    Total length of the array = 5
+
+Lengths of 3 dimension array[1]
+    Length of dimension(0) = 5
+    Length of dimension(1) = 3
+    Length of dimension(2) = 2
+    Total length of the array = 30
+*/
         }
     }
 }
