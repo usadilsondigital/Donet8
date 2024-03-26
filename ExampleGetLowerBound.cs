@@ -42,7 +42,8 @@ namespace Donet8
 
             // Iterate the 2-dimensional array and display its values.
             Console.WriteLine("   Values of array elements:");
-
+            for (int outer = integers2d.GetLowerBound(0); outer <= integers2d.GetUpperBound(0);
+           outer++)
 
 
         }
