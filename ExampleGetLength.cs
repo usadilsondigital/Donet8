@@ -20,7 +20,13 @@ namespace Donet8
             BossArray.SetValue(MyArray1, 0);
             BossArray.SetValue(MyArray2, 1);
 
+            int i = 0, j, rank;
+            foreach (Array anArray in BossArray)
+            { 
+            
+            }
 
-        }
+
+            }
     }
 }
