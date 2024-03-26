@@ -39,6 +39,12 @@ namespace Donet8
                 Console.WriteLine($"   Dimension {ctr}: " +
                                   $"from {integers2d.GetLowerBound(ctr)} to {integers2d.GetUpperBound(ctr)}");
 
+
+            // Iterate the 2-dimensional array and display its values.
+            Console.WriteLine("   Values of array elements:");
+
+
+
         }
     
     
