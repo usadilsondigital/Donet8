@@ -22,8 +22,8 @@ namespace Donet8
 
             int i = 0, j, rank;
             foreach (Array anArray in BossArray)
-            { 
-            
+            {
+                rank = anArray.Rank;
             }
 
 
