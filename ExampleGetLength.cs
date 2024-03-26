@@ -24,6 +24,15 @@ namespace Donet8
             foreach (Array anArray in BossArray)
             {
                 rank = anArray.Rank;
+                if (rank > 1)
+                {
+                    Console.WriteLine("Lengths of {0:d} dimension array[{1:d}]", rank, i);
+                    // show the lengths of each dimension
+                    for (j = 0; j < rank; j++)
+                    {
+                        Console.WriteLine("    Length of dimension({0:d}) = {1:d}", j, anArray.GetLength(j));
+                    }
+                }
             }
 
 
