@@ -35,7 +35,9 @@ namespace Donet8
             int rank = integers2d.Rank;
             Console.WriteLine($"Number of dimensions: {rank}");
 
-
+            for (int ctr = 0; ctr < rank; ctr++)
+                Console.WriteLine($"   Dimension {ctr}: " +
+                                  $"from {integers2d.GetLowerBound(ctr)} to {integers2d.GetUpperBound(ctr)}");
 
         }
     
