@@ -39,6 +39,10 @@ namespace Donet8
                 }
                 // show the total length of the entire array or all dimensions
 
+                Console.WriteLine("    Total length of the array = {0:d}", anArray.Length);
+                Console.WriteLine();
+                i++;
+
             }
 
 
