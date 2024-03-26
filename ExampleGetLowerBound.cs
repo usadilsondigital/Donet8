@@ -19,7 +19,10 @@ namespace Donet8
 
             Console.WriteLine($"Elements from index {lower} to {upper}:");
 
-
+            // Iterate the array.
+            for (int ctr = lower; ctr <= upper; ctr++)
+                Console.Write($"{(ctr == lower ? "   " : "")}{integers[ctr]}" +
+                              $"{(ctr < upper ? ", " : Environment.NewLine)}");
 
         }
     
