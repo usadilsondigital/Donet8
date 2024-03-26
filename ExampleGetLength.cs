@@ -15,6 +15,12 @@ namespace Donet8
             // make a 3 dimensional array
             Array MyArray2 = Array.CreateInstance(typeof(int), 5, 3, 2);
 
+            // make an array container
+            Array BossArray = Array.CreateInstance(typeof(Array), 2);
+            BossArray.SetValue(MyArray1, 0);
+            BossArray.SetValue(MyArray2, 1);
+
+
         }
     }
 }
