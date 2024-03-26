@@ -12,9 +12,11 @@ namespace Donet8
         {
             // Create a one-dimensional integer array.
             int[] integers = { 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 };
-     
-        
-        
+
+            // Get the upper and lower bound of the array.
+            int upper = integers.GetUpperBound(0);
+            int lower = integers.GetLowerBound(0);
+
         }
     
     
