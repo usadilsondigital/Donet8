@@ -42,6 +42,9 @@ namespace Donet8
 
             // Sets the element at index 1,2,3,0,1,2,3.
             int[] myIndices = new int[7] { 1, 2, 3, 0, 1, 2, 3 };
+
+
+            myArr7.SetValue("one-two-three-zero-one-two-three", myIndices);
         }
     }
 
