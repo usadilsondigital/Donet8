@@ -44,7 +44,8 @@ namespace Donet8
             Console.WriteLine("   Values of array elements:");
             for (int outer = integers2d.GetLowerBound(0); outer <= integers2d.GetUpperBound(0);outer++)
                 for (int inner = integers2d.GetLowerBound(1); inner <= integers2d.GetUpperBound(1);inner++)
-
+                    Console.WriteLine($"      {'\u007b'}{outer}, {inner}{'\u007d'} = " +
+                            $"{integers2d.GetValue(outer, inner)}");
 
 
         }
