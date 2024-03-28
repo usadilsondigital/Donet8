@@ -36,8 +36,10 @@ namespace Donet8
             myArr3.SetValue("one-two-three", 1, 2, 3);
 
             Console.WriteLine("[1,2,3]:   {0}", myArr3.GetValue(1, 2, 3));
+            // Creates and initializes a seven-dimensional array.
+            String[,,,,,,] myArr7 = new String[5, 5, 5, 5, 5, 5, 5];
 
-           
+
         }
     }
 
