@@ -13,8 +13,10 @@ namespace Donet8
 
         public  void example()
         {
+            // Creates and initializes a one-dimensional array.
+            String[] myArr1 = new String[5];
 
-            
+
         }
     }
 
