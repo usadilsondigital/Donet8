@@ -40,6 +40,8 @@ namespace Donet8
             String[,,,,,,] myArr7 = new String[5, 5, 5, 5, 5, 5, 5];
 
 
+            // Sets the element at index 1,2,3,0,1,2,3.
+            int[] myIndices = new int[7] { 1, 2, 3, 0, 1, 2, 3 };
         }
     }
 
