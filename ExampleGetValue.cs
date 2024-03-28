@@ -17,6 +17,9 @@ namespace Donet8
             String[] myArr1 = new String[5];
 
 
+            // Sets the element at index 3.
+            myArr1.SetValue("three", 3);
+           
         }
     }
 
