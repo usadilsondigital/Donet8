@@ -48,6 +48,31 @@ namespace Donet8
                             $"{integers2d.GetValue(outer, inner)}");
 
 
+            // The example displays the following output:
+            //       Elements from index 0 to 9:
+            //          2, 4, 6, 8, 10, 12, 14, 16, 18, 20
+            //
+            //       Number of dimensions: 2
+            //          Dimension 0: from 0 to 7
+            //          Dimension 1: from 0 to 1
+            //          Values of array elements:
+            //             {0, 0} = 2
+            //             {0, 1} = 4
+            //             {1, 0} = 3
+            //             {1, 1} = 9
+            //             {2, 0} = 4
+            //             {2, 1} = 16
+            //             {3, 0} = 5
+            //             {3, 1} = 25
+            //             {4, 0} = 6
+            //             {4, 1} = 36
+            //             {5, 0} = 7
+            //             {5, 1} = 49
+            //             {6, 0} = 8
+            //             {6, 1} = 64
+            //             {7, 0} = 9
+            //             {7, 1} = 81
+
         }
 
 
