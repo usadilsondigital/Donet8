@@ -19,7 +19,9 @@ namespace Donet8
 
             // Sets the element at index 3.
             myArr1.SetValue("three", 3);
-           
+            Console.WriteLine("[3]:   {0}", myArr1.GetValue(3));
+
+            
         }
     }
 
