@@ -35,6 +35,9 @@ namespace Donet8
             // Sets the element at index 1,2,3.
             myArr3.SetValue("one-two-three", 1, 2, 3);
 
+            Console.WriteLine("[1,2,3]:   {0}", myArr3.GetValue(1, 2, 3));
+
+           
         }
     }
 
