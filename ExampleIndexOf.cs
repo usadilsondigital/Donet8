@@ -56,4 +56,20 @@ namespace Donet8
 
 
     }
+
+
+    public void Example2() {
+        string[] dinosaurs = { "Tyrannosaurus","Amargasaurus","Mamenchisaurus","Brachiosaurus","Deinonychus","Tyrannosaurus","Compsognathus" };
+
+
+
+
+    }
+
+
+
+
+
+
+
 }
