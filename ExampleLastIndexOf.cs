@@ -25,8 +25,15 @@ namespace Donet8
             myArray.SetValue( "barn", 11 );
 
             // Displays the values of the Array.
-Console.WriteLine( "The Array contains the following values:" );
-PrintIndexAndValues(myArray );
+            Console.WriteLine( "The Array contains the following values:" );
+            PrintIndexAndValues(myArray );
+
+
+        // Searches for the last occurrence of the duplicated value.
+        string myString = "the";
+        int myIndex = Array.LastIndexOf(myArray, myString);
+        Console.WriteLine( "The last occurrence of \"{0}\" is at index {1}.", myString, myIndex );
+
 
     }
 }
