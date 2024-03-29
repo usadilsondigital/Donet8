@@ -61,6 +61,13 @@ namespace Donet8
     public void Example2() {
         string[] dinosaurs = { "Tyrannosaurus","Amargasaurus","Mamenchisaurus","Brachiosaurus","Deinonychus","Tyrannosaurus","Compsognathus" };
 
+        Console.WriteLine();
+        foreach (string dinosaur in dinosaurs)
+        {
+            Console.WriteLine(dinosaur);
+        }
+
+
 
 
 
