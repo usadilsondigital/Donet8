@@ -19,5 +19,9 @@ namespace Donet8
             // Search for the first occurrence of the duplicated value.
             string searchString = "the";
 
+        int index = Array.IndexOf(strings, searchString);
+        Console.WriteLine("The first occurrence of \"{0}\" is at index {1}.",
+                  searchString, index);
+
     }
 }
