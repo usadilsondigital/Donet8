@@ -38,6 +38,10 @@ namespace Donet8
         myIndex = Array.LastIndexOf(myArray, myString, 8 );
         Console.WriteLine( "The last occurrence of \"{0}\" between the start and index 8 is at index {1}.", myString, myIndex );
 
+            // Searches for the last occurrence of the duplicated value in a section of the Array.
+// Note that the start index is greater than the end index because the search is done backward.
+
+
 
 
     }
