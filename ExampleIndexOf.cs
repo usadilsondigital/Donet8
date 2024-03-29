@@ -25,5 +25,7 @@ namespace Donet8
             // Search for the first occurrence of the duplicated value in the last section of the array.
             index = Array.IndexOf(strings, searchString, 4);
 
+            Console.WriteLine("The first occurrence of \"{0}\" between index 4 and the end is at index {1}.",searchString, index);
+
     }
 }
