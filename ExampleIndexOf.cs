@@ -27,5 +27,9 @@ namespace Donet8
 
             Console.WriteLine("The first occurrence of \"{0}\" between index 4 and the end is at index {1}.",searchString, index);
 
+
+            // Search for the first occurrence of the duplicated value in a section of the array.
+            int position = index + 1;
+
     }
 }
