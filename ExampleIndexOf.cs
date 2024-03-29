@@ -16,6 +16,8 @@ namespace Donet8
         for (int i = strings.GetLowerBound(0); i <= strings.GetUpperBound(0); i++)
            Console.WriteLine("   [{0,2}]: {1}", i, strings[i]);
 
+            // Search for the first occurrence of the duplicated value.
+            string searchString = "the";
 
     }
 }
