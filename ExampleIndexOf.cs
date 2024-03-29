@@ -69,6 +69,9 @@ namespace Donet8
 
         Console.WriteLine("\nArray.IndexOf(dinosaurs, \"Tyrannosaurus\"): {0}",Array.IndexOf(dinosaurs, "Tyrannosaurus"));
 
+        Console.WriteLine("\nArray.IndexOf(dinosaurs, \"Tyrannosaurus\", 3): {0}",Array.IndexOf(dinosaurs, "Tyrannosaurus", 3));
+
+
 
 
 
