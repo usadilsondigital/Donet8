@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Donet8
 {
@@ -22,6 +23,10 @@ namespace Donet8
             myArray.SetValue( "in", 9 );
             myArray.SetValue( "the", 10 );
             myArray.SetValue( "barn", 11 );
+
+            // Displays the values of the Array.
+Console.WriteLine( "The Array contains the following values:" );
+PrintIndexAndValues(myArray );
 
     }
 }
