@@ -33,6 +33,9 @@ namespace Donet8
 
         index = Array.IndexOf(strings, searchString, position, strings.GetUpperBound(0) - position + 1);
 
+            Console.WriteLine("The first occurrence of \"{0}\" between index {1} and index {2} is at index {3}.",
+                  searchString, position, strings.GetUpperBound(0), index);
+
 
     }
 }
