@@ -31,5 +31,8 @@ namespace Donet8
             // Search for the first occurrence of the duplicated value in a section of the array.
             int position = index + 1;
 
+        index = Array.IndexOf(strings, searchString, position, strings.GetUpperBound(0) - position + 1);
+
+
     }
 }
