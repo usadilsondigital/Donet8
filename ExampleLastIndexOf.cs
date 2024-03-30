@@ -50,7 +50,26 @@ Console.WriteLine( "The last occurrence of \"{0}\" between index 5 and index 10 
                 Console.WriteLine("\t[{0}]:\t{1}", i, anArray.GetValue(i));
         }
 
+        /*
+This code produces the following output.
 
+The Array contains the following values:
+   [0]:    the
+   [1]:    quick
+   [2]:    brown
+   [3]:    fox
+   [4]:    jumps
+   [5]:    over
+   [6]:    the
+   [7]:    lazy
+   [8]:    dog
+   [9]:    in
+   [10]:    the
+   [11]:    barn
+The last occurrence of "the" is at index 10.
+The last occurrence of "the" between the start and index 8 is at index 6.
+The last occurrence of "the" between index 5 and index 10 is at index 10.
+*/
 
     }
 }
