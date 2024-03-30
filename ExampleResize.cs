@@ -47,6 +47,15 @@ namespace Donet8
 
         }
 
+        public static void PrintIndexAndValues(String[] myArr)
+        {
+            for (int i = 0; i < myArr.Length; i++)
+            {
+                Console.WriteLine("   [{0}] : {1}", i, myArr[i]);
+            }
+            Console.WriteLine();
+        }
+
 
 
 
