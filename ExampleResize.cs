@@ -24,6 +24,11 @@ namespace Donet8
             PrintIndexAndValues(myArr);
 
 
+            // Resize the array to a bigger size (five elements larger).
+            Array.Resize(ref myArr, myArr.Length + 5);
+
+
+
         }
 
 
