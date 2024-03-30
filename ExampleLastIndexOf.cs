@@ -71,5 +71,19 @@ The last occurrence of "the" between the start and index 8 is at index 6.
 The last occurrence of "the" between index 5 and index 10 is at index 10.
 */
 
+
+
+        public void Example() {
+
+            string[] dinosaurs = { "Tyrannosaurus",
+    "Amargasaurus",
+    "Mamenchisaurus",
+    "Brachiosaurus",
+    "Deinonychus",
+    "Tyrannosaurus",
+    "Compsognathus" };
+
+        
+        }
     }
 }
