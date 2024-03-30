@@ -8,5 +8,20 @@ namespace Donet8
 {
     public class ExampleResize
     {
+
+        public  void Example()
+        {
+
+            // Create and initialize a new string array.
+            String[] myArr = {"The", "quick", "brown", "fox", "jumps",
+            "over", "the", "lazy", "dog"};
+
+
+        }
+
+
+
+
+
     }
 }
