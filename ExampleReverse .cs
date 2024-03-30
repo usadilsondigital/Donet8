@@ -29,6 +29,11 @@ namespace Donet8
             // Reverses the sort of the values of the Array.
             Array.Reverse(myArray);
 
+            // Displays the values of the Array.
+            Console.WriteLine("After reversing:");
+            PrintIndexAndValues(myArray);
+
+
         }
     }
 }
