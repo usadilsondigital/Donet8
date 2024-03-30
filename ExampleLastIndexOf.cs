@@ -97,6 +97,11 @@ The last occurrence of "the" between index 5 and index 10 is at index 10.
                 "\nArray.LastIndexOf(dinosaurs, \"Tyrannosaurus\", 3): {0}",
                 Array.LastIndexOf(dinosaurs, "Tyrannosaurus", 3));
 
+            Console.WriteLine(
+                "\nArray.LastIndexOf(dinosaurs, \"Tyrannosaurus\", 4, 4): {0}",
+                Array.LastIndexOf(dinosaurs, "Tyrannosaurus", 4, 4));
+
+            
 
         }
     }
