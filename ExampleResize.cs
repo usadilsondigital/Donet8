@@ -33,6 +33,14 @@ namespace Donet8
             Console.WriteLine("the string array contains the following values:");
             PrintIndexAndValues(myArr);
 
+
+
+            // Resize the array to a smaller size (four elements).
+            Array.Resize(ref myArr, 4);
+
+
+
+
         }
 
 
