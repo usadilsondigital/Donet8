@@ -21,6 +21,10 @@ namespace Donet8
             myArray.SetValue("the", 6);
             myArray.SetValue("lazy", 7);
             myArray.SetValue("dog", 8);
+
+            // Displays the values of the Array.
+            Console.WriteLine("The Array initially contains the following values:");
+            PrintIndexAndValues(myArray);
         }
     }
 }
