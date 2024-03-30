@@ -25,6 +25,10 @@ namespace Donet8
             // Displays the values of the Array.
             Console.WriteLine("The Array initially contains the following values:");
             PrintIndexAndValues(myArray);
+
+            // Reverses the sort of the values of the Array.
+            Array.Reverse(myArray);
+
         }
     }
 }
