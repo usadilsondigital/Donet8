@@ -83,7 +83,14 @@ The last occurrence of "the" between index 5 and index 10 is at index 10.
     "Tyrannosaurus",
     "Compsognathus" };
 
-        
+            Console.WriteLine();
+            foreach (string dinosaur in dinosaurs)
+            {
+                Console.WriteLine(dinosaur);
+            }
+
+            
+
         }
     }
 }
