@@ -17,6 +17,13 @@ namespace Donet8
             "over", "the", "lazy", "dog"};
 
 
+
+            // Display the values of the array.
+            Console.WriteLine(
+                "The string array initially contains the following values:");
+            PrintIndexAndValues(myArr);
+
+
         }
 
 
