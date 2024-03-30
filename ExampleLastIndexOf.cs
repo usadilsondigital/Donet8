@@ -101,7 +101,22 @@ The last occurrence of "the" between index 5 and index 10 is at index 10.
                 "\nArray.LastIndexOf(dinosaurs, \"Tyrannosaurus\", 4, 4): {0}",
                 Array.LastIndexOf(dinosaurs, "Tyrannosaurus", 4, 4));
 
-            
+            /* This code example produces the following output:
+
+            Tyrannosaurus
+            Amargasaurus
+            Mamenchisaurus
+            Brachiosaurus
+            Deinonychus
+            Tyrannosaurus
+            Compsognathus
+
+            Array.LastIndexOf(dinosaurs, "Tyrannosaurus"): 5
+
+            Array.LastIndexOf(dinosaurs, "Tyrannosaurus", 3): 0
+
+            Array.LastIndexOf(dinosaurs, "Tyrannosaurus", 4, 4): -1
+            */
 
         }
     }
