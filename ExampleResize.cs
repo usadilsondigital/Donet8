@@ -39,6 +39,10 @@ namespace Donet8
             Array.Resize(ref myArr, 4);
 
 
+            // Display the values of the array.
+            Console.WriteLine("After resizing to a smaller size, ");
+            Console.WriteLine("the string array contains the following values:");
+            PrintIndexAndValues(myArr);
 
 
         }
