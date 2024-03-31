@@ -93,6 +93,9 @@ namespace Donet8
 
             Console.WriteLine();
 
+            Console.WriteLine("About to reverse array.\n");
+            Array.Reverse(months);
+
 
 
         }
