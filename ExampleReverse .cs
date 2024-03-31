@@ -138,5 +138,24 @@ namespace Donet8
         //    1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
         //    1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
 
-    }
+
+
+        public  void example3()
+        {
+
+            // Creates and initializes a new Array.
+            Array myArray = Array.CreateInstance(typeof(string), 9);
+            myArray.SetValue("The", 0);
+            myArray.SetValue("QUICK", 1);
+            myArray.SetValue("BROWN", 2);
+            myArray.SetValue("FOX", 3);
+            myArray.SetValue("jumps", 4);
+            myArray.SetValue("over", 5);
+            myArray.SetValue("the", 6);
+            myArray.SetValue("lazy", 7);
+            myArray.SetValue("dog", 8);
+
+        }
+
+        }
 }
