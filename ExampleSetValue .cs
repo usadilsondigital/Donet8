@@ -8,5 +8,12 @@ namespace Donet8
 {
     public class ExampleSetValue
     {
+
+        public  void example1()
+        {
+
+            // Creates and initializes a one-dimensional array.
+            String[] myArr1 = new String[5];
+
+        }
     }
-}
