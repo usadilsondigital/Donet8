@@ -99,7 +99,8 @@ namespace Donet8
 
             foreach (var month in months)
             {
-               
+                foreach (var day in month)
+                    Console.Write("{0} ", day);
 
                 Console.WriteLine();
             }
