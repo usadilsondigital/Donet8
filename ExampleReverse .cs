@@ -174,5 +174,19 @@ namespace Donet8
                 Console.WriteLine("\t[{0}]:\t{1}", i, myArray.GetValue(i));
         }
 
+        /*
+This code produces the following output.
+
+The Array initially contains the following values:
+    [0]:    The
+    [1]:    QUICK
+    [2]:    BROWN
+    [3]:    FOX
+    [4]:    jumps
+    [5]:    over
+    [6]:    the
+    [7]:    lazy
+    [8]:    dog*/
+
     }
 }
