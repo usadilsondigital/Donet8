@@ -71,6 +71,13 @@ namespace Donet8
         {
             int nMonths = DateTimeFormatInfo.CurrentInfo.Calendar.GetMonthsInYear(DateTime.Now.Year);
             int[][] months = new int[nMonths][];
+
+
+            // Populate elements with number of days in month.
+            for (int ctr = 0; ctr <= months.GetUpperBound(0); ctr++)
+            {
+              
+            }
         }
 
     }
