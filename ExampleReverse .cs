@@ -76,7 +76,9 @@ namespace Donet8
             // Populate elements with number of days in month.
             for (int ctr = 0; ctr <= months.GetUpperBound(0); ctr++)
             {
-              
+                int daysInMonth = DateTime.DaysInMonth(DateTime.Now.Year, ctr + 1);
+                months[ctr] = new int[daysInMonth];
+                
             }
         }
 
