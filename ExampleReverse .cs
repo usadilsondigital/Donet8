@@ -159,6 +159,11 @@ namespace Donet8
             Console.WriteLine("The Array initially contains the following values:");
             PrintIndexAndValues(myArray);
 
+
+            // Reverses the sort of the values of the Array.
+            Array.Reverse(myArray, 1, 3);
+
+
         }
 
         }
