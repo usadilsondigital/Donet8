@@ -14,6 +14,6 @@ namespace Donet8
 
             // Creates and initializes a one-dimensional array.
             String[] myArr1 = new String[5];
-
+            // Sets the element at index 3.
         }
     }
