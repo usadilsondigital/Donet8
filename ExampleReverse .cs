@@ -54,7 +54,16 @@ namespace Donet8
             [6]:    the
             [7]:    lazy
             [8]:    dog
-        
+        After reversing:
+            [0]:    dog
+            [1]:    lazy
+            [2]:    the
+            [3]:    over
+            [4]:    jumps
+            [5]:    fox
+            [6]:    brown
+            [7]:    quick
+            [8]:    The
         */
     }
 }
