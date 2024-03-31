@@ -97,6 +97,13 @@ namespace Donet8
             Array.Reverse(months);
 
 
+            foreach (var month in months)
+            {
+               
+
+                Console.WriteLine();
+            }
+
 
         }
 
