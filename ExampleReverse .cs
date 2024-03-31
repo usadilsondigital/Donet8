@@ -187,6 +187,17 @@ The Array initially contains the following values:
     [6]:    the
     [7]:    lazy
     [8]:    dog*/
+        /*After reversing:
+    [0]:    The
+    [1]:    FOX
+    [2]:    BROWN
+    [3]:    QUICK
+    [4]:    jumps
+    [5]:    over
+    [6]:    the
+    [7]:    lazy
+    [8]:    dog
+*/
 
     }
 }
