@@ -78,7 +78,9 @@ namespace Donet8
             {
                 int daysInMonth = DateTime.DaysInMonth(DateTime.Now.Year, ctr + 1);
                 months[ctr] = new int[daysInMonth];
-                
+                for (int ctr2 = 1; ctr2 <= daysInMonth; ctr2++)
+                    months[ctr][ctr2 - 1] = ctr2;
+
             }
         }
 
