@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,7 +34,30 @@ namespace Donet8
             Console.WriteLine("After reversing:");
             PrintIndexAndValues(myArray);
 
+            /*
+       This code produces the following output.
 
+       The Array initially contains the following values:
+           [0]:    The
+           [1]:    quick
+           [2]:    brown
+           [3]:    fox
+           [4]:    jumps
+           [5]:    over
+           [6]:    the
+           [7]:    lazy
+           [8]:    dog
+       After reversing:
+           [0]:    dog
+           [1]:    lazy
+           [2]:    the
+           [3]:    over
+           [4]:    jumps
+           [5]:    fox
+           [6]:    brown
+           [7]:    quick
+           [8]:    The
+       */
         }
         public static void PrintIndexAndValues(Array myArray)
         {
@@ -41,29 +65,13 @@ namespace Donet8
                 Console.WriteLine("\t[{0}]:\t{1}", i, myArray.GetValue(i));
         }
 
-        /*
-        This code produces the following output.
+       
 
-        The Array initially contains the following values:
-            [0]:    The
-            [1]:    quick
-            [2]:    brown
-            [3]:    fox
-            [4]:    jumps
-            [5]:    over
-            [6]:    the
-            [7]:    lazy
-            [8]:    dog
-        After reversing:
-            [0]:    dog
-            [1]:    lazy
-            [2]:    the
-            [3]:    over
-            [4]:    jumps
-            [5]:    fox
-            [6]:    brown
-            [7]:    quick
-            [8]:    The
-        */
+        public  void example2()
+        {
+            int nMonths = DateTimeFormatInfo.CurrentInfo.Calendar.GetMonthsInYear(DateTime.Now.Year);
+            int[][] months = new int[nMonths][];
+        }
+
     }
 }
