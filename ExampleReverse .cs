@@ -40,5 +40,21 @@ namespace Donet8
             for (int i = myArray.GetLowerBound(0); i <= myArray.GetUpperBound(0); i++)
                 Console.WriteLine("\t[{0}]:\t{1}", i, myArray.GetValue(i));
         }
+
+        /*
+        This code produces the following output.
+
+        The Array initially contains the following values:
+            [0]:    The
+            [1]:    quick
+            [2]:    brown
+            [3]:    fox
+            [4]:    jumps
+            [5]:    over
+            [6]:    the
+            [7]:    lazy
+            [8]:    dog
+        
+        */
     }
 }
