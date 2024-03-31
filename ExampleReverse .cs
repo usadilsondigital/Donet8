@@ -163,7 +163,9 @@ namespace Donet8
             // Reverses the sort of the values of the Array.
             Array.Reverse(myArray, 1, 3);
 
-
+            // Displays the values of the Array.
+            Console.WriteLine("After reversing:");
+            PrintIndexAndValues(myArray);
         }
 
         }
