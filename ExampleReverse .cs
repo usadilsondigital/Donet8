@@ -82,6 +82,13 @@ namespace Donet8
                     months[ctr][ctr2 - 1] = ctr2;
 
             }
+
+            foreach (var month in months)
+            {
+               
+
+                Console.WriteLine();
+            }
         }
 
     }
