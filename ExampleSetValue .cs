@@ -26,7 +26,8 @@ namespace Donet8
 
             Console.WriteLine("[1,3]:   {0}", myArr2.GetValue(1, 3));
 
-
+            // Creates and initializes a three-dimensional array.
+            String[,,] myArr3 = new String[5, 5, 5];
 
         }
     }
