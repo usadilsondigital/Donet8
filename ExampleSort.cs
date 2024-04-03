@@ -19,6 +19,8 @@ namespace Donet8
             Console.WriteLine("The Array initially contains the following values:");
             PrintKeysAndValues(myKeys, myValues);
 
+            // Sorts a section of the Array using the default comparer.
+            Array.Sort(myKeys, myValues, 1, 3);
 
         }
     }
