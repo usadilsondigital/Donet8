@@ -8,6 +8,12 @@ namespace Donet8
 {
     public class ExampleSort
     {
+        public  void example1()
+        {
+            // Creates and initializes a new Array and a new custom comparer.
+            String[] myKeys = { "red", "GREEN", "YELLOW", "BLUE", "purple", "black", "orange" };
+
+        }
     }
 
     public class myReverserClass : IComparer
