@@ -15,5 +15,7 @@ namespace Donet8
             // Creates and initializes a one-dimensional array.
             String[] myArr1 = new String[5];
             // Sets the element at index 3.
+            myArr1.SetValue("three", 3);
+            Console.WriteLine("[3]:   {0}", myArr1.GetValue(3));
         }
     }
