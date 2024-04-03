@@ -20,6 +20,9 @@ namespace Donet8
 
             // Creates and initializes a two-dimensional array.
             String[,] myArr2 = new String[5, 5];
+
+            // Sets the element at index 1,3.
+            myArr2.SetValue("one-three", 1, 3);
         }
     }
 }
