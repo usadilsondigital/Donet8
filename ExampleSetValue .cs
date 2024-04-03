@@ -42,6 +42,16 @@ namespace Donet8
             myArr7.SetValue("one-two-three-zero-one-two-three", myIndices);
             Console.WriteLine("[1,2,3,0,1,2,3]:   {0}", myArr7.GetValue(myIndices));
 
+            /*
+            This code produces the following output.
+
+            [3]:   three
+            [1,3]:   one-three
+            [1,2,3]:   one-two-three
+            [1,2,3,0,1,2,3]:   one-two-three-zero-one-two-three
+
+            */
+
         }
     }
 }
