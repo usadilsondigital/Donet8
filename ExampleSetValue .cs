@@ -29,6 +29,9 @@ namespace Donet8
             // Creates and initializes a three-dimensional array.
             String[,,] myArr3 = new String[5, 5, 5];
 
+            // Sets the element at index 1,2,3.
+            myArr3.SetValue("one-two-three", 1, 2, 3);
+
         }
     }
 }
