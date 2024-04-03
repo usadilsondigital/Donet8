@@ -17,6 +17,8 @@ namespace Donet8
             IComparer myComparer = new myReverserClass();
             // Displays the values of the Array.
             Console.WriteLine("The Array initially contains the following values:");
+            PrintKeysAndValues(myKeys, myValues);
+
 
         }
     }
