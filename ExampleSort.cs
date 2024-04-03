@@ -23,7 +23,7 @@ namespace Donet8
             Array.Sort(myKeys, myValues, 1, 3);
 
             Console.WriteLine("After sorting a section of the Array using the default comparer:");
-
+            PrintKeysAndValues(myKeys, myValues);
 
         }
     }
