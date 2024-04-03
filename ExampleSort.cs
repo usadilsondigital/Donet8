@@ -12,6 +12,8 @@ namespace Donet8
         {
             // Creates and initializes a new Array and a new custom comparer.
             String[] myKeys = { "red", "GREEN", "YELLOW", "BLUE", "purple", "black", "orange" };
+            String[] myValues = { "strawberries", "PEARS", "LIMES", "BERRIES", "grapes", "olives", "cantaloupe" };
+
 
         }
     }
