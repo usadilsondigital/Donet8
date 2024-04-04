@@ -131,7 +131,16 @@ namespace Donet8
             //       [7] : lazy
             //       [8] : dog
 
-
+            //    After sorting elements 1-3 by using the default comparer:
+            //       [0] : The
+            //       [1] : BROWN
+            //       [2] : FOX
+            //       [3] : QUICK
+            //       [4] : jumps
+            //       [5] : over
+            //       [6] : the
+            //       [7] : lazy
+            //       [8] : dog
 
 
         }
