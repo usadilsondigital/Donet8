@@ -190,6 +190,12 @@ namespace Donet8
                               "Mamenchisaurus",
                               "Deinonychus",
                               "Edmontosaurus"};
+
+            Console.WriteLine();
+            foreach (string dinosaur in dinosaurs)
+            {
+                Console.WriteLine(dinosaur);
+            }
         }
 
 
