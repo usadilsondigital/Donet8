@@ -97,6 +97,8 @@ namespace Donet8
             Console.WriteLine("The original order of elements in the array:");
             DisplayValues(words);
 
+            // Sort a section of the array using the default comparer.
+            Array.Sort(words, 1, 3);
 
         }
 
