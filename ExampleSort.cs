@@ -119,7 +119,17 @@ namespace Donet8
             Console.WriteLine("After sorting the entire array using the reverse case-insensitive comparer:");
             DisplayValues(words);
 
-
+            // The example displays the following output:
+            //    The original order of elements in the array:
+            //       [0] : The
+            //       [1] : QUICK
+            //       [2] : BROWN
+            //       [3] : FOX
+            //       [4] : jumps
+            //       [5] : over
+            //       [6] : the
+            //       [7] : lazy
+            //       [8] : dog
 
 
 
