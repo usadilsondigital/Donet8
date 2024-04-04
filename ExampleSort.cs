@@ -35,7 +35,18 @@ namespace Donet8
             Console.WriteLine();
         }
     }
+    /*
+This code produces the following output.
 
+The Array initially contains the following values:
+   red       : strawberries
+   GREEN     : PEARS
+   YELLOW    : LIMES
+   BLUE      : BERRIES
+   purple    : grapes
+   black     : olives
+   orange    : cantaloupe
+*/
     public class myReverserClass : IComparer
     {
 
