@@ -113,7 +113,8 @@ namespace Donet8
             Console.WriteLine("After sorting the entire array by using the default comparer:");
             DisplayValues(words);
 
-
+            // Sort the entire array by using the reverse case-insensitive comparer.
+            Array.Sort(words, revComparer);
 
 
 
