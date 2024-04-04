@@ -164,7 +164,16 @@ namespace Donet8
             //       [7] : the
             //       [8] : The
 
-
+            //    After sorting the entire array using the reverse case-insensitive comparer:
+            //       [0] : the
+            //       [1] : The
+            //       [2] : QUICK
+            //       [3] : over
+            //       [4] : lazy
+            //       [5] : jumps
+            //       [6] : FOX
+            //       [7] : dog
+            //       [8] : BROWN
 
 
 
