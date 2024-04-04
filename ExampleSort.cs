@@ -110,6 +110,13 @@ namespace Donet8
 
             // Sort the entire array using the default comparer.
             Array.Sort(words);
+            Console.WriteLine("After sorting the entire array by using the default comparer:");
+            DisplayValues(words);
+
+
+
+
+
 
 
 
