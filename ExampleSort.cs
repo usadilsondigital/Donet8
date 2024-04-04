@@ -100,6 +100,9 @@ namespace Donet8
             // Sort a section of the array using the default comparer.
             Array.Sort(words, 1, 3);
 
+            Console.WriteLine("After sorting elements 1-3 by using the default comparer:");
+            DisplayValues(words);
+
         }
 
 
