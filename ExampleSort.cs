@@ -91,6 +91,9 @@ namespace Donet8
             // Create and initialize a new array.
             String[] words = { "The", "QUICK", "BROWN", "FOX", "jumps",
                          "over", "the", "lazy", "dog" };
+            // Instantiate the reverse comparer.
+            IComparer revComparer = new ReverseComparer();
+        
         }
 
 
