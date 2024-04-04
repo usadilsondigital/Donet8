@@ -66,6 +66,14 @@ purple    : grapes
 black     : olives
 orange    : cantaloupe
 */
+/*After sorting the entire Array using the default comparer:
+   black     : olives
+   BLUE      : BERRIES
+   GREEN     : PEARS
+   orange    : cantaloupe
+   purple    : grapes
+   red       : strawberries
+   YELLOW    : LIMES*/
     
     
     public class myReverserClass : IComparer
