@@ -9,7 +9,7 @@ namespace Donet8
 {
     public class ExampleSort
     {
-        public  void example1()
+        public void example1()
         {
             // Creates and initializes a new Array and a new custom comparer.
             String[] myKeys = { "red", "GREEN", "YELLOW", "BLUE", "purple", "black", "orange" };
@@ -34,60 +34,67 @@ namespace Donet8
             }
             Console.WriteLine();
         }
-    }
-    /*
-This code produces the following output.
 
-The Array initially contains the following values:
-   red       : strawberries
-   GREEN     : PEARS
-   YELLOW    : LIMES
-   BLUE      : BERRIES
-   purple    : grapes
-   black     : olives
-   orange    : cantaloupe
-*/
+        /*
+    This code produces the following output.
 
-    /*After sorting a section of the Array using the default comparer:
-    red       : strawberries
-    BLUE      : BERRIES
-    GREEN     : PEARS
-    YELLOW    : LIMES
-    purple    : grapes
-    black     : olives
-    orange    : cantaloupe*/
-
-    /*After sorting a section of the Array using the reverse case-insensitive comparer:
-    red       : strawberries
-    YELLOW    : LIMES
-    GREEN     : PEARS
-    BLUE      : BERRIES
-    purple    : grapes
-    black     : olives
-    orange    : cantaloupe
-    */
-    /*After sorting the entire Array using the default comparer:
-       black     : olives
-       BLUE      : BERRIES
-       GREEN     : PEARS
-       orange    : cantaloupe
-       purple    : grapes
+    The Array initially contains the following values:
        red       : strawberries
-       YELLOW    : LIMES*/
+       GREEN     : PEARS
+       YELLOW    : LIMES
+       BLUE      : BERRIES
+       purple    : grapes
+       black     : olives
+       orange    : cantaloupe
+    */
+
+        /*After sorting a section of the Array using the default comparer:
+        red       : strawberries
+        BLUE      : BERRIES
+        GREEN     : PEARS
+        YELLOW    : LIMES
+        purple    : grapes
+        black     : olives
+        orange    : cantaloupe*/
+
+        /*After sorting a section of the Array using the reverse case-insensitive comparer:
+        red       : strawberries
+        YELLOW    : LIMES
+        GREEN     : PEARS
+        BLUE      : BERRIES
+        purple    : grapes
+        black     : olives
+        orange    : cantaloupe
+        */
+        /*After sorting the entire Array using the default comparer:
+           black     : olives
+           BLUE      : BERRIES
+           GREEN     : PEARS
+           orange    : cantaloupe
+           purple    : grapes
+           red       : strawberries
+           YELLOW    : LIMES*/
 
 
-    /*After sorting the entire Array using the reverse case-insensitive comparer:
-   YELLOW    : LIMES
-   red       : strawberries
-   purple    : grapes
-   orange    : cantaloupe
-   GREEN     : PEARS
-   BLUE      : BERRIES
-   black     : olives
+        /*After sorting the entire Array using the reverse case-insensitive comparer:
+       YELLOW    : LIMES
+       red       : strawberries
+       purple    : grapes
+       orange    : cantaloupe
+       GREEN     : PEARS
+       BLUE      : BERRIES
+       black     : olives
 
-*/
+    */
+        public void example2()
+        {
+            // Create and initialize a new array.
+            String[] words = { "The", "QUICK", "BROWN", "FOX", "jumps",
+                         "over", "the", "lazy", "dog" };
+        }
 
 
+    }
     public class myReverserClass : IComparer
 {
 
