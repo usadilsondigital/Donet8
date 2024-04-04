@@ -142,6 +142,23 @@ namespace Donet8
             //       [7] : lazy
             //       [8] : dog
 
+            //    After sorting elements 1-3 by using the reverse case-insensitive comparer:
+            //       [0] : The
+            //       [1] : QUICK
+            //       [2] : FOX
+            //       [3] : BROWN
+            //       [4] : jumps
+            //       [5] : over
+            //       [6] : the
+            //       [7] : lazy
+            //       [8] : dog
+
+
+
+
+
+
+
 
         }
 
