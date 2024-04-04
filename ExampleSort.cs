@@ -93,7 +93,11 @@ namespace Donet8
                          "over", "the", "lazy", "dog" };
             // Instantiate the reverse comparer.
             IComparer revComparer = new ReverseComparer();
-        
+            // Display the values of the array.
+            Console.WriteLine("The original order of elements in the array:");
+            DisplayValues(words);
+
+
         }
 
 
