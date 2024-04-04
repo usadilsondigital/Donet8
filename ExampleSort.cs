@@ -48,23 +48,35 @@ The Array initially contains the following values:
    orange    : cantaloupe
 */
 
-    /*After sorting a section of the Array using the default comparer:
-   red       : strawberries
-   BLUE      : BERRIES
-   GREEN     : PEARS
-   YELLOW    : LIMES
-   purple    : grapes
-   black     : olives
-   orange    : cantaloupe*/
-    public class myReverserClass : IComparer
-    {
+/*After sorting a section of the Array using the default comparer:
+red       : strawberries
+BLUE      : BERRIES
+GREEN     : PEARS
+YELLOW    : LIMES
+purple    : grapes
+black     : olives
+orange    : cantaloupe*/
 
-        // Calls CaseInsensitiveComparer.Compare with the parameters reversed.
-        int IComparer.Compare(Object x, Object y)
-        {
-            return ((new CaseInsensitiveComparer()).Compare(y, x));
-        }
+/*After sorting a section of the Array using the reverse case-insensitive comparer:
+red       : strawberries
+YELLOW    : LIMES
+GREEN     : PEARS
+BLUE      : BERRIES
+purple    : grapes
+black     : olives
+orange    : cantaloupe
+*/
+    
+    
+    public class myReverserClass : IComparer
+{
+
+    // Calls CaseInsensitiveComparer.Compare with the parameters reversed.
+    int IComparer.Compare(Object x, Object y)
+    {
+        return ((new CaseInsensitiveComparer()).Compare(y, x));
     }
+}
 
 
 
