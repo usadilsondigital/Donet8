@@ -47,6 +47,15 @@ The Array initially contains the following values:
    black     : olives
    orange    : cantaloupe
 */
+
+    /*After sorting a section of the Array using the default comparer:
+   red       : strawberries
+   BLUE      : BERRIES
+   GREEN     : PEARS
+   YELLOW    : LIMES
+   purple    : grapes
+   black     : olives
+   orange    : cantaloupe*/
     public class myReverserClass : IComparer
     {
 
