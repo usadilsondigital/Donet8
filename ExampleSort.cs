@@ -103,6 +103,15 @@ namespace Donet8
             Console.WriteLine("After sorting elements 1-3 by using the default comparer:");
             DisplayValues(words);
 
+            // Sort a section of the array using the reverse case-insensitive comparer.
+            Array.Sort(words, 1, 3, revComparer);
+
+
+
+
+
+
+
         }
 
 
