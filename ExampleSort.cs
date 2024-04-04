@@ -182,8 +182,19 @@ namespace Donet8
         }
 
 
-    }
-    public class myReverserClass : IComparer
+        public  void example3()
+        {
+            string[] dinosaurs = {"Pachycephalosaurus",
+                              "Amargasaurus",
+                              "Tyrannosaurus",
+                              "Mamenchisaurus",
+                              "Deinonychus",
+                              "Edmontosaurus"};
+        }
+
+
+        }
+        public class myReverserClass : IComparer
 {
 
     // Calls CaseInsensitiveComparer.Compare with the parameters reversed.
