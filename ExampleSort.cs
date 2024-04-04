@@ -26,6 +26,14 @@ namespace Donet8
             PrintKeysAndValues(myKeys, myValues);
 
         }
+        public static void PrintKeysAndValues(String[] myKeys, String[] myValues)
+        {
+            for (int i = 0; i < myKeys.Length; i++)
+            {
+                Console.WriteLine("   {0,-10}: {1}", myKeys[i], myValues[i]);
+            }
+            Console.WriteLine();
+        }
     }
 
     public class myReverserClass : IComparer
