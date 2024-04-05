@@ -228,6 +228,8 @@ namespace Donet8
             // complement of the next larger element in the array.
             //
             index = ~index;
+            Console.Write("Not found. Sorts between: ");
+
         }
 
 
