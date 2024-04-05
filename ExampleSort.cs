@@ -271,10 +271,13 @@ namespace Donet8
         BinarySearch for 'Coelophysis':
         Not found. Sorts between: Amargasaurus and Deinonychus.
         */
+        /*BinarySearch for 'Tyrannosaurus':
+        Found at index 5.
+         */
 
-}
+    }
 
-public class myReverserClass : IComparer
+    public class myReverserClass : IComparer
 {
 
 // Calls CaseInsensitiveComparer.Compare with the parameters reversed.
