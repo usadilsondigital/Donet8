@@ -210,7 +210,7 @@ namespace Donet8
             Console.WriteLine("\nBinarySearch for 'Tyrannosaurus':");
 
             index = Array.BinarySearch(dinosaurs, "Tyrannosaurus");
-
+            ShowWhere(dinosaurs, index);
 
 
 
