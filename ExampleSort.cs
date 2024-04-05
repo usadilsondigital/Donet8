@@ -256,16 +256,25 @@ namespace Donet8
         Mamenchisaurus
         Deinonychus
         Edmontosaurus*/
-    }
+/*Sort
 
-    public class myReverserClass : IComparer
+Amargasaurus
+Deinonychus
+Edmontosaurus
+Mamenchisaurus
+Pachycephalosaurus
+Tyrannosaurus
+*/
+}
+
+public class myReverserClass : IComparer
 {
 
-    // Calls CaseInsensitiveComparer.Compare with the parameters reversed.
-    int IComparer.Compare(Object x, Object y)
-    {
-        return ((new CaseInsensitiveComparer()).Compare(y, x));
-    }
+// Calls CaseInsensitiveComparer.Compare with the parameters reversed.
+int IComparer.Compare(Object x, Object y)
+{
+return ((new CaseInsensitiveComparer()).Compare(y, x));
+}
 }
 
 
