@@ -204,7 +204,7 @@ namespace Donet8
             {
                 Console.WriteLine(dinosaur);
             }
-
+            Console.WriteLine("\nBinarySearch for 'Coelophysis':");
 
         }
 
