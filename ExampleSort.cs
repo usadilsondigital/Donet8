@@ -235,6 +235,8 @@ namespace Donet8
             else
                 Console.Write("{0} and ", array[index - 1]);
 
+            if (index == array.Length)
+                Console.WriteLine("end of array.");
 
 
         }
