@@ -198,6 +198,14 @@ namespace Donet8
             }
             Console.WriteLine("\nSort");
             Array.Sort(dinosaurs);
+
+            Console.WriteLine();
+            foreach (string dinosaur in dinosaurs)
+            {
+                Console.WriteLine(dinosaur);
+            }
+
+
         }
 
 
