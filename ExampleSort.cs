@@ -220,8 +220,11 @@ namespace Donet8
 
         }
 
-    private static void ShowWhere<T>(T[] array, int index)
-    { }
+    private  void ShowWhere<T>(T[] array, int index)
+    {
+        if (index < 0)
+        { }
+    }
 
         public class myReverserClass : IComparer
 {
