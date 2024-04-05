@@ -230,6 +230,11 @@ namespace Donet8
             index = ~index;
             Console.Write("Not found. Sorts between: ");
 
+            if (index == 0)
+                Console.Write("beginning of array and ");
+
+
+
         }
 
 
