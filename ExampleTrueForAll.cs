@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Donet8
 {
-    internal class ExampleTrueForAll
+    public class ExampleTrueForAll
     {
     }
 }
