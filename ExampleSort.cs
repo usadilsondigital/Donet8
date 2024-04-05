@@ -243,6 +243,10 @@ namespace Donet8
 
 
         }
+        else
+        {
+            Console.WriteLine("Found at index {0}.", index);
+        }
 
 
     }
