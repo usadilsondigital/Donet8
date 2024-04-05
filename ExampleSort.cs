@@ -205,6 +205,9 @@ namespace Donet8
                 Console.WriteLine(dinosaur);
             }
             Console.WriteLine("\nBinarySearch for 'Coelophysis':");
+            int index = Array.BinarySearch(dinosaurs, "Coelophysis");
+
+
 
         }
 
