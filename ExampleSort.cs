@@ -223,7 +223,13 @@ namespace Donet8
     private  void ShowWhere<T>(T[] array, int index)
     {
         if (index < 0)
-        { }
+        {
+            // If the index is negative, it represents the bitwise
+            // complement of the next larger element in the array.
+            //
+        }
+
+
     }
 
         public class myReverserClass : IComparer
