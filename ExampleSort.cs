@@ -256,15 +256,22 @@ namespace Donet8
         Mamenchisaurus
         Deinonychus
         Edmontosaurus*/
-/*Sort
 
-Amargasaurus
-Deinonychus
-Edmontosaurus
-Mamenchisaurus
-Pachycephalosaurus
-Tyrannosaurus
-*/
+        /*Sort
+
+        Amargasaurus
+        Deinonychus
+        Edmontosaurus
+        Mamenchisaurus
+        Pachycephalosaurus
+        Tyrannosaurus
+        */
+
+        /*
+        BinarySearch for 'Coelophysis':
+        Not found. Sorts between: Amargasaurus and Deinonychus.
+        */
+
 }
 
 public class myReverserClass : IComparer
