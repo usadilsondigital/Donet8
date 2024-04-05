@@ -219,6 +219,10 @@ namespace Donet8
 
 
         }
+
+    private static void ShowWhere<T>(T[] array, int index)
+    { }
+
         public class myReverserClass : IComparer
 {
 
