@@ -232,6 +232,8 @@ namespace Donet8
 
             if (index == 0)
                 Console.Write("beginning of array and ");
+            else
+                Console.Write("{0} and ", array[index - 1]);
 
 
 
