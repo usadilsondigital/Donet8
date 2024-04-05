@@ -227,6 +227,7 @@ namespace Donet8
             // If the index is negative, it represents the bitwise
             // complement of the next larger element in the array.
             //
+            index = ~index;
         }
 
 
