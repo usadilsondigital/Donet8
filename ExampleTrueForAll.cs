@@ -25,5 +25,11 @@ namespace Donet8
 
 
         }
+        private  bool EndsWithANumber(string value)
+        {
+            int s;
+            return int.TryParse(value.Substring(value.Length - 1), out s);
+        }
+
     }
 }
