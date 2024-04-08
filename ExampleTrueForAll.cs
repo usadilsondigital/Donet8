@@ -38,7 +38,12 @@ namespace Donet8
         public  void example2()
         {
             String[] values = { "Y2K", "A2000", "DC2A6", "MMXIV", "0C3" };
-        }
+            if (Array.TrueForAll(values, value => {
+
+
+
+
+            }
 
         }
 }
