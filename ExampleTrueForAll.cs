@@ -42,9 +42,10 @@ namespace Donet8
                 int s;
                 return int.TryParse(value.Substring(value.Length - 1), out s);
             }
+                  ))
+                Console.WriteLine("All elements end with an integer.");
 
-
-            }
+        }
 
         }
 }
