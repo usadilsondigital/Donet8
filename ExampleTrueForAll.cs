@@ -30,6 +30,9 @@ namespace Donet8
             int s;
             return int.TryParse(value.Substring(value.Length - 1), out s);
         }
+        // The example displays the following output:
+        //       Not all elements end with an integer.
+        //       All elements end with an integer.
 
     }
 }
