@@ -44,6 +44,8 @@ namespace Donet8
             }
                   ))
                 Console.WriteLine("All elements end with an integer.");
+            else
+                Console.WriteLine("Not all elements end with an integer.");
 
         }
 
