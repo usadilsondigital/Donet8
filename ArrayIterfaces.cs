@@ -9,5 +9,6 @@ namespace Donet8
     internal class ArrayIterfaces
     {
         //Array.ICollection.Count
+        //Array.IList.Add
     }
 }
