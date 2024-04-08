@@ -47,7 +47,7 @@ namespace Donet8
             else
                 Console.WriteLine("Not all elements end with an integer.");
 
-        }
+        }// The example displays the following output:
 
-        }
+    }
 }
