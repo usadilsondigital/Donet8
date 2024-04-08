@@ -40,7 +40,8 @@ namespace Donet8
             String[] values = { "Y2K", "A2000", "DC2A6", "MMXIV", "0C3" };
             if (Array.TrueForAll(values, value => {
                 int s;
-
+                return int.TryParse(value.Substring(value.Length - 1), out s);
+            }
 
 
             }
