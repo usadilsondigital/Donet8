@@ -18,6 +18,10 @@ namespace Donet8
             else
                 Console.WriteLine("Not all elements end with an integer.");
 
+            if (Array.TrueForAll(values2, EndsWithANumber))
+
+
+
 
 
         }
