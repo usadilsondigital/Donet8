@@ -49,5 +49,6 @@ namespace Donet8
 
         }// The example displays the following output:
 
+        //        Not all elements end with an integer.
     }
 }
