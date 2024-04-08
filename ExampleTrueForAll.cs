@@ -39,7 +39,7 @@ namespace Donet8
         {
             String[] values = { "Y2K", "A2000", "DC2A6", "MMXIV", "0C3" };
             if (Array.TrueForAll(values, value => {
-
+                int s;
 
 
 
