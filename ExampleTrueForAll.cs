@@ -34,5 +34,11 @@ namespace Donet8
         //       Not all elements end with an integer.
         //       All elements end with an integer.
 
-    }
+
+        public  void example2()
+        {
+
+        }
+
+        }
 }
