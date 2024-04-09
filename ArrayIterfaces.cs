@@ -12,6 +12,6 @@ namespace Donet8
         //Array.IList.Add//implementation adds a member to a collection
         //Array.IList.Clear//Removes all items from the IList.
         //Array.IList.Contains(Object)//Determines whether an element is in the IList.
-        //Array.IList.IndexOf(Object)
+        //Array.IList.IndexOf(Object)//Determines the index of a specific item in the IList.
     }
 }
