@@ -19,7 +19,7 @@ namespace Donet8
         //Array.IList.RemoveAt(Int32)//Removes the IList item at the specified index.
         //Array.IStructuralComparable.CompareTo(Object, IComparer)//Determines whether the current collection object precedes, occurs in the same position as, or follows another object in the sort order.
         //Array.IStructuralEquatable.Equals(Object, IEqualityComparer)//Determines whether an object is equal to the current instance.
-        //Array.IStructuralEquatable.GetHashCode(IEqualityComparer)
+        //Array.IStructuralEquatable.GetHashCode(IEqualityComparer)//Returns a hash code for the current instance.
 
 
 
