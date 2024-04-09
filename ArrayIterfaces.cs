@@ -15,5 +15,9 @@ namespace Donet8
         //Array.IList.IndexOf(Object)//Determines the index of a specific item in the IList.
         //Array.IList.Insert(Int32, Object)//Inserts an item to the IList at the specified index.
         //Array.IList.Item[Int32]//Gets or sets the element at the specified index.
+        //Array.IList.Remove(Object)
+
+
+
     }
 }
