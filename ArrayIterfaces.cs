@@ -13,6 +13,6 @@ namespace Donet8
         //Array.IList.Clear//Removes all items from the IList.
         //Array.IList.Contains(Object)//Determines whether an element is in the IList.
         //Array.IList.IndexOf(Object)//Determines the index of a specific item in the IList.
-        //Array.IList.Insert(Int32, Object)
+        //Array.IList.Insert(Int32, Object)//Inserts an item to the IList at the specified index.
     }
 }
