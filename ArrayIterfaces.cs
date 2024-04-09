@@ -17,7 +17,7 @@ namespace Donet8
         //Array.IList.Item[Int32]//Gets or sets the element at the specified index.
         //Array.IList.Remove(Object)//Removes the first occurrence of a specific object from the IList.
         //Array.IList.RemoveAt(Int32)//Removes the IList item at the specified index.
-        //Array.IStructuralComparable.CompareTo(Object, IComparer)
+        //Array.IStructuralComparable.CompareTo(Object, IComparer)//Determines whether the current collection object precedes, occurs in the same position as, or follows another object in the sort order.
 
     }
 }
