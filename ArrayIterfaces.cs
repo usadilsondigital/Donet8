@@ -8,7 +8,6 @@ namespace Donet8
 {
     internal class ArrayIterfaces
     {
-        //Array.ICollection.Count
+        //Array.ICollection.Count//Gets the number of elements contained in the Array.
         //Array.IList.Add
-    }
 }
