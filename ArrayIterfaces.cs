@@ -10,6 +10,6 @@ namespace Donet8
     {
         //Array.ICollection.Count//Gets the number of elements contained in the Array.
         //Array.IList.Add//implementation adds a member to a collection
-        //Array.IList.Clear//
+        //Array.IList.Clear//Removes all items from the IList.
     }
 }
