@@ -15,6 +15,10 @@ namespace Donet8
         public  void example()
         {
             string nl = Environment.NewLine;
+            string msg = "{0}The following is the result of using the generic and non-generic{0}" +
+                    "versions of the CompareTo method for several base types:{0}";
+
+
         }
 
 
