@@ -11,5 +11,15 @@ namespace Donet8
         //Boolean.CompareTo
         //Compares this instance to a specified
         //object or Boolean object and returns an integer that indicates their relationship to one another.
+
+        public  void example()
+        {
+            string nl = Environment.NewLine;
+        }
+
+
+
+
+
     }
 }
