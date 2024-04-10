@@ -23,7 +23,7 @@ namespace Donet8
             TimeSpan tsX = new TimeSpan(11, 22, 33, 44);
             // Version = 1.2.333.4
             Version versX = new Version("1.2.333.4");
-
+            // Guid = CA761232-ED42-11CE-BACD-00AA0057B223
 
         }
 
