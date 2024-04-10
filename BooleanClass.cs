@@ -34,6 +34,7 @@ namespace Donet8
             Single g1 = 6.6f, g2 = 6.6f;
             Double h1 = 7.7d, h2 = -7.7d;
             Char i1 = 'A', i2 = 'A';
+            String j1 = "abc", j2 = "abc";
 
 
 
