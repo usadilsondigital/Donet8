@@ -25,7 +25,7 @@ namespace Donet8
             Version versX = new Version("1.2.333.4");
             // Guid = CA761232-ED42-11CE-BACD-00AA0057B223
             Guid guidX = new Guid("{CA761232-ED42-11CE-BACD-00AA0057B223}");
-
+            Boolean a1 = true, a2 = true;
 
 
 
