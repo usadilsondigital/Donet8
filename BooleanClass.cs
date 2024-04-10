@@ -27,7 +27,7 @@ namespace Donet8
             Guid guidX = new Guid("{CA761232-ED42-11CE-BACD-00AA0057B223}");
             Boolean a1 = true, a2 = true;
             Byte b1 = 1, b2 = 1;
-
+            Int16 c1 = -2, c2 = 2;
 
 
         }
