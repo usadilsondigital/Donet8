@@ -57,7 +57,7 @@ namespace Donet8
                 Show("Int16:    ", c1, c2, c1.CompareTo(c2), c1.CompareTo((Object)c2));
                 Show("Int32:    ", d1, d2, d1.CompareTo(d2), d1.CompareTo((Object)d2));
                 Show("Int64:    ", e1, e2, e1.CompareTo(e2), e1.CompareTo((Object)e2));
-
+                Show("Decimal:  ", f1, f2, f1.CompareTo(f2), f1.CompareTo((Object)f2));
 
 
             }
