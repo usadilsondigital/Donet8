@@ -97,6 +97,8 @@ namespace Donet8
                 Console.WriteLine("{0} is {1} {2}", var1, relation, var2);
 
             }
+            // The following condition will never occur because the generic and non-generic
+            // CompareTo methods are equivalent.
 
 
 
