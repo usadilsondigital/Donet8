@@ -88,6 +88,8 @@ namespace Donet8
                            int resultGeneric, int resultNonGeneric)
         {
             string relation;
+            Console.Write(caption);
+
 
         }
 
