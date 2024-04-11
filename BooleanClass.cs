@@ -112,6 +112,7 @@ namespace Donet8
                 The following is the result of using the generic and non-generic versions of the
         CompareTo method for several base types:
         Boolean:  True is equal to True
+        Byte:     1 is equal to 1
         */
 
 
