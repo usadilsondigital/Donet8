@@ -65,7 +65,7 @@ namespace Donet8
                 Show("DateTime: ", k1, k2, k1.CompareTo(k2), k1.CompareTo((Object)k2));
                 Show("TimeSpan: ", l1, l2, l1.CompareTo(l2), l1.CompareTo((Object)l2));
                 Show("Version:  ", m1, m2, m1.CompareTo(m2), m1.CompareTo((Object)m2));
-
+                Show("Guid:     ", n1, n2, n1.CompareTo(n2), n1.CompareTo((Object)n2));
 
 
             }
