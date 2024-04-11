@@ -114,7 +114,7 @@ namespace Donet8
         Boolean:  True is equal to True
         Byte:     1 is equal to 1
         Int16:    -2 is less than 2
-
+        Int32:    3 is equal to 3
 
 
 
