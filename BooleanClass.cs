@@ -113,6 +113,13 @@ namespace Donet8
         CompareTo method for several base types:
         Boolean:  True is equal to True
         Byte:     1 is equal to 1
+        Int16:    -2 is less than 2
+
+
+
+
+
+
         */
 
 
