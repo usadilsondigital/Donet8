@@ -68,6 +68,11 @@ namespace Donet8
                 Show("Guid:     ", n1, n2, n1.CompareTo(n2), n1.CompareTo((Object)n2));
                 Console.WriteLine("{0}The following types are not CLS-compliant:", nl);
 
+                Show("SByte:    ", w1, w2, w1.CompareTo(w2), w1.CompareTo((Object)w2));
+
+
+
+
             }
 
 
