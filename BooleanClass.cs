@@ -62,7 +62,7 @@ namespace Donet8
                 Show("Double:   ", h1, h2, h1.CompareTo(h2), h1.CompareTo((Object)h2));
                 Show("Char:     ", i1, i2, i1.CompareTo(i2), i1.CompareTo((Object)i2));
                 Show("String:   ", j1, j2, j1.CompareTo(j2), j1.CompareTo((Object)j2));
-
+                Show("DateTime: ", k1, k2, k1.CompareTo(k2), k1.CompareTo((Object)k2));
 
 
 
