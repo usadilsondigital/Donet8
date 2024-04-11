@@ -121,6 +121,7 @@ namespace Donet8
         Double:   7.7 is greater than -7.7
         Char:     A is equal to A
         String:   abc is equal to abc
+        DateTime: 12/1/2003 5:37:46 PM is equal to 12/1/2003 5:37:46 PM
 
         */
 
