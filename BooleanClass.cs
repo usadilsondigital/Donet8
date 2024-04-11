@@ -46,7 +46,7 @@ namespace Donet8
             UInt32 y1 = 10, y2 = 10;
             UInt64 z1 = 11, z2 = 11;
 
-
+            Console.WriteLine(msg, nl);
 
 
 
