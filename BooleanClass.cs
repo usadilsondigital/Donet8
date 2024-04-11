@@ -91,7 +91,11 @@ namespace Donet8
             Console.Write(caption);
             if (resultGeneric == resultNonGeneric)
             {
-               
+                if (resultGeneric < 0) relation = "less than";
+                else if (resultGeneric > 0) relation = "greater than";
+                else relation = "equal to";
+                Console.WriteLine("{0} is {1} {2}", var1, relation, var2);
+
             }
 
 
