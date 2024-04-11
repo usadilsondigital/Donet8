@@ -52,6 +52,7 @@ namespace Donet8
             {
                 // The second and third Show method call parameters are automatically boxed because
                 // the second and third Show method declaration arguments expect type Object.
+                Show("Boolean:  ", a1, a2, a1.CompareTo(a2), a1.CompareTo((Object)a2));
             }
 
 
