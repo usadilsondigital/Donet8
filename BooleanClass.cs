@@ -71,7 +71,7 @@ namespace Donet8
                 Show("SByte:    ", w1, w2, w1.CompareTo(w2), w1.CompareTo((Object)w2));
                 Show("UInt16:   ", x1, x2, x1.CompareTo(x2), x1.CompareTo((Object)x2));
                 Show("UInt32:   ", y1, y2, y1.CompareTo(y2), y1.CompareTo((Object)y2));
-
+                Show("UInt64:   ", z1, z2, z1.CompareTo(z2), z1.CompareTo((Object)z2));
 
 
             }
