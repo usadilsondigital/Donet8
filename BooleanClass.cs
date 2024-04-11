@@ -54,6 +54,7 @@ namespace Donet8
                 // the second and third Show method declaration arguments expect type Object.
                 Show("Boolean:  ", a1, a2, a1.CompareTo(a2), a1.CompareTo((Object)a2));
                 Show("Byte:     ", b1, b2, b1.CompareTo(b2), b1.CompareTo((Object)b2));
+                Show("Int16:    ", c1, c2, c1.CompareTo(c2), c1.CompareTo((Object)c2));
             }
 
 
