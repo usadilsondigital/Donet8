@@ -119,7 +119,7 @@ namespace Donet8
         Decimal:  -5.5 is less than 5.5
         Single:   6.6 is equal to 6.6
         Double:   7.7 is greater than -7.7
-
+        Char:     A is equal to A
 
         */
 
