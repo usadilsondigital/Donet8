@@ -75,10 +75,14 @@ namespace Donet8
 
 
             }
-
-
-
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
             }
+
+
+
+        }
 
 
 
