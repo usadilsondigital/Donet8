@@ -144,6 +144,7 @@ namespace Donet8
         public void ParseExample() {
             bool val;
             string input;
+            input = bool.TrueString;
         }
 
 
