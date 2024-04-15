@@ -130,7 +130,7 @@ namespace Donet8
         SByte:    8 is equal to 8
         UInt16:   9 is equal to 9
         UInt32:   10 is equal to 10
-
+        UInt64:   11 is equal to 11
 
         */
 
