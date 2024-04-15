@@ -137,6 +137,7 @@ namespace Donet8
         //CompareTo
         //A signed integer that indicates the relative order of this instance and obj.
         //Less than zero This instance is false and obj is true.
+        //Zero	This instance and obj are equal (either both are true or both are false).
 
 
     }
