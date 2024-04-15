@@ -160,7 +160,7 @@ namespace Donet8
         public void ToStringExample() {
             bool raining = false;
             bool busLate = true;
-
+            Console.WriteLine("raining.ToString() returns {0}", raining);
 
         }
 
