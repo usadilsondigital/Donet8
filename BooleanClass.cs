@@ -122,6 +122,7 @@ namespace Donet8
         Char:     A is equal to A
         String:   abc is equal to abc
         DateTime: 12/1/2003 5:37:46 PM is equal to 12/1/2003 5:37:46 PM
+        TimeSpan: 11.22:33:44 is equal to 11.22:33:44
 
         */
 
