@@ -126,6 +126,10 @@ namespace Donet8
         Version:  1.2.333.4 is less than 2.0
         Guid:     ca761232-ed42-11ce-bacd-00aa0057b223 is equal to ca761232-ed42-11ce-bacd-00 aa0057b223
 
+        The following types are not CLS-compliant:
+
+
+
         */
 
 
