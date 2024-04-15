@@ -145,6 +145,8 @@ namespace Donet8
             bool val;
             string input;
             input = bool.TrueString;
+
+            val = bool.Parse(input);
         }
 
 
