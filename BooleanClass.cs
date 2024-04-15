@@ -140,5 +140,8 @@ namespace Donet8
         //Zero	This instance and obj are equal (either both are true or both are false).
         //Greater than zero	This instance is true and obj is false.
 
+        //Boolean.Parse Method
+
+
     }
 }
