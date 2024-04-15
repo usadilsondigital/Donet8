@@ -147,6 +147,10 @@ namespace Donet8
             input = bool.TrueString;
 
             val = bool.Parse(input);
+
+            Console.WriteLine("'{0}' parsed as {1}", input, val);
+
+
         }
 
 
