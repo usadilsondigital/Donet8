@@ -157,8 +157,11 @@ namespace Donet8
 
 
         //Boolean.ToString Method
-        public void ToStringExample() { 
-        
+        public void ToStringExample() {
+            bool raining = false;
+
+
+
         }
 
 
