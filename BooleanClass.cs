@@ -141,6 +141,10 @@ namespace Donet8
         //Greater than zero	This instance is true and obj is false.
 
         //Boolean.Parse Method
+        public void ParseExample() {
+            bool val;
+            string input;
+        }
 
 
     }
