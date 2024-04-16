@@ -177,6 +177,7 @@ namespace Donet8
             foreach (var value in values) {
                 bool flag;
                 if (Boolean.TryParse(value, out flag))
+                    Console.WriteLine("'{0}' --> {1}", value, flag);
 
             }
 
