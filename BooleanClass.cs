@@ -169,6 +169,7 @@ namespace Donet8
         }
 
         //Boolean.TryParse Method
+        //Tries to convert the specified span representation of a logical value to its Boolean equivalent.
         public void TryParse() { }
 
 
