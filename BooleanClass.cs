@@ -190,6 +190,7 @@ namespace Donet8
         //       Unable to parse '<null>'.
         //       Unable to parse ''.
         //       'True' --> True
+        //       'False' --> False
 
     }
 }
