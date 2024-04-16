@@ -180,6 +180,7 @@ namespace Donet8
                     Console.WriteLine("'{0}' --> {1}", value, flag);
                 else
                     Console.WriteLine("Unable to parse '{0}'.",
+                         value == null ? "<null>" : value);
 
             }
 
