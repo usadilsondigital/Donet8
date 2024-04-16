@@ -178,6 +178,7 @@ namespace Donet8
                 bool flag;
                 if (Boolean.TryParse(value, out flag))
                     Console.WriteLine("'{0}' --> {1}", value, flag);
+                else
 
             }
 
