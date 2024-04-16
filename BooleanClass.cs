@@ -194,6 +194,7 @@ namespace Donet8
         //       'true' --> True
         //       'false' --> False
         //       '    true    ' --> True
+        //       Unable to parse '0'.
 
     }
 }
