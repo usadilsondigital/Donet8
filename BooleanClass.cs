@@ -174,7 +174,13 @@ namespace Donet8
             string[] values = { null, String.Empty, "True", "False",
                           "true", "false", "    true    ", "0",
                           "1", "-1", "string" };
-            foreach (var value in values) { }
+            foreach (var value in values) {
+                bool flag;
+
+
+            }
+
+
         }
 
 
