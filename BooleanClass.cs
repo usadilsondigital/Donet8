@@ -166,10 +166,8 @@ namespace Donet8
             //       raining.ToString() returns False
             //       busLate.ToString() returns True
 
-
-
-
         }
+        public  void TryParse() { }
 
 
     }
