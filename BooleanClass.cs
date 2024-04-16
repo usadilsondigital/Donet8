@@ -176,7 +176,7 @@ namespace Donet8
                           "1", "-1", "string" };
             foreach (var value in values) {
                 bool flag;
-
+                if (Boolean.TryParse(value, out flag))
 
             }
 
