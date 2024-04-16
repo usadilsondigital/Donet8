@@ -167,7 +167,9 @@ namespace Donet8
             //       busLate.ToString() returns True
 
         }
-        public  void TryParse() { }
+
+        //Boolean.TryParse Method
+        public void TryParse() { }
 
 
     }
