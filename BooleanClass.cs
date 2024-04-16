@@ -192,6 +192,7 @@ namespace Donet8
         //       'True' --> True
         //       'False' --> False
         //       'true' --> True
+        //       'false' --> False
 
     }
 }
