@@ -215,6 +215,7 @@ namespace Donet8
     //Boolean.IConvertible.ToSByte(IFormatProvider) Method
     //Boolean.IConvertible.ToSingle(IFormatProvider) Method
     //Boolean.IConvertible.ToType(Type, IFormatProvider) Method
+    //Boolean.IConvertible.ToUInt16(IFormatProvider) Method
 
 
 }
