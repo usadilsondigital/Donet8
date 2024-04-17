@@ -7,7 +7,23 @@ using System.Threading.Tasks;
 namespace Donet8
 {
     //Manipulates arrays of primitive types.
-    internal class BufferClass
+    public class BufferClass
     {
+
+        public  void DisplayArray(short[] arr)
+        {
+            Console.Write("  arr:");
+          
+        }
+
+
+
+
+
+
+
+
+
+
     }
 }
