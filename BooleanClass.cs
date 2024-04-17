@@ -221,5 +221,6 @@ namespace Donet8
     //Boolean.IParsable<Boolean>.Parse(String, IFormatProvider) Method
     //Boolean.IParsable<Boolean>.TryParse Method
     //Boolean.ISpanParsable<Boolean>.Parse Method
+    //Boolean.ISpanParsable<Boolean>.TryParse Method
 
 }
