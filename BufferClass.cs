@@ -24,6 +24,7 @@ namespace Donet8
             // This array is to be modified and displayed.
             short[] arr = { 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271 };
             Console.WriteLine("This example of the Buffer class " +
+                 "methods generates the following output.\n" +
         }
 
 
