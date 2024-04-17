@@ -208,4 +208,5 @@ namespace Donet8
     /////Boolean.IConvertible.ToChar(IFormatProvider) Method
     ///Boolean.IConvertible.ToDateTime(IFormatProvider) Method
     ///Boolean.IConvertible.ToDecimal(IFormatProvider) Method
+    //Boolean.IConvertible.ToDouble(IFormatProvider) Method
 }
