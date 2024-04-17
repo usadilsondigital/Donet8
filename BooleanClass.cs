@@ -211,7 +211,7 @@ namespace Donet8
     //Boolean.IConvertible.ToDouble(IFormatProvider) Method
     //Boolean.IConvertible.ToInt16(IFormatProvider) Method
     //Boolean.IConvertible.ToInt32(IFormatProvider) Method
-
+    //Boolean.IConvertible.ToInt64(IFormatProvider) Method
 
 
 }
