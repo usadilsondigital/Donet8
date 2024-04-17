@@ -220,5 +220,6 @@ namespace Donet8
     //Boolean.IConvertible.ToUInt64(IFormatProvider) Method
     //Boolean.IParsable<Boolean>.Parse(String, IFormatProvider) Method
     //Boolean.IParsable<Boolean>.TryParse Method
+    //Boolean.ISpanParsable<Boolean>.Parse Method
 
 }
