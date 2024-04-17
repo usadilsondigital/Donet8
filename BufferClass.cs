@@ -13,7 +13,9 @@ namespace Donet8
         public  void DisplayArray(short[] arr)
         {
             Console.Write("  arr:");
-          
+            for (int loopX = arr.Length - 1; loopX >= 0; loopX--)
+                
+
         }
 
 
