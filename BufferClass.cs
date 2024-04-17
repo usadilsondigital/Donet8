@@ -15,7 +15,7 @@ namespace Donet8
             Console.Write("  arr:");
             for (int loopX = arr.Length - 1; loopX >= 0; loopX--)
                 Console.Write(" {0:X4}", arr[loopX]);
-          
+            Console.WriteLine();
 
         }
 
