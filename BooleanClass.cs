@@ -206,4 +206,5 @@ namespace Donet8
     ///INterFAces
     ///Boolean.IConvertible.ToByte(IFormatProvider) Method
     /////Boolean.IConvertible.ToChar(IFormatProvider) Method
+    ///Boolean.IConvertible.ToDateTime(IFormatProvider) Method
 }
