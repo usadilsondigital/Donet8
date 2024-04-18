@@ -42,7 +42,7 @@ namespace Donet8
 
             // Display the array and a byte within the array.
             Console.WriteLine("Final values of array:\n");
-
+            DisplayArray(arr);
 
 
         }
