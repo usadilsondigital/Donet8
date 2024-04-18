@@ -34,6 +34,7 @@ namespace Donet8
 
             // Copy a region of the array; set a byte within the array.
             Console.WriteLine("\nCall these methods: \n" +
+                 "  Buffer.BlockCopy( arr, 5, arr, 16, 9 ),\n" +
 
 
         }
