@@ -44,6 +44,7 @@ namespace Donet8
             Console.WriteLine("Final values of array:\n");
             DisplayArray(arr);
             Console.WriteLine("\nBuffer.GetByte( arr, 26 ): {0}",
+                   Buffer.GetByte(arr, 26));
 
         }
 
