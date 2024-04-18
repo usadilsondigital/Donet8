@@ -30,6 +30,10 @@ namespace Donet8
             // Display the initial array values and ByteLength.
             DisplayArray(arr);
             Console.WriteLine("\nBuffer.ByteLength( arr ): {0}",
+                Buffer.ByteLength(arr));
+
+
+
 
         }
 
