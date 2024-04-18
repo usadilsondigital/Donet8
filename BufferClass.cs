@@ -38,7 +38,7 @@ namespace Donet8
                   "  Buffer.SetByte( arr, 7, 170 ).\n");
 
             Buffer.BlockCopy(arr, 5, arr, 16, 9);
-
+            Buffer.SetByte(arr, 7, 170);
 
         }
 
