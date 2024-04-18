@@ -26,6 +26,7 @@ namespace Donet8
             Console.WriteLine("This example of the Buffer class " +
                  "methods generates the following output.\n" +
                  "Note: The array is displayed from right to left.\n");
+            Console.WriteLine("Initial values of array:\n");
         }
 
 
