@@ -28,7 +28,7 @@ namespace Donet8
                  "Note: The array is displayed from right to left.\n");
             Console.WriteLine("Initial values of array:\n");
             // Display the initial array values and ByteLength.
-
+            DisplayArray(arr);
 
 
         }
