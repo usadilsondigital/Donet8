@@ -53,7 +53,7 @@ namespace Donet8
             Initial values of array:
             arr: 010F 010E 010D 010C 010B 010A 0109 0108 0107 0106 0105 0104 0103 0102
             Buffer.ByteLength( arr ): 28
-
+            Call these methods:
 
             */
         }
