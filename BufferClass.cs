@@ -48,6 +48,7 @@ namespace Donet8
 
             /*
                 This example of the Buffer class methods generates the following output.
+            Note: The array is displayed from right to left.
             */
         }
 
