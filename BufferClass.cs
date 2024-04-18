@@ -32,7 +32,7 @@ namespace Donet8
             Console.WriteLine("\nBuffer.ByteLength( arr ): {0}",
                 Buffer.ByteLength(arr));
 
-
+            // Copy a region of the array; set a byte within the array.
 
 
         }
