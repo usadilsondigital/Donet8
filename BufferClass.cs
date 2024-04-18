@@ -46,7 +46,11 @@ namespace Donet8
             Console.WriteLine("\nBuffer.GetByte( arr, 26 ): {0}",
                    Buffer.GetByte(arr, 26));
 
+            /*
+                This example of the Buffer class methods generates the following output.
+            */
         }
+
 
 
 
