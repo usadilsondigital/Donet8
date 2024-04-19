@@ -68,6 +68,9 @@ namespace Donet8
         public void exampleDisplayArray(Array arr, string name) {
 
             Console.WindowWidth = 120;
+            Console.Write("{0,11}:", name);
+
+
 
         }
 
