@@ -65,8 +65,10 @@ namespace Donet8
 
 
         //// Display the individual bytes in the array in hexadecimal.
-        public void exampleDisplayArray(Array arr, string name) { 
-        
+        public void exampleDisplayArray(Array arr, string name) {
+
+            Console.WindowWidth = 120;
+
         }
 
 
