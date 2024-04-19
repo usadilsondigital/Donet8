@@ -64,6 +64,12 @@ namespace Donet8
         }
 
 
+        //// Display the individual bytes in the array in hexadecimal.
+        public void example2() { 
+        
+        }
+
+
 
 
 
