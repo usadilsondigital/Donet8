@@ -86,7 +86,9 @@ namespace Donet8
 
         // Display the individual array element values in hexadecimal.
         public static void DisplayArrayValues(Array arr, string name)
-        { }
+        {
+            // Get the length of one element in the array.
+        }
 
 
 
@@ -98,4 +100,4 @@ namespace Donet8
 
 
         }
-}
+    }
