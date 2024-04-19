@@ -78,6 +78,9 @@ namespace Donet8
                     bytes = BitConverter.GetBytes((short)arr.GetValue(ctr));
 
                 foreach (byte byteValue in bytes)
+                    Console.Write(" {0:X2}", byteValue);
+
+
 
             }
 
