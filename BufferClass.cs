@@ -58,6 +58,7 @@ namespace Donet8
             Buffer.SetByte( arr, 7, 170 ).
             Final values of array:
              arr: 010F 0101 0801 0701 0601 0501 0109 0108 0107 0106 AA05 0104 0103 0102
+            Buffer.GetByte( arr, 26 ): 15
 
             */
         }
