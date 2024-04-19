@@ -77,6 +77,8 @@ namespace Donet8
                 else
                     bytes = BitConverter.GetBytes((short)arr.GetValue(ctr));
 
+                foreach (byte byteValue in bytes)
+
             }
 
         }
