@@ -72,6 +72,7 @@ namespace Donet8
             for (int ctr = 0; ctr < arr.Length; ctr++)
             {
                 byte[] bytes;
+                if (arr is long[])
             }
 
         }
