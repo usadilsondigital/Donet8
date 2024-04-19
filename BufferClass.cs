@@ -88,6 +88,9 @@ namespace Donet8
         public static void DisplayArrayValues(Array arr, string name)
         {
             // Get the length of one element in the array.
+            int elementLength = Buffer.ByteLength(arr) / arr.Length;
+
+
         }
 
 
