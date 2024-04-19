@@ -73,6 +73,8 @@ namespace Donet8
             {
                 byte[] bytes;
                 if (arr is long[])
+                    bytes = BitConverter.GetBytes((long)arr.GetValue(ctr));
+
             }
 
         }
