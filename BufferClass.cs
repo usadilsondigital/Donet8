@@ -93,6 +93,7 @@ namespace Donet8
             Console.Write("{0,11}:", name);
             for (int ctr = 0; ctr < arr.Length; ctr++)
                 Console.Write(formatString, arr.GetValue(ctr));
+            Console.WriteLine();
 
         }
 
