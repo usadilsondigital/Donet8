@@ -79,10 +79,8 @@ namespace Donet8
 
                 foreach (byte byteValue in bytes)
                     Console.Write(" {0:X2}", byteValue);
-
-
-
             }
+            Console.WriteLine();
 
         }
 
