@@ -92,7 +92,7 @@ namespace Donet8
             string formatString = String.Format(" {{0:X{0}}}", 2 * elementLength);
             Console.Write("{0,11}:", name);
             for (int ctr = 0; ctr < arr.Length; ctr++)
-
+                Console.Write(formatString, arr.GetValue(ctr));
 
         }
 
