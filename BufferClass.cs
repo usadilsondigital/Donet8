@@ -90,6 +90,9 @@ namespace Donet8
             // Get the length of one element in the array.
             int elementLength = Buffer.ByteLength(arr) / arr.Length;
             string formatString = String.Format(" {{0:X{0}}}", 2 * elementLength);
+            Console.Write("{0,11}:", name);
+
+
 
         }
 
