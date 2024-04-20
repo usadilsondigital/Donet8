@@ -98,6 +98,11 @@ namespace Donet8
 
         }
 
+        public void example2()
+        {
+            // These are the source and destination arrays for BlockCopy.
+         }
+
 
 
 
