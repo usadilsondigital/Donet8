@@ -106,6 +106,10 @@ namespace Donet8
             // Display the initial value of the arrays in memory.
             Console.WriteLine("Initial values of arrays:");
             Console.WriteLine("   Array values as Bytes:");
+            DisplayArray(src, "src");
+
+
+
 
         }
 
