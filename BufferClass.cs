@@ -123,6 +123,9 @@ namespace Donet8
             DisplayArrayValues(dest, "dest");
             Console.WriteLine();
 
+            // Copy overlapping range of bytes 4-10 to index 5 in source.
+
+
 
 
 
