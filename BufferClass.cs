@@ -115,7 +115,7 @@ namespace Donet8
             // Copy bytes 5-10 from source to index 7 in destination and display the result.
             Buffer.BlockCopy(src, 16, dest, 22, 5);
             Console.WriteLine("Buffer.BlockCopy(src, 16, dest, 22, 5)");
-
+            Console.WriteLine("   Array values as Bytes:");
 
 
 
