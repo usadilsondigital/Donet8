@@ -125,7 +125,7 @@ namespace Donet8
 
             // Copy overlapping range of bytes 4-10 to index 5 in source.
             Buffer.BlockCopy(src, 4, src, 5, 7);
-
+            Console.WriteLine("Buffer.BlockCopy( src, 4, src, 5, 7)");
 
 
 
