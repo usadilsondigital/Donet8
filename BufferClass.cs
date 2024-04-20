@@ -105,6 +105,7 @@ namespace Donet8
             long[] dest = { 17, 18, 19, 20 };
             // Display the initial value of the arrays in memory.
             Console.WriteLine("Initial values of arrays:");
+            Console.WriteLine("   Array values as Bytes:");
 
         }
 
