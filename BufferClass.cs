@@ -108,7 +108,7 @@ namespace Donet8
             Console.WriteLine("   Array values as Bytes:");
             DisplayArray(src, "src");
             DisplayArray(dest, "dest");
-
+            Console.WriteLine("   Array values:");
 
 
         }
