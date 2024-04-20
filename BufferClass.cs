@@ -112,7 +112,7 @@ namespace Donet8
             DisplayArrayValues(src, "src");
             DisplayArrayValues(dest, "dest");
             Console.WriteLine();
-
+            // Copy bytes 5-10 from source to index 7 in destination and display the result.
 
 
 
