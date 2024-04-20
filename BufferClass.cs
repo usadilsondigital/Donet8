@@ -101,7 +101,8 @@ namespace Donet8
         public void example2()
         {
             // These are the source and destination arrays for BlockCopy.
-         }
+            short[] src = { 258, 259, 260, 261, 262, 263, 264,265, 266, 267, 268, 269, 270 };
+        }
 
 
 
