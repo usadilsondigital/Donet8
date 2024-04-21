@@ -169,9 +169,9 @@ namespace Donet8
 
         }
 
-        public void exampleBufferCopy() { 
-        
-        
+        public void exampleBufferCopy() {
+            const int INT_SIZE = 4;
+
         }
 
 
