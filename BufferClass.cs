@@ -175,6 +175,7 @@ namespace Donet8
             Buffer.BlockCopy(arr, 0 * INT_SIZE, arr, 3 * INT_SIZE, 4 * INT_SIZE);
             foreach (int value in arr)
                 Console.Write("{0}  ", value);
+            // The example displays the following output:
 
         }
 
