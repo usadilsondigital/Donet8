@@ -187,6 +187,10 @@ namespace Donet8
             byte[] bytes = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
             bool[] bools = { true, false, true, false, true };
             char[] chars = { ' ', '$', '\"', 'A', '{' };
+            short[] shorts = { 258, 259, 260, 261, 262, 263 };
+
+
+
 
         }
 
