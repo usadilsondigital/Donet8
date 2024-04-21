@@ -176,6 +176,7 @@ namespace Donet8
             foreach (int value in arr)
                 Console.Write("{0}  ", value);
             // The example displays the following output:
+            //       2  4  6  2  4  6  8  16  18  20
 
         }
 
