@@ -131,7 +131,7 @@ namespace Donet8
             DisplayArray(dest, "dest");
             Console.WriteLine("   Array values:");
             DisplayArrayValues(src, "src");
-
+            DisplayArrayValues(dest, "dest");
 
 
 
