@@ -139,6 +139,7 @@ namespace Donet8
             // The example displays the following output:
             //    Initial values of arrays:
             //       Array values as Bytes:
+            ////            src: 02 01 03 01 04 01 05 01 06 01 07 01 08 01 09 01 0A 01 0B 01 0C 01 0D 01 0E 01
 
 
 
