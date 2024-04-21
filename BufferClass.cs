@@ -153,7 +153,7 @@ namespace Donet8
             //           dest: 0100000000000011 0000000701060105 0000000000000013 0000000000000014
 
             //Buffer.BlockCopy(src, 16, dest, 22, 5)
-
+            //Array values as Bytes:
 
         }
 
