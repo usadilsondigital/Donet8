@@ -135,26 +135,27 @@ namespace Donet8
 
 
 
-            //DisplayArrayValues(dest, "dest");
-            // The example displays the following output:
-            //    Initial values of arrays:
-            //       Array values as Bytes:
-            ////            src: 02 01 03 01 04 01 05 01 06 01 07 01 08 01 09 01 0A 01 0B 01 0C 01 0D 01 0E 01
-            //           dest: 11 00 00 00 00 00 00 00 12 00 00 00 00 00 00 00 13 00 00 00 00 00 00 00 14 00 00 00 00 00 00 00
-            //       Array values:
-            //            src: 0102 0103 0104 0105 0106 0107 0108 0109 010A 010B 010C 010D 010E
-            //           dest: 0000000000000011 0000000000000012 0000000000000013 0000000000000014
-            //    Buffer.BlockCopy(src, 5, dest, 7, 6 )
-            //       Array values as Bytes:
-            //            src: 02 01 03 01 04 01 05 01 06 01 07 01 08 01 09 01 0A 01 0B 01 0C 01 0D 01 0E 01
-            // dest: 11 00 00 00 00 00 00 01 05 01 06 01 07 00 00 00 13 00 00 00 00 00 00 00 14 00 00 00 00 00 00 00
-            //       Array values:
-            //            src: 0102 0103 0104 0105 0106 0107 0108 0109 010A 010B 010C 010D 010E
-            //           dest: 0100000000000011 0000000701060105 0000000000000013 0000000000000014
+        //DisplayArrayValues(dest, "dest");
+        // The example displays the following output:
+        //    Initial values of arrays:
+        //       Array values as Bytes:
+        ////            src: 02 01 03 01 04 01 05 01 06 01 07 01 08 01 09 01 0A 01 0B 01 0C 01 0D 01 0E 01
+        //           dest: 11 00 00 00 00 00 00 00 12 00 00 00 00 00 00 00 13 00 00 00 00 00 00 00 14 00 00 00 00 00 00 00
+        //       Array values:
+        //            src: 0102 0103 0104 0105 0106 0107 0108 0109 010A 010B 010C 010D 010E
+        //           dest: 0000000000000011 0000000000000012 0000000000000013 0000000000000014
+        //    Buffer.BlockCopy(src, 5, dest, 7, 6 )
+        //       Array values as Bytes:
+        //            src: 02 01 03 01 04 01 05 01 06 01 07 01 08 01 09 01 0A 01 0B 01 0C 01 0D 01 0E 01
+        // dest: 11 00 00 00 00 00 00 01 05 01 06 01 07 00 00 00 13 00 00 00 00 00 00 00 14 00 00 00 00 00 00 00
+        //       Array values:
+        //            src: 0102 0103 0104 0105 0106 0107 0108 0109 010A 010B 010C 010D 010E
+        //           dest: 0100000000000011 0000000701060105 0000000000000013 0000000000000014
 
-            //Buffer.BlockCopy(src, 16, dest, 22, 5)
-            //Array values as Bytes:
-
+        //Buffer.BlockCopy(src, 16, dest, 22, 5)
+        //Array values as Bytes:
+      //  src: 02 01 03 01 04 01 05 01 06 01 07 01 08 01 09 01 0A 01 0B 01 0C 01 0D 01 0E 01
+//           d
         }
 
 
