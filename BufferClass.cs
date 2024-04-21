@@ -184,6 +184,7 @@ namespace Donet8
         public void exampleByteLengthDemo() {
 
             const string formatter = "{0,10}{1,20}{2,9}{3,12}";
+            byte[] bytes = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
 
         }
 
