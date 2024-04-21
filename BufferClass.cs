@@ -161,6 +161,8 @@ namespace Donet8
             //           dest: 0100000000000011 0000000701060105 010A000000000013 00000000000C010B
             //    Buffer.BlockCopy( src, 16, src, 15, 7)
             //       Array values as Bytes:
+            //            src: 02 01 03 01 04 04 01 05 01 06 01 07 08 01 09 0A 01 0B 01 0C 01 0D 0D 01 0E 01
+
 
 
         }
