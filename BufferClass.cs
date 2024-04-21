@@ -181,8 +181,10 @@ namespace Donet8
         }
 
 
-        public void exampleByteLengthDemo() { 
-        
+        public void exampleByteLengthDemo() {
+
+            const string formatter = "{0,10}{1,20}{2,9}{3,12}";
+
         }
 
 
