@@ -188,7 +188,7 @@ namespace Donet8
             bool[] bools = { true, false, true, false, true };
             char[] chars = { ' ', '$', '\"', 'A', '{' };
             short[] shorts = { 258, 259, 260, 261, 262, 263 };
-
+            float[] singles = { 1, 678, 2.37E33F, .00415F, 8.9F };
 
 
 
