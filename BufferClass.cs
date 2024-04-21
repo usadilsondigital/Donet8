@@ -127,6 +127,7 @@ namespace Donet8
             Buffer.BlockCopy(src, 4, src, 5, 7);
             Console.WriteLine("Buffer.BlockCopy( src, 4, src, 5, 7)");
             Console.WriteLine("   Array values as Bytes:");
+            DisplayArray(src, "src");
 
 
         }
