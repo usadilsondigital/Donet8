@@ -171,6 +171,8 @@ namespace Donet8
 
         public void exampleBufferCopy() {
             const int INT_SIZE = 4;
+            int[] arr = { 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 };
+
 
         }
 
