@@ -212,6 +212,7 @@ namespace Donet8
                 method generates the following output.
             *//*
             Array name       Array type         Length      ByteLength
+            ---------- 
         */
 
         }
