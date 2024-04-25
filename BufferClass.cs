@@ -211,7 +211,7 @@ namespace Donet8
                 This example of the Buffer.ByteLength( Array )
                 method generates the following output.
             *//*
-            Array name       Array type         Length
+            Array name       Array type         Length      ByteLength
         */
 
         }
