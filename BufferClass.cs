@@ -213,7 +213,7 @@ namespace Donet8
             *//*
             Array name       Array type         Length      ByteLength
             ----------      -----------         ------      ----------
-            bytes           System.Byte[]
+            bytes           System.Byte[]       10
         */
 
         }
