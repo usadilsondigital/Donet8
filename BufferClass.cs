@@ -203,7 +203,7 @@ namespace Donet8
             ArrayInfo(bytes, "bytes");
             ArrayInfo(bools, "bools");
             ArrayInfo(chars, "chars");
-
+            ArrayInfo(shorts, "shorts");
 
         }
 
