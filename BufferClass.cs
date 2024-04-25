@@ -205,6 +205,8 @@ namespace Donet8
             ArrayInfo(chars, "chars");
             ArrayInfo(shorts, "shorts");
             ArrayInfo(singles, "singles");
+            ArrayInfo(doubles, "doubles");
+
 
         }
 
