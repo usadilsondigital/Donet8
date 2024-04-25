@@ -204,6 +204,7 @@ namespace Donet8
             ArrayInfo(bools, "bools");
             ArrayInfo(chars, "chars");
             ArrayInfo(shorts, "shorts");
+            ArrayInfo(singles, "singles");
 
         }
 
