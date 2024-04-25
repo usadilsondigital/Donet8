@@ -207,6 +207,9 @@ namespace Donet8
             ArrayInfo(singles, "singles");
             ArrayInfo(doubles, "doubles");
             ArrayInfo(longs, "longs");
+            /*
+                This example of the Buffer.ByteLength( Array )
+            */
 
         }
 
