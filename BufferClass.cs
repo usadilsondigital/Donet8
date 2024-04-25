@@ -196,7 +196,8 @@ namespace Donet8
              "\nmethod generates the following output.\n");
             Console.WriteLine(formatter, "Array name", "Array type",
                  "Length", "ByteLength");
-
+            Console.WriteLine(formatter, "----------", "----------",
+           "------", "----------");
 
         }
 
