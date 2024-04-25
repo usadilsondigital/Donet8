@@ -194,6 +194,9 @@ namespace Donet8
             Console.WriteLine(
             "This example of the Buffer.ByteLength( Array ) " +
              "\nmethod generates the following output.\n");
+            Console.WriteLine(formatter, "Array name", "Array type",
+
+
 
         }
 
