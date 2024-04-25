@@ -209,6 +209,7 @@ namespace Donet8
             ArrayInfo(longs, "longs");
             /*
                 This example of the Buffer.ByteLength( Array )
+                method generates the following output.
             */
 
         }
