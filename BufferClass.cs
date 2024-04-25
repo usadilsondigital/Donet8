@@ -193,6 +193,7 @@ namespace Donet8
             long[] longs = { 1, 10, 100, 1000, 10000, 100000 };
             Console.WriteLine(
             "This example of the Buffer.ByteLength( Array ) " +
+             "\nmethod generates the following output.\n");
 
         }
 
