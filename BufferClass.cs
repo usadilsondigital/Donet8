@@ -200,6 +200,10 @@ namespace Donet8
            "------", "----------");
 
             // Display the Length and ByteLength for each array.
+            ArrayInfo(bytes, "bytes");
+
+
+
 
         }
 
