@@ -189,7 +189,7 @@ namespace Donet8
             char[] chars = { ' ', '$', '\"', 'A', '{' };
             short[] shorts = { 258, 259, 260, 261, 262, 263 };
             float[] singles = { 1, 678, 2.37E33F, .00415F, 8.9F };
-
+            double[] doubles = { 2E-22, .003, 4.4E44, 555E55 };
 
 
         }
