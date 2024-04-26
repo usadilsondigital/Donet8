@@ -218,7 +218,7 @@ namespace Donet8
             chars           System.Char[]       5           10
             shorts          System.Int16[]      6           12
             singles         System.Single[]     5           20
-            doubles
+            doubles         System.Double[] 
 
 
 
