@@ -227,6 +227,8 @@ namespace Donet8
 
         }
 
+        // Example of the Buffer.GetByte method.
+
 
 
 
