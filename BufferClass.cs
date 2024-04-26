@@ -219,7 +219,7 @@ namespace Donet8
             shorts          System.Int16[]      6           12
             singles         System.Single[]     5           20
             doubles         System.Double[]     4           32
-            longs
+            longs           System.Int64[]
 
 
 
