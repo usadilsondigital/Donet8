@@ -217,6 +217,10 @@ namespace Donet8
             bools           System.Boolean[]    5           5
             chars           System.Char[]       5           10
             shorts          System.Int16[]      6           12
+            singles
+
+
+
 
         */
 
