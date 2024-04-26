@@ -215,6 +215,7 @@ namespace Donet8
             ----------      -----------         ------      ----------
             bytes           System.Byte[]       10          10
             bools           System.Boolean[]    5           5
+            chars
 
 
         */
