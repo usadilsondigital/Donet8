@@ -63,7 +63,7 @@ namespace Donet8
             ArrayInfo(ints, "ints", 0);
             ArrayInfo(ints, "ints", 7);
             ArrayInfo(ints, "ints", 10);
-
+            ArrayInfo(ints, "ints", 17);
 
 
 
