@@ -51,6 +51,8 @@ namespace Donet8
                   "method generates the following output.\n" +
                   "Note: The arrays are displayed from right to left.\n");
 
+            Console.WriteLine("  Values of arrays:\n");
+
         }
 
 
