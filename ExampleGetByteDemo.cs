@@ -32,7 +32,7 @@ namespace Donet8
 
 
             // Display the array name, index, and byte to be viewed.
-            
+            Console.WriteLine(formatter, name, index, value,
 
         }
 
