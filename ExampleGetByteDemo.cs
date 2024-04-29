@@ -39,7 +39,7 @@ namespace Donet8
 
         public static void Main()
         {
-           
+            // These are the arrays to be viewed with GetByte.
         }
 
 
