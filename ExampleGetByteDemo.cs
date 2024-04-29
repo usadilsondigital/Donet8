@@ -53,6 +53,7 @@ namespace Donet8
 
             Console.WriteLine("  Values of arrays:\n");
             // Display the values of the arrays.
+            DisplayArray(longs, "longs");
 
         }
 
