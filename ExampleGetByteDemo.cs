@@ -48,6 +48,7 @@ namespace Donet8
 
             Console.WriteLine("This example of the " +
                  "Buffer.GetByte( Array, int ) \n" +
+                  "method generates the following output.\n" +
 
 
         }
