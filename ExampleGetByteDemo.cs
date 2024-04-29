@@ -42,6 +42,11 @@ namespace Donet8
             // These are the arrays to be viewed with GetByte.
             long[] longs =
             { 333333333333333333, 666666666666666666, 999999999999999999 };
+
+            int[] ints =
+            { 111111111, 222222222, 333333333, 444444444, 555555555 };
+
+
         }
 
 
