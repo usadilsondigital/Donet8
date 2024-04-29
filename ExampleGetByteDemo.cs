@@ -55,7 +55,7 @@ namespace Donet8
             // Display the values of the arrays.
             DisplayArray(longs, "longs");
             DisplayArray(ints, "ints");
-
+            Console.WriteLine();
 
 
 
