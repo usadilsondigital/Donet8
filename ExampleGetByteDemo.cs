@@ -71,8 +71,12 @@ namespace Donet8
             ArrayInfo(longs, "longs", 21);
 
             /*
-This example of the Buffer.GetByte( Array, int )
+            This example of the Buffer.GetByte( Array, int )
             method generates the following output.
+            Note: The arrays are displayed from right to left.
+
+
+
 
              */
 
