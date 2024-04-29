@@ -60,6 +60,12 @@ namespace Donet8
             Console.WriteLine(formatter, "-----", "-----", "-----",
                    "----");
             // Display the Length and ByteLength for each array.
+            ArrayInfo(ints, "ints", 0);
+
+
+
+
+
 
         }
 
