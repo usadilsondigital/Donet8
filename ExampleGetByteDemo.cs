@@ -70,6 +70,9 @@ namespace Donet8
             ArrayInfo(longs, "longs", 17);
             ArrayInfo(longs, "longs", 21);
 
+            /*
+This example of the Buffer.GetByte( Array, int )*/
+
 
 
         }
