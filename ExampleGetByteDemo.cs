@@ -77,6 +77,8 @@ namespace Donet8
 
             Values of arrays:
 
+            longs: 0DE0B6B3A763FFFF 094079CD1A42AAAA 04A03CE68D215555
+
 
              */
 
