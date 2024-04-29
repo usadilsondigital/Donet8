@@ -47,6 +47,7 @@ namespace Donet8
             { 111111111, 222222222, 333333333, 444444444, 555555555 };
 
             Console.WriteLine("This example of the " +
+                 "Buffer.GetByte( Array, int ) \n" +
 
 
         }
