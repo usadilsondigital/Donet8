@@ -28,7 +28,8 @@ namespace Donet8
 
         public static void ArrayInfo(Array arr, string name, int index)
         {
-           
+            byte value = Buffer.GetByte(arr, index);
+
         }
 
 
