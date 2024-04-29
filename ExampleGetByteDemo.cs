@@ -66,6 +66,10 @@ namespace Donet8
             ArrayInfo(ints, "ints", 17);
             ArrayInfo(longs, "longs", 0);
             ArrayInfo(longs, "longs", 6);
+            ArrayInfo(longs, "longs", 10);
+
+
+
 
         }
 
