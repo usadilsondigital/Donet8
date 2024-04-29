@@ -12,7 +12,7 @@ namespace Donet8
         // Display the array contents in hexadecimal
         public static void DisplayArray(Array arr, string name)
         {
-         
+            // Get the array element width; format the formatting string.
         }
     }
 }
