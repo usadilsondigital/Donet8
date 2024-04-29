@@ -57,7 +57,7 @@ namespace Donet8
             DisplayArray(ints, "ints");
             Console.WriteLine();
             Console.WriteLine(formatter, "Array", "index", "value", "");
-
+            Console.WriteLine(formatter, "-----", "-----", "-----",
 
 
 
