@@ -24,5 +24,17 @@ namespace Donet8
             Console.WriteLine();
 
         }
+
+
+        public static void ArrayInfo(Array arr, string name, int index)
+        {
+           
+        }
+
+
+
+
+
+
     }
 }
