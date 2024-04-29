@@ -52,6 +52,7 @@ namespace Donet8
                   "Note: The arrays are displayed from right to left.\n");
 
             Console.WriteLine("  Values of arrays:\n");
+            // Display the values of the arrays.
 
         }
 
