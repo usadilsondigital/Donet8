@@ -61,7 +61,7 @@ namespace Donet8
                    "----");
             // Display the Length and ByteLength for each array.
             ArrayInfo(ints, "ints", 0);
-
+            ArrayInfo(ints, "ints", 7);
 
 
 
