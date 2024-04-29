@@ -30,6 +30,10 @@ namespace Donet8
         {
             byte value = Buffer.GetByte(arr, index);
 
+
+            // Display the array name, index, and byte to be viewed.
+            
+
         }
 
 
