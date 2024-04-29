@@ -20,7 +20,7 @@ namespace Donet8
             Console.Write("{0,5}:", name);
 
             for (int loopX = arr.Length - 1; loopX >= 0; loopX--)
-
+                Console.Write(format, arr.GetValue(loopX));
 
         }
     }
