@@ -59,7 +59,7 @@ namespace Donet8
             Console.WriteLine(formatter, "Array", "index", "value", "");
             Console.WriteLine(formatter, "-----", "-----", "-----",
                    "----");
-
+            // Display the Length and ByteLength for each array.
 
         }
 
