@@ -8,5 +8,6 @@ namespace Donet8
 {
     public class ExampleGetByteDemo
     {
+        const string formatter = "{0,10}{1,10}{2,9} {3}";
     }
 }
