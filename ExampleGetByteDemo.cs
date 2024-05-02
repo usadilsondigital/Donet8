@@ -86,7 +86,7 @@ namespace Donet8
             ints         7       13   0x0D
             ints        10      222   0xDE
             ints        17       26   0x1A
-            longs
+            longs       0
              */
 
 
