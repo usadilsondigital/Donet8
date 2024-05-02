@@ -82,7 +82,7 @@ namespace Donet8
 
             Array       index   value
             -----     -----    ----- ----
-            ints         0
+            ints         0      199
 
              */
 
