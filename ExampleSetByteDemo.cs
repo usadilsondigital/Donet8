@@ -27,6 +27,8 @@ namespace Donet8
         public static void Main()
         {
             // These are the arrays to be modified with SetByte.
+            short[] shorts = new short[10];
+
 
         }
 
