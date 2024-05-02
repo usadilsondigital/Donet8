@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 // Example of the Buffer.SetByte method.
 namespace Donet8
 {
+    // Display the array contents in hexadecimal.
     internal class ExampleSetByteDemo
     {
     }
