@@ -22,7 +22,7 @@ namespace Donet8
             for (int loopX = arr.Length - 1; loopX >= 0; loopX--)
                 Console.Write(format, arr.GetValue(loopX));
 
-
+            Console.WriteLine();
         }
 
     }
