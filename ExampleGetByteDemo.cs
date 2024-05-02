@@ -88,6 +88,7 @@ namespace Donet8
             ints        17       26   0x1A
             longs       0        85   0x55
             longs        6      160   0xA0
+            longs
 
 
 
