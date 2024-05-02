@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Donet8
 {
     // Display the array contents in hexadecimal.
-    internal class ExampleSetByteDemo
+    public class ExampleSetByteDemo
     {
     }
 }
