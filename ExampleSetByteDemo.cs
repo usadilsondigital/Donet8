@@ -12,7 +12,10 @@ namespace Donet8
     {
 
         public static void DisplayArray(Array arr, string name)
-        { }
+        {
+            // Get the array element width; format the formatting string.
+
+        }
 
     }
 }
