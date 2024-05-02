@@ -19,6 +19,8 @@ namespace Donet8
 
             // Display the array elements from right to left.
             Console.Write("{0,7}:", name);
+            for (int loopX = arr.Length - 1; loopX >= 0; loopX--)
+
 
         }
 
