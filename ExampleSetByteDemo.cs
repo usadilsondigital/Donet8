@@ -18,7 +18,7 @@ namespace Donet8
             string format = String.Format(" {{0:X{0}}}", 2 * elemWidth);
 
             // Display the array elements from right to left.
-
+            Console.Write("{0,7}:", name);
 
         }
 
