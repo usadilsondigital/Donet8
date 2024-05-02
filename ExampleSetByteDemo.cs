@@ -24,6 +24,11 @@ namespace Donet8
 
             Console.WriteLine();
         }
+        public static void Main()
+        {
+            // These are the arrays to be modified with SetByte.
+
+        }
 
     }
 }
