@@ -16,6 +16,10 @@ namespace Donet8
             // Get the array element width; format the formatting string.
             int elemWidth = Buffer.ByteLength(arr) / arr.Length;
             string format = String.Format(" {{0:X{0}}}", 2 * elemWidth);
+
+            // Display the array elements from right to left.
+
+
         }
 
     }
