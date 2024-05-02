@@ -10,5 +10,9 @@ namespace Donet8
     // Display the array contents in hexadecimal.
     public class ExampleSetByteDemo
     {
+
+        public static void DisplayArray(Array arr, string name)
+        { }
+
     }
 }
