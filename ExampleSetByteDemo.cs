@@ -33,6 +33,7 @@ namespace Donet8
                 "Buffer.SetByte( Array, int, byte ) \n" +
                  "method generates the following output.\n" +
                  "Note: The arrays are displayed from right to left.\n");
+            Console.WriteLine("  Initial values of arrays:\n");
         }
 
     }
