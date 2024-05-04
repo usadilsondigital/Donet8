@@ -30,6 +30,7 @@ namespace Donet8
             short[] shorts = new short[10];
             long[] longs = new long[3];
             Console.WriteLine("This example of the " +
+                "Buffer.SetByte( Array, int, byte ) \n" +
 
         }
 
