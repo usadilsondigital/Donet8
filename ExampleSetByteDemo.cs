@@ -34,6 +34,7 @@ namespace Donet8
                  "method generates the following output.\n" +
                  "Note: The arrays are displayed from right to left.\n");
             Console.WriteLine("  Initial values of arrays:\n");
+            // Display the initial values of the arrays.
         }
 
     }
