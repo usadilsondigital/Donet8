@@ -58,7 +58,7 @@ namespace Donet8
 
             // Display the arrays again.
             DisplayArray(shorts, "shorts");
-
+            DisplayArray(longs, "longs");
         }
 
     }
