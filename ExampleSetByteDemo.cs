@@ -48,6 +48,7 @@ namespace Donet8
                    "  byte 6 = 64, byte 12 = 121, and byte 17 = 196:\n");
 
             Buffer.SetByte(shorts, 3, 25);
+            Buffer.SetByte(shorts, 6, 64);
 
         }
 
