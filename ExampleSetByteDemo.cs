@@ -31,7 +31,7 @@ namespace Donet8
             long[] longs = new long[3];
             Console.WriteLine("This example of the " +
                 "Buffer.SetByte( Array, int, byte ) \n" +
-
+                 "method generates the following output.\n" +
         }
 
     }
