@@ -37,6 +37,10 @@ namespace Donet8
             // Display the initial values of the arrays.
 
             DisplayArray(shorts, "shorts");
+            DisplayArray(longs, "longs");
+
+
+
 
         }
 
