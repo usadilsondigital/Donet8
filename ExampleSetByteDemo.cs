@@ -56,6 +56,8 @@ namespace Donet8
             Buffer.SetByte(longs, 12, 121);
             Buffer.SetByte(longs, 17, 196);
 
+            // Display the arrays again.
+
 
         }
 
