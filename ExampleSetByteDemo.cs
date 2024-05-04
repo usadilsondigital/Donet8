@@ -35,6 +35,9 @@ namespace Donet8
                  "Note: The arrays are displayed from right to left.\n");
             Console.WriteLine("  Initial values of arrays:\n");
             // Display the initial values of the arrays.
+
+            DisplayArray(shorts, "shorts");
+
         }
 
     }
