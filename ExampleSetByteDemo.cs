@@ -40,6 +40,7 @@ namespace Donet8
             DisplayArray(longs, "longs");
 
             // Copy two regions of source array to destination array,
+            // and two overlapped copies from source to source.
 
 
         }
