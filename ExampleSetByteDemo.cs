@@ -45,7 +45,7 @@ namespace Donet8
 
             Console.WriteLine("\n" +
                   "  Array values after setting byte 3 = 25, \n" +
-
+                   "  byte 6 = 64, byte 12 = 121, and byte 17 = 196:\n");
 
         }
 
