@@ -60,6 +60,8 @@ namespace Donet8
             DisplayArray(shorts, "shorts");
             DisplayArray(longs, "longs");
         }
-        /*This example of the Buffer.SetByte( Array, int, byte )*/
+        /*This example of the Buffer.SetByte( Array, int, byte )
+         method generates the following output.
+        */
     }
 }
