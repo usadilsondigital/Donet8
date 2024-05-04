@@ -62,6 +62,8 @@ namespace Donet8
         }
         /*This example of the Buffer.SetByte( Array, int, byte )
          method generates the following output.
+        Note: The arrays are displayed from right to left.
+
         */
     }
 }
