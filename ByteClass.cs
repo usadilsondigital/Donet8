@@ -76,7 +76,7 @@ namespace Donet8
             Decimal f1 = -5.5m, f2 = 5.5m;
             Single g1 = 6.6f, g2 = 6.6f;
             Double h1 = 7.7d, h2 = -7.7d;
-
+            Char i1 = 'A', i2 = 'A';
 
 
 
