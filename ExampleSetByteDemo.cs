@@ -66,6 +66,7 @@ namespace Donet8
 
         Initial values of arrays:
 
+        shorts: 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
 
         */
     }
