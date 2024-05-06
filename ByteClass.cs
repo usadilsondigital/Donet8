@@ -56,10 +56,16 @@ namespace Donet8
         {
 
             string nl = Environment.NewLine;
+            string msg = "{0}The following is the result of using the generic and non-generic{0}" +
+
+
+
+
+
 
         }
 
 
 
-        }
+    }
 }
