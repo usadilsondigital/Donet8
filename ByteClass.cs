@@ -78,6 +78,10 @@ namespace Donet8
             Double h1 = 7.7d, h2 = -7.7d;
             Char i1 = 'A', i2 = 'A';
             String j1 = "abc", j2 = "abc";
+            DateTime k1 = now, k2 = now;
+
+
+
 
 
         }
