@@ -54,7 +54,9 @@ namespace Donet8
 
         public static void CompareToExample()
         {
-        
+
+            string nl = Environment.NewLine;
+
         }
 
 
