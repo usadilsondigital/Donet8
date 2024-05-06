@@ -23,7 +23,11 @@ namespace Donet8
 
         public void MinMaxFields(int numberToSet)
         {
-          
+            if (numberToSet <= (int)Byte.MaxValue && numberToSet >= (int)Byte.MinValue)
+            {
+            }
+
+
         }
 
 
