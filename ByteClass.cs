@@ -79,7 +79,7 @@ namespace Donet8
             Char i1 = 'A', i2 = 'A';
             String j1 = "abc", j2 = "abc";
             DateTime k1 = now, k2 = now;
-
+            TimeSpan l1 = tsX, l2 = tsX;
 
 
 
