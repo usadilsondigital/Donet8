@@ -60,7 +60,7 @@ namespace Donet8
                   "versions of the CompareTo method for several base types:{0}";
 
             DateTime now = DateTime.Now;
-
+            // Time span = 11 days, 22 hours, 33 minutes, 44 seconds
 
 
 
