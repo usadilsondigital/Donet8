@@ -43,7 +43,7 @@ namespace Donet8
 
 
         ///methods
-
+        //Clamps a value to an inclusive minimum and maximum value.
         public static byte Clamp(byte value, byte min, byte max);
 
 
