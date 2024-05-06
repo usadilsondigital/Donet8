@@ -70,6 +70,7 @@ namespace Donet8
         longs: 0000000000000000 0000000000000000 0000000000000000
 
          Array values after setting byte 3 = 25,
+         byte 6 = 64, byte 12 = 121, and byte 17 = 196:
 
 
 
