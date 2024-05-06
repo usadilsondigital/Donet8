@@ -16,5 +16,12 @@ namespace Donet8
 
         //Represents the smallest possible value of a Byte. This field is constant.
         public const byte MinValue = 0;
+
+
+        //The following example demonstrates how to use the MaxValue field to screen variable inputs
+        //for values that are outside the range of possible byte values.
+        
+
+
     }
 }
