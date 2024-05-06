@@ -47,6 +47,8 @@ namespace Donet8
         public static byte Clamp(byte value, byte min, byte max);
 
 
+        //Compares this instance to a specified 8-bit unsigned integer and
+        //returns an indication of their relative values.
 
         public int CompareTo(byte value);
 
