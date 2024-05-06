@@ -31,6 +31,8 @@ namespace Donet8
 
                 // Displays MemberByte using the ToString() method.
 
+                Console.WriteLine("The MemberByte value is {0}", MemberByte.ToString());
+
             }
             else
             {
