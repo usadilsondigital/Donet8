@@ -25,8 +25,12 @@ namespace Donet8
         {
             if (numberToSet <= (int)Byte.MaxValue && numberToSet >= (int)Byte.MinValue)
             {
+              
             }
-
+            else
+            {
+                Console.WriteLine("The value {0} is outside of the range of possible Byte values", numberToSet.ToString());
+            }
 
         }
 
