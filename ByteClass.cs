@@ -42,6 +42,11 @@ namespace Donet8
         }
 
 
+        ///methods
+
+        public static byte Clamp(byte value, byte min, byte max);
+
+
 
     }
 }
