@@ -72,6 +72,8 @@ namespace Donet8
          Array values after setting byte 3 = 25,
          byte 6 = 64, byte 12 = 121, and byte 17 = 196:
 
+         shorts: 0000 C400 0000 0079 0000 0000 0040 0000 1900 0000
+
 
 
         */
