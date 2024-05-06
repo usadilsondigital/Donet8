@@ -8,5 +8,7 @@ namespace Donet8
 {
     public class ByteClass
     {
+
+        public const byte MaxValue = 255;
     }
 }
