@@ -64,6 +64,9 @@ namespace Donet8
          method generates the following output.
         Note: The arrays are displayed from right to left.
 
+        Initial values of arrays:
+
+
         */
     }
 }
