@@ -72,7 +72,7 @@ namespace Donet8
             Byte b1 = 1, b2 = 1;
             Int16 c1 = -2, c2 = 2;
             Int32 d1 = 3, d2 = 3;
-
+            Int64 e1 = 4, e2 = -4;
 
         }
 
