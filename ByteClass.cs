@@ -26,7 +26,9 @@ namespace Donet8
             if (numberToSet <= (int)Byte.MaxValue && numberToSet >= (int)Byte.MinValue)
             {
                 // You must explicitly convert an integer to a byte.
-               
+                MemberByte = (Byte)numberToSet;
+
+
             }
             else
             {
