@@ -70,7 +70,7 @@ namespace Donet8
 
             Boolean a1 = true, a2 = true;
             Byte b1 = 1, b2 = 1;
-
+            Int16 c1 = -2, c2 = 2;
 
 
 
