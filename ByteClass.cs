@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Donet8
 {
+    //Represents an 8-bit unsigned integer.
     public class ByteClass
     {
         //Represents the largest possible value of a Byte. This field is constant.
