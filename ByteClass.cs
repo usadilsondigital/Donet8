@@ -48,5 +48,9 @@ namespace Donet8
 
 
 
+        public int CompareTo(byte value);
+
+
+
     }
 }
