@@ -74,7 +74,7 @@ namespace Donet8
             Int32 d1 = 3, d2 = 3;
             Int64 e1 = 4, e2 = -4;
             Decimal f1 = -5.5m, f2 = 5.5m;
-
+            Single g1 = 6.6f, g2 = 6.6f;
 
 
 
