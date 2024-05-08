@@ -80,7 +80,7 @@ namespace Donet8
             String j1 = "abc", j2 = "abc";
             DateTime k1 = now, k2 = now;
             TimeSpan l1 = tsX, l2 = tsX;
-
+            Version m1 = versX, m2 = new Version("2.0");
 
 
 
