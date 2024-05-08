@@ -83,6 +83,8 @@ namespace Donet8
             Version m1 = versX, m2 = new Version("2.0");
             Guid n1 = guidX, n2 = guidX;
 
+            // The following types are not CLS-compliant.
+
 
         }
 
