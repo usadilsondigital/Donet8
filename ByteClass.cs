@@ -81,7 +81,7 @@ namespace Donet8
             DateTime k1 = now, k2 = now;
             TimeSpan l1 = tsX, l2 = tsX;
             Version m1 = versX, m2 = new Version("2.0");
-
+            Guid n1 = guidX, n2 = guidX;
 
 
         }
