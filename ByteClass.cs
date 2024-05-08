@@ -101,6 +101,7 @@ namespace Donet8
             Show("Decimal:  ", f1, f2, f1.CompareTo(f2), f1.CompareTo((Object)f2));
             Show("Single:   ", g1, g2, g1.CompareTo(g2), g1.CompareTo((Object)g2));
             Show("Double:   ", h1, h2, h1.CompareTo(h2), h1.CompareTo((Object)h2));
+            Show("Char:     ", i1, i2, i1.CompareTo(i2), i1.CompareTo((Object)i2));
 
 
 
