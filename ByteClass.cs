@@ -108,6 +108,7 @@ namespace Donet8
             Show("Version:  ", m1, m2, m1.CompareTo(m2), m1.CompareTo((Object)m2));
             Show("Guid:     ", n1, n2, n1.CompareTo(n2), n1.CompareTo((Object)n2));
             //
+            Console.WriteLine("{0}The following types are not CLS-compliant:", nl);
 
 
         }
