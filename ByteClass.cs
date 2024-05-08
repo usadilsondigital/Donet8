@@ -86,7 +86,7 @@ namespace Donet8
             // The following types are not CLS-compliant.
             SByte w1 = 8, w2 = 8;
             UInt16 x1 = 9, x2 = 9;
-
+            UInt32 y1 = 10, y2 = 10;
 
 
 
@@ -97,3 +97,30 @@ namespace Donet8
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
