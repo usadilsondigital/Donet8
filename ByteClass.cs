@@ -84,6 +84,11 @@ namespace Donet8
             Guid n1 = guidX, n2 = guidX;
 
             // The following types are not CLS-compliant.
+            SByte w1 = 8, w2 = 8;
+
+
+
+
 
 
         }
