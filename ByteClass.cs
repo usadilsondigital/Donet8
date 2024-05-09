@@ -126,6 +126,8 @@ namespace Donet8
             Console.Write(caption);
             if (resultGeneric == resultNonGeneric)
             {
+                if (resultGeneric < 0) relation = "less than";
+
 
             }
             // The following condition will never occur because the generic and non-generic
