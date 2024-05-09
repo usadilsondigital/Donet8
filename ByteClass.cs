@@ -115,7 +115,7 @@ namespace Donet8
                 Show("UInt32:   ", y1, y2, y1.CompareTo(y2), y1.CompareTo((Object)y2));
                 Show("UInt64:   ", z1, z2, z1.CompareTo(z2), z1.CompareTo((Object)z2));
             }
-            catch () { }
+            catch (Exception e) { }
 
 
         }
