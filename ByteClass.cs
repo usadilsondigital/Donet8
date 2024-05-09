@@ -141,7 +141,8 @@ namespace Donet8
                      resultGeneric, resultNonGeneric);
             }
         }
-        /*This example produces the following results:*/
+        /*This example produces the following results:
+         The following is the result of using the generic and non-generic versions of the*/
 
 
     }
