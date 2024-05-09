@@ -126,8 +126,12 @@ namespace Donet8
             Console.Write(caption);
             if (resultGeneric == resultNonGeneric)
             {
+
             }
-            else { 
+            // The following condition will never occur because the generic and non-generic
+            // CompareTo methods are equivalent.
+            else
+            { 
             
             }
         }
