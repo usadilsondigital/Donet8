@@ -141,6 +141,7 @@ namespace Donet8
                      resultGeneric, resultNonGeneric);
             }
         }
+        /*This example produces the following results:*/
 
 
     }
