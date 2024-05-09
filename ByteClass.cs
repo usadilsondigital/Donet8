@@ -121,7 +121,9 @@ namespace Donet8
         }
         public static void Show(string caption, Object var1, Object var2,
                            int resultGeneric, int resultNonGeneric)
-
+        { 
+            string relation; 
+        }
 
 
     }
