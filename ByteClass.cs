@@ -136,8 +136,8 @@ namespace Donet8
             // The following condition will never occur because the generic and non-generic
             // CompareTo methods are equivalent.
             else
-            { 
-            
+            {
+                Console.WriteLine("Generic CompareTo = {0}; non-generic CompareTo = {1}",
             }
         }
 
