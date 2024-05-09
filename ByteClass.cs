@@ -124,7 +124,9 @@ namespace Donet8
         { 
             string relation;
             Console.Write(caption);
-            if (resultGeneric == resultNonGeneric)
+            if (resultGeneric == resultNonGeneric) { 
+            }
+
         }
 
 
