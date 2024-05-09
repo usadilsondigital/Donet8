@@ -142,7 +142,8 @@ namespace Donet8
             }
         }
         /*This example produces the following results:
-         The following is the result of using the generic and non-generic versions of the*/
+         The following is the result of using the generic and non-generic versions of the
+        CompareTo method for several base types:*/
 
 
     }
