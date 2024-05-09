@@ -129,6 +129,8 @@ namespace Donet8
                 if (resultGeneric < 0) relation = "less than";
                 else if (resultGeneric > 0) relation = "greater than";
                 else relation = "equal to";
+                Console.WriteLine("{0} is {1} {2}", var1, relation, var2);
+
 
             }
             // The following condition will never occur because the generic and non-generic
