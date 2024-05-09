@@ -138,6 +138,7 @@ namespace Donet8
             else
             {
                 Console.WriteLine("Generic CompareTo = {0}; non-generic CompareTo = {1}",
+                     resultGeneric, resultNonGeneric);
             }
         }
 
