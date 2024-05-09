@@ -128,6 +128,7 @@ namespace Donet8
             {
                 if (resultGeneric < 0) relation = "less than";
                 else if (resultGeneric > 0) relation = "greater than";
+                else relation = "equal to";
 
             }
             // The following condition will never occur because the generic and non-generic
