@@ -232,6 +232,7 @@ aa0057b223
         //Compares two values to compute which is greater.
         public static sbyte Max(sbyte x, sbyte y);
 
+        //Compares two values to compute which is greater.
         public static sbyte MaxMagnitude(sbyte x, sbyte y);
 
 
