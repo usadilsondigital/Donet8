@@ -218,7 +218,11 @@ aa0057b223
         //Determines if a value is a power of two.
         public static bool IsPow2(sbyte value);
 
-
+        /// <summary>
+        /// Computes the number of leading zeros in a value.
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
         public static sbyte LeadingZeroCount(sbyte value);
 
 
