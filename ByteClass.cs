@@ -172,6 +172,7 @@ aa0057b223
          */
 
 
+        //Copies the sign of a value to the sign of another value.
         public static sbyte CopySign(sbyte value, sbyte sign);
 
 
