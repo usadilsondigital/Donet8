@@ -226,6 +226,9 @@ aa0057b223
         public static sbyte LeadingZeroCount(sbyte value);
 
 
+        public static sbyte Log2(sbyte value);
+
+
 
 
     }
