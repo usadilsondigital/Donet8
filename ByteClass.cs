@@ -239,7 +239,7 @@ aa0057b223
         //Compares two values to compute which is lesser.
         public static sbyte Min(sbyte x, sbyte y);
 
-
+        //Compares two values to compute which is lesser
         public static sbyte MinMagnitude(sbyte x, sbyte y);
 
 
