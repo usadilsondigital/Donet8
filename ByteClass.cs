@@ -205,6 +205,8 @@ aa0057b223
         //Determines if a value represents an even integral number.
         public static bool IsEvenInteger(sbyte value);
 
+        public static bool IsNegative(sbyte value);
+
 
 
 
