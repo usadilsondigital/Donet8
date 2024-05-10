@@ -196,7 +196,7 @@ aa0057b223
         //Returns a value indicating whether this instance is equal to a specified object.
         public override bool Equals(object? obj);
 
-
+        //Returns the hash code for this instance.
         public override int GetHashCode();
 
 
