@@ -203,6 +203,9 @@ aa0057b223
         public TypeCode GetTypeCode();
 
 
+        public static bool IsEvenInteger(sbyte value);
+
+
 
 
 
