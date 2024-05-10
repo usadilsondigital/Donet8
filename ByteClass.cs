@@ -182,7 +182,8 @@ aa0057b223
 
 
 
-
+        //Creates an instance of the current type from a value,
+        //saturating any values that fall outside the representable range of the current type.
         public static sbyte CreateSaturating<TOther>(TOther value) where TOther : System.Numerics.INumberBase<TOther>;
 
 
