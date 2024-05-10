@@ -163,7 +163,7 @@ aa0057b223
         The following types are not CLS-compliant:
         SByte:    8 is equal to 8
         UInt16:   9 is equal to 9
-
+        UInt32:   10 is equal to 10
 
 
 
