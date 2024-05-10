@@ -175,7 +175,8 @@ aa0057b223
         //Copies the sign of a value to the sign of another value.
         public static sbyte CopySign(sbyte value, sbyte sign);
 
-        //
+        //Creates an instance of the current type from a value, throwing an overflow exception for any values that
+        //fall outside the representable range of the current type.
         public static sbyte CreateChecked<TOther>(TOther value) where TOther : System.Numerics.INumberBase<TOther>;
 
 
