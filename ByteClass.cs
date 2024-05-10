@@ -199,6 +199,8 @@ aa0057b223
         //Returns the hash code for this instance.
         public override int GetHashCode();
 
+        public TypeCode GetTypeCode();
+
 
 
 
