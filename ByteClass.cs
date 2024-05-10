@@ -225,7 +225,7 @@ aa0057b223
         /// <returns></returns>
         public static sbyte LeadingZeroCount(sbyte value);
 
-
+        //Computes the log2 of a value.
         public static sbyte Log2(sbyte value);
 
 
