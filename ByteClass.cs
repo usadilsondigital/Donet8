@@ -187,6 +187,7 @@ aa0057b223
         public static sbyte CreateSaturating<TOther>(TOther value) where TOther : System.Numerics.INumberBase<TOther>;
 
 
+        //Creates an instance of the current type from a value, truncating any values that fall outside the representable range of the current type.
         public static sbyte CreateTruncating<TOther>(TOther value) where TOther : System.Numerics.INumberBase<TOther>;
 
 
