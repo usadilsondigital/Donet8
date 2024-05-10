@@ -160,7 +160,7 @@ namespace Donet8
         Guid:     ca761232-ed42-11ce-bacd-00aa0057b223 is equal to ca761232-ed42-11ce-bacd-00
 aa0057b223
 
-
+        The following types are not CLS-compliant:
 
 
          */
