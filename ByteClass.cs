@@ -153,6 +153,10 @@ namespace Donet8
         Single:   6.6 is equal to 6.6
         Double:   7.7 is greater than -7.7
         Char:     A is equal to A
+        String:   abc is equal to abc
+
+
+
 
 
 
