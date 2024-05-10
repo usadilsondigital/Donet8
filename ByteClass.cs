@@ -236,7 +236,7 @@ aa0057b223
         public static sbyte MaxMagnitude(sbyte x, sbyte y);
 
 
-
+        //Compares two values to compute which is lesser.
         public static sbyte Min(sbyte x, sbyte y);
 
 
