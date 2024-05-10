@@ -213,6 +213,9 @@ aa0057b223
         public static bool IsOddInteger(sbyte value);
 
 
+        public static bool IsPositive(sbyte value);
+
+
 
 
 
