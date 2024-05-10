@@ -230,6 +230,10 @@ aa0057b223
 
 
 
+        public static sbyte Max(sbyte x, sbyte y);
+
+
+
 
     }
 }
