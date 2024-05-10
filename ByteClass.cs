@@ -219,6 +219,8 @@ aa0057b223
         public static bool IsPow2(sbyte value);
 
 
+        public static sbyte LeadingZeroCount(sbyte value);
+
 
 
 
