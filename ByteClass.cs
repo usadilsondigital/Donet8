@@ -215,7 +215,7 @@ aa0057b223
         //Determines if a value is positive.
         public static bool IsPositive(sbyte value);
 
-
+        //Determines if a value is a power of two.
         public static bool IsPow2(sbyte value);
 
 
