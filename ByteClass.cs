@@ -150,6 +150,9 @@ namespace Donet8
         Int32:    3 is equal to 3
         Int64:    4 is greater than -4
         Decimal:  -5.5 is less than 5.5
+        Single:   6.6 is equal to 6.6
+
+
 
 
 
