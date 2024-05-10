@@ -202,7 +202,7 @@ aa0057b223
         //Returns the TypeCode for value type SByte.
         public TypeCode GetTypeCode();
 
-
+        //Determines if a value represents an even integral number.
         public static bool IsEvenInteger(sbyte value);
 
 
