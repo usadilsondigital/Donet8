@@ -240,6 +240,8 @@ aa0057b223
         public static sbyte Min(sbyte x, sbyte y);
 
 
+        public static sbyte MinMagnitude(sbyte x, sbyte y);
+
 
 
     }
