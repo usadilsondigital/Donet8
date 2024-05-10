@@ -187,6 +187,8 @@ aa0057b223
         public static sbyte CreateSaturating<TOther>(TOther value) where TOther : System.Numerics.INumberBase<TOther>;
 
 
+        public static sbyte CreateTruncating<TOther>(TOther value) where TOther : System.Numerics.INumberBase<TOther>;
+
 
 
     }
