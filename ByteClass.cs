@@ -216,6 +216,9 @@ aa0057b223
         public static bool IsPositive(sbyte value);
 
 
+        public static bool IsPow2(sbyte value);
+
+
 
 
 
