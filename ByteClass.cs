@@ -172,6 +172,9 @@ aa0057b223
          */
 
 
+        public static sbyte CopySign(sbyte value, sbyte sign);
+
+
     }
 }
 
