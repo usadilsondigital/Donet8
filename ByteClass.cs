@@ -209,6 +209,7 @@ aa0057b223
         //Determines if a value is negative.
         public static bool IsNegative(sbyte value);
 
+        //Determines if a value represents an odd integral number.
         public static bool IsOddInteger(sbyte value);
 
 
