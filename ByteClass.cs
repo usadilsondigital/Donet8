@@ -148,6 +148,8 @@ namespace Donet8
          Byte:     1 is equal to 1
         Int16:    -2 is less than 2
         Int32:    3 is equal to 3
+        Int64:    4 is greater than -4
+
 
 
 
