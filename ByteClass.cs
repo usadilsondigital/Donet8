@@ -229,7 +229,7 @@ aa0057b223
         public static sbyte Log2(sbyte value);
 
 
-
+        //Compares two values to compute which is greater.
         public static sbyte Max(sbyte x, sbyte y);
 
 
