@@ -209,6 +209,8 @@ aa0057b223
         //Determines if a value is negative.
         public static bool IsNegative(sbyte value);
 
+        public static bool IsOddInteger(sbyte value);
+
 
 
 
