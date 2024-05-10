@@ -161,6 +161,7 @@ namespace Donet8
 aa0057b223
 
         The following types are not CLS-compliant:
+        SByte:    8 is equal to 8
 
 
          */
