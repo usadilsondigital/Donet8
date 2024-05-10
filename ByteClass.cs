@@ -193,6 +193,7 @@ aa0057b223
         //Computes the quotient and remainder of two values.
         public static (sbyte Quotient, sbyte Remainder) DivRem(sbyte left, sbyte right);
 
+        //Returns a value indicating whether this instance is equal to a specified object.
         public override bool Equals(object? obj);
 
 
