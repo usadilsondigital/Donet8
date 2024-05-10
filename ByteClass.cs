@@ -191,7 +191,7 @@ aa0057b223
         public static sbyte CreateTruncating<TOther>(TOther value) where TOther : System.Numerics.INumberBase<TOther>;
 
         //Computes the quotient and remainder of two values.
-
+        public static (sbyte Quotient, sbyte Remainder) DivRem(sbyte left, sbyte right);
 
 
 
