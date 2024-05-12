@@ -256,6 +256,7 @@ aa0057b223
         public static sbyte RotateRight(sbyte value, int rotateAmount);
 
 
+        //Computes the sign of a value.
         public static int Sign(sbyte value);
 
 
