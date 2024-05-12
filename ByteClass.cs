@@ -256,6 +256,14 @@ aa0057b223
         public static sbyte RotateRight(sbyte value, int rotateAmount);
 
 
+        public static int Sign(sbyte value);
+
+
+
+
+
+
+
 
     }
 }
