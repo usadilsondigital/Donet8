@@ -250,6 +250,9 @@ aa0057b223
         public static sbyte PopCount(sbyte value);
 
 
+        public static sbyte RotateLeft(sbyte value, int rotateAmount);
+
+
 
     }
 }
