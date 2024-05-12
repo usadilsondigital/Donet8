@@ -12,7 +12,8 @@ namespace Donet8
 
         public static void Main()
         {
-            
+            char chA = 'A';
+
         }
 
 
