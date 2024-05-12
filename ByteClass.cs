@@ -246,7 +246,7 @@ aa0057b223
         //Converts the string representation of a number that is in a specified style and culture-specific format to its 8-bit signed equivalent.
         public static sbyte Parse(string s, System.Globalization.NumberStyles style, IFormatProvider? provider);
 
-
+        //Computes the number of bits that are set in a value.
         public static sbyte PopCount(sbyte value);
 
 
