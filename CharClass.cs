@@ -9,5 +9,12 @@ namespace Donet8
     //Represents a character as a UTF-16 code unit.
     public class CharClass
     {
+
+        public static void Main()
+        {
+            
+        }
+
+
     }
 }
