@@ -260,6 +260,8 @@ aa0057b223
         public static int Sign(sbyte value);
 
 
+        public override string ToString();
+
 
 
 
