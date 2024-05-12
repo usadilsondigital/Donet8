@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Donet8
 {
+    //Represents a character as a UTF-16 code unit.
     public class CharClass
     {
     }
