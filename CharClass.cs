@@ -13,14 +13,10 @@ namespace Donet8
         public static void Main()
         {
             char chA = 'A';
-
             char ch1 = '1';
-
             string str = "test string";
-
-
-
             Console.WriteLine(chA.CompareTo('B'));          //-----------  Output: "-1" (meaning 'A' is 1 less than 'B')
+            Console.WriteLine(chA.Equals('A'));             //-----------  Output: "True"
            
 
         }
