@@ -14,6 +14,7 @@ namespace Donet8
         {
             char chA = 'A';
 
+            char ch1 = '1';
         }
 
 
