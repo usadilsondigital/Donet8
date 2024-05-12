@@ -265,7 +265,7 @@ aa0057b223
         public static sbyte TrailingZeroCount(sbyte value);
 
 
-
+        //Tries to format the value of the current instance as UTF-8 into the provided span of bytes.
         public bool TryFormat(Span<byte> utf8Destination, out int bytesWritten, ReadOnlySpan<char> format = default, IFormatProvider? provider = default);
 
 
