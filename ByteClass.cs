@@ -252,7 +252,7 @@ aa0057b223
         //Rotates a value left by a given amount.
         public static sbyte RotateLeft(sbyte value, int rotateAmount);
 
-
+        //Rotates a value right by a given amount.
         public static sbyte RotateRight(sbyte value, int rotateAmount);
 
 
