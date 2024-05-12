@@ -249,7 +249,7 @@ aa0057b223
         //Computes the number of bits that are set in a value.
         public static sbyte PopCount(sbyte value);
 
-
+        //Rotates a value left by a given amount.
         public static sbyte RotateLeft(sbyte value, int rotateAmount);
 
 
