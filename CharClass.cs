@@ -20,6 +20,9 @@ namespace Donet8
 
 
 
+            Console.WriteLine(chA.CompareTo('B'));          //-----------  Output: "-1" (meaning 'A' is 1 less than 'B')
+           
+
         }
 
 
