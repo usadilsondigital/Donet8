@@ -262,6 +262,9 @@ aa0057b223
         public override string ToString();
 
 
+        public static sbyte TrailingZeroCount(sbyte value);
+
+
 
 
 
