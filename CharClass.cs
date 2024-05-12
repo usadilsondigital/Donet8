@@ -15,6 +15,11 @@ namespace Donet8
             char chA = 'A';
 
             char ch1 = '1';
+
+            string str = "test string";
+
+
+
         }
 
 
