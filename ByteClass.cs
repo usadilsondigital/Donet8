@@ -244,6 +244,10 @@ aa0057b223
 
 
 
+        public static sbyte Parse(string s, System.Globalization.NumberStyles style, IFormatProvider? provider);
+
+
+
     }
 }
 
