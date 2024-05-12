@@ -255,11 +255,10 @@ aa0057b223
         //Rotates a value right by a given amount.
         public static sbyte RotateRight(sbyte value, int rotateAmount);
 
-
         //Computes the sign of a value.
         public static int Sign(sbyte value);
 
-
+        //Converts the numeric value of this instance to its equivalent string representation.
         public override string ToString();
 
 
