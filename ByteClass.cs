@@ -243,7 +243,7 @@ aa0057b223
         public static sbyte MinMagnitude(sbyte x, sbyte y);
 
 
-
+        //Converts the string representation of a number that is in a specified style and culture-specific format to its 8-bit signed equivalent.
         public static sbyte Parse(string s, System.Globalization.NumberStyles style, IFormatProvider? provider);
 
 
