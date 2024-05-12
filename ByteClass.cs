@@ -261,7 +261,7 @@ aa0057b223
         //Converts the numeric value of this instance to its equivalent string representation.
         public override string ToString();
 
-
+        //Computes the number of trailing zeros in a value.
         public static sbyte TrailingZeroCount(sbyte value);
 
 
