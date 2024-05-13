@@ -10,7 +10,7 @@ namespace Donet8
     public class CharClass
     {
 
-
+        //Represents the largest possible value of a Char. This field is constant.
         public const char MaxValue;
 
 
