@@ -53,7 +53,7 @@ namespace Donet8
 
         public  void ConvertFromUtf32Example()
         {
-            
+            int letterA = 0x0041;
 
         }
 
