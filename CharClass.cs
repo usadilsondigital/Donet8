@@ -27,7 +27,7 @@ namespace Donet8
             Console.WriteLine(Char.IsSeparator(str, 4));    //-----------  Output: "True"
             Console.WriteLine(Char.IsSymbol('+'));          //-----------  Output: "True"
             Console.WriteLine(Char.IsWhiteSpace(str, 4));   //-----------  Output: "True"
-
+            Console.WriteLine(Char.Parse("S"));             //-----------  Output: "S"
 
 
         }
