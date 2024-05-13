@@ -24,7 +24,7 @@ namespace Donet8
             Console.WriteLine(Char.IsLower('u'));           //-----------  Output: "True"
             Console.WriteLine(Char.IsNumber(ch1));          //-----------  Output: "True"
             Console.WriteLine(Char.IsPunctuation('.'));     //-----------  Output: "True"
-
+            Console.WriteLine(Char.IsSeparator(str, 4));    //-----------  Output: "True"
 
 
 
