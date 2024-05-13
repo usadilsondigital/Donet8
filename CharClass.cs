@@ -44,6 +44,8 @@ namespace Donet8
         }
 
 
+        //Compares this instance to a specified Char object and indicates whether this instance precedes, follows,
+        //or appears in the same position in the sort order as the specified Char object.
         public int CompareTo(char value);
 
 
