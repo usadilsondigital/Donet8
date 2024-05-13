@@ -49,5 +49,7 @@ namespace Donet8
         public int CompareTo(char value);
 
 
+        public static string ConvertFromUtf32(int utf32);
+
     }
 }
