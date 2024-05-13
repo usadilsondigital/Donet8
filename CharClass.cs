@@ -20,7 +20,7 @@ namespace Donet8
             Console.WriteLine(Char.GetNumericValue(ch1));   //-----------  Output: "1"
             Console.WriteLine(Char.IsControl('\t'));        //-----------  Output: "True"
             Console.WriteLine(Char.IsDigit(ch1));           //-----------  Output: "True"
-
+            Console.WriteLine(Char.IsLetter(','));          //-----------  Output: "False"
 
 
 
