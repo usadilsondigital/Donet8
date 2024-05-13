@@ -28,6 +28,10 @@ namespace Donet8
             Console.WriteLine(Char.IsSymbol('+'));          //-----------  Output: "True"
             Console.WriteLine(Char.IsWhiteSpace(str, 4));   //-----------  Output: "True"
             Console.WriteLine(Char.Parse("S"));             //-----------  Output: "S"
+            Console.WriteLine(Char.ToLower('M'));           //-----------  Output: "m"
+
+
+
 
 
         }
