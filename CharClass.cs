@@ -13,6 +13,7 @@ namespace Donet8
         //Represents the largest possible value of a Char. This field is constant.
         public const char MaxValue;
 
+        //Represents the smallest possible value of a Char. This field is constant.
         public const char MinValue;
 
 
