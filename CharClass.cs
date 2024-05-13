@@ -18,7 +18,9 @@ namespace Donet8
             Console.WriteLine(chA.CompareTo('B'));          //-----------  Output: "-1" (meaning 'A' is 1 less than 'B')
             Console.WriteLine(chA.Equals('A'));             //-----------  Output: "True"
             Console.WriteLine(Char.GetNumericValue(ch1));   //-----------  Output: "1"
-            
+            Console.WriteLine(Char.IsControl('\t'));        //-----------  Output: "True"
+
+
 
         }
 
