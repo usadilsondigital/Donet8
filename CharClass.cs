@@ -49,8 +49,13 @@ namespace Donet8
         public int CompareTo(char value);
 
         //Converts the specified Unicode code point into a UTF-16 encoded string.
-
         public static string ConvertFromUtf32(int utf32);
 
-    }
+        public  void ConvertFromUtf32Example()
+        {
+            
+
+        }
+
+        }
 }
