@@ -10,6 +10,11 @@ namespace Donet8
     public class CharClass
     {
 
+
+        public const char MaxValue;
+
+
+
         public static void Main()
         {
             char chA = 'A';
