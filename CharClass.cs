@@ -53,7 +53,7 @@ namespace Donet8
 
         public  void ConvertFromUtf32Example()
         {
-            int letterA = 0x0041;
+            int letterA = 0x0041;//U+00041 = LATIN CAPITAL LETTER A
 
         }
 
