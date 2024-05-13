@@ -48,6 +48,7 @@ namespace Donet8
         //or appears in the same position in the sort order as the specified Char object.
         public int CompareTo(char value);
 
+        //Converts the specified Unicode code point into a UTF-16 encoded string.
 
         public static string ConvertFromUtf32(int utf32);
 
