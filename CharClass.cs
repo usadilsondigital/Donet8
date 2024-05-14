@@ -76,7 +76,7 @@ namespace Donet8
             //  U+1D161 is a surrogate pair with hexadecimal values D834 and DD61.
             Console.WriteLine(comment);
             s1 = Char.ConvertFromUtf32(music);
-
+            Console.Write("    2a) 0x{0:X} => ", music);
 
 
 
