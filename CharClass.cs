@@ -78,7 +78,7 @@ namespace Donet8
             s1 = Char.ConvertFromUtf32(music);
             Console.Write("    2a) 0x{0:X} => ", music);
             Show(s1);
-
+            Console.WriteLine();
 
 
 
