@@ -79,7 +79,7 @@ namespace Donet8
             Console.Write("    2a) 0x{0:X} => ", music);
             Show(s1);
             Console.WriteLine();
-
+            //  Convert the surrogate pair in the string at index position
 
 
 
