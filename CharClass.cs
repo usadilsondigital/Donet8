@@ -69,7 +69,7 @@ namespace Donet8
             Show(s1);
             Console.WriteLine();
             //  Convert the lone UTF-16 character to a code point.
-
+            Console.WriteLine(comment1b);
 
 
 
