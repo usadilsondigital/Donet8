@@ -57,6 +57,7 @@ namespace Donet8
             int music = 0x1D161;////U+1D161 = MUSICAL SYMBOL SIXTEENTH NOTE
 
             string s1;
+            string comment = "Create a UTF-16 encoded string from a code point.";
         }
 
         }
