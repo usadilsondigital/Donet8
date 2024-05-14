@@ -133,6 +133,9 @@ namespace Donet8
         {
             int letterA = 0x0041; // //U+00041 = LATIN CAPITAL LETTER A
             int music = 0x1D161;////U+1D161 = MUSICAL SYMBOL SIXTEENTH NOTE
+            string s1;
+
+
         }
 
 
