@@ -86,7 +86,7 @@ namespace Donet8
             Console.Write("    2b) ");
             Show(s1);
             Console.WriteLine(" => 0x{0:X}", music);
-
+            //  Convert the high and low characters in the surrogate pair into a code point.
 
 
 
