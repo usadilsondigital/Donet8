@@ -100,8 +100,11 @@ namespace Donet8
 
         }
         private static void Show(string s) {
-            for (int x = 0; x < s.Length; x++)
-
+            for (int x = 0; x < s.Length; x++) { 
+                Console.Write("0x{0:X}{1}",
+                    
+                    }
+                
         }
 
 
