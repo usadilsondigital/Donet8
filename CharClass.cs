@@ -68,7 +68,7 @@ namespace Donet8
             Console.Write("    1a) 0x{0:X} => ", letterA);
             Show(s1);
             Console.WriteLine();
-
+            //  Convert the lone UTF-16 character to a code point.
 
 
 
