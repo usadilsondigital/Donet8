@@ -64,6 +64,13 @@ namespace Donet8
             //  Convert code point U+0041 to UTF-16. The UTF-16 equivalent of
             //  U+0041 is a Char with hexadecimal value 0041.
             Console.WriteLine(comment);
+            s1 = Char.ConvertFromUtf32(letterA);
+
+
+
+
+
+
 
 
 
