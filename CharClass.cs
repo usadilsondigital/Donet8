@@ -131,7 +131,7 @@ namespace Donet8
         //Converts the value of a UTF-16 encoded surrogate pair into a Unicode code point.
         public  void ConvertToUtf32Example()
         {
-            int letterA = 0x0041;
+            int letterA = 0x0041; // //U+00041 = LATIN CAPITAL LETTER A
         }
 
 
