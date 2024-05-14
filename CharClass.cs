@@ -132,7 +132,7 @@ namespace Donet8
         public  void ConvertToUtf32Example()
         {
             int letterA = 0x0041; // //U+00041 = LATIN CAPITAL LETTER A
-            int music = 0x1D161;
+            int music = 0x1D161;////U+1D161 = MUSICAL SYMBOL SIXTEENTH NOTE
         }
 
 
