@@ -99,6 +99,6 @@ namespace Donet8
 
 
         }
-
+        private static void Show(string s) { }
     }
 }
