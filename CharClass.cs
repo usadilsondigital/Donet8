@@ -103,9 +103,9 @@ namespace Donet8
             for (int x = 0; x < s.Length; x++) { 
                 Console.Write("0x{0:X}{1}",
                      (int)s[x],
+                      ((x == s.Length - 1) ? String.Empty : ", "));
 
-
-                    }
+            }
                 
         }
 
