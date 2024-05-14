@@ -99,6 +99,11 @@ namespace Donet8
 
 
         }
-        private static void Show(string s) { }
+        private static void Show(string s) {
+            for (int x = 0; x < s.Length; x++)
+
+        }
+
+
     }
 }
