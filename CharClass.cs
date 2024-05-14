@@ -117,6 +117,8 @@ namespace Donet8
 
         Create a UTF-16 encoded string from a code point.
         2a) 0x1D161 => 0xD834, 0xDD61
+        //Create a code point from a surrogate pair at a certain position in a string.
+
 
         */
 
