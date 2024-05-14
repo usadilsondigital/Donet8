@@ -120,6 +120,9 @@ namespace Donet8
         //Create a code point from a surrogate pair at a certain position in a string.
          2b) 0xD834, 0xDD61 => 0x1D161
         Create a code point from a high surrogate and a low surrogate code point.
+         2c) 0xD834, 0xDD61 => 0x1D161
+
+
 
 
         */
