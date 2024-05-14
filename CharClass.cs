@@ -72,6 +72,28 @@ namespace Donet8
             Console.WriteLine(comment1b);
             Console.WriteLine();
             // -------------------------------------------------------------------
+            //  Convert the code point U+1D161 to UTF-16. The UTF-16 equivalent of
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
