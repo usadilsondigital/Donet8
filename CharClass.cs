@@ -116,6 +116,7 @@ namespace Donet8
          1b) 0x41 => 0x41
 
         Create a UTF-16 encoded string from a code point.
+        2a) 0x1D161 => 0xD834, 0xDD61
 
         */
 
