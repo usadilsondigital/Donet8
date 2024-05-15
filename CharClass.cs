@@ -163,6 +163,15 @@ namespace Donet8
             Show(s1);
 
             Console.WriteLine();
+            //  Convert the surrogate pair in the string at index position
+
+
+
+
+
+
+
+
 
 
         }
