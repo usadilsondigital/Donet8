@@ -138,7 +138,7 @@ namespace Donet8
             string comment1b = "Create a code point from a UTF-16 encoded string.";
             string comment2b = "Create a code point from a surrogate pair at a certain position in a string.";
             string comment2c = "Create a code point from a high surrogate and a low surrogate code point.";
-
+            //  Convert code point U+0041 to UTF-16. The UTF-16 equivalent of
 
 
         }
