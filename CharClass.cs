@@ -164,7 +164,7 @@ namespace Donet8
 
             Console.WriteLine();
             //  Convert the surrogate pair in the string at index position
-
+            //  zero to a code point.
 
 
 
