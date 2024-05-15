@@ -152,7 +152,7 @@ namespace Donet8
             letterA = Char.ConvertToUtf32(s1, 0);
             Console.Write("    1b) ");
             Show(s1);
-
+            Console.WriteLine(" => 0x{0:X}", letterA);
 
 
 
