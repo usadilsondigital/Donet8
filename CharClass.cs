@@ -174,7 +174,7 @@ namespace Donet8
             Console.WriteLine(comment2c);
             music = Char.ConvertToUtf32(s1[0], s1[1]);
             Console.Write("    2c) ");
-
+            Show(s1);
 
 
 
