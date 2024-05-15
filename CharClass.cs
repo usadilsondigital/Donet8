@@ -156,7 +156,7 @@ namespace Donet8
 
             Console.WriteLine();
             //  Convert the code point U+1D161 to UTF-16. The UTF-16 equivalent of
-
+            //  U+1D161 is a surrogate pair with hexadecimal values D834 and DD61.
 
 
 
