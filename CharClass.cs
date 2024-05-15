@@ -142,6 +142,9 @@ namespace Donet8
             //  U+0041 is a Char with hexadecimal value 0041.
             Console.WriteLine(comment);
 
+            s1 = Char.ConvertFromUtf32(letterA);
+
+
 
 
 
