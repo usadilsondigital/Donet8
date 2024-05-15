@@ -166,7 +166,7 @@ namespace Donet8
             //  Convert the surrogate pair in the string at index position
             //  zero to a code point.
             Console.WriteLine(comment2b);
-
+            music = Char.ConvertToUtf32(s1, 0);
 
 
 
