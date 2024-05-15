@@ -172,7 +172,7 @@ namespace Donet8
             Console.WriteLine(" => 0x{0:X}", music);
             //  Convert the high and low characters in the surrogate pair into a code point.
             Console.WriteLine(comment2c);
-
+            music = Char.ConvertToUtf32(s1[0], s1[1]);
 
 
 
