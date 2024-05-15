@@ -154,7 +154,7 @@ namespace Donet8
             Show(s1);
             Console.WriteLine(" => 0x{0:X}", letterA);
 
-
+            Console.WriteLine();
 
 
 
