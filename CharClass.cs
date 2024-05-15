@@ -148,6 +148,8 @@ namespace Donet8
             Console.WriteLine();
             //  Convert the lone UTF-16 character to a code point.
 
+            Console.WriteLine(comment1b);
+
 
 
 
