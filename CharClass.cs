@@ -167,7 +167,7 @@ namespace Donet8
             //  zero to a code point.
             Console.WriteLine(comment2b);
             music = Char.ConvertToUtf32(s1, 0);
-
+            Console.Write("    2b) ");
 
 
 
