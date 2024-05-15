@@ -151,6 +151,11 @@ namespace Donet8
             Console.WriteLine(comment1b);
             letterA = Char.ConvertToUtf32(s1, 0);
             Console.Write("    1b) ");
+            Show(s1);
+
+
+
+
 
 
         }
