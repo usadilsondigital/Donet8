@@ -169,7 +169,7 @@ namespace Donet8
             music = Char.ConvertToUtf32(s1, 0);
             Console.Write("    2b) ");
             Show(s1);
-
+            Console.WriteLine(" => 0x{0:X}", music);
 
 
 
