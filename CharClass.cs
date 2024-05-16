@@ -209,6 +209,7 @@ namespace Donet8
             string surrogate = Char.ConvertFromUtf32(utf32);
             foreach (var ch in surrogate)
                 Console.WriteLine("U+{0:X4}: {1}    ", Convert.ToUInt16(ch),
+                      Char.GetNumericValue(ch));
         }
 
 
