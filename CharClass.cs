@@ -186,6 +186,8 @@ namespace Donet8
                       (int)s[x],
                        ((x == s.Length - 1) ? String.Empty : ", "));
         }
+        /*
+This example produces the following results:*/
 
 
 
