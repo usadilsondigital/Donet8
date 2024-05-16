@@ -198,8 +198,9 @@ namespace Donet8
         2b) 0xD834, 0xDD61 => 0x1D161
         Create a code point from a high surrogate and a low surrogate code point
         2c) 0xD834, 0xDD61 => 0x1D161
-
          */
+
+        public  double GetNumericValue(char c);
 
 
 
