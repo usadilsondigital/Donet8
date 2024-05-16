@@ -180,7 +180,9 @@ namespace Donet8
 
         }
 
-        private  void Show(string s) { }
+        private  void Show(string s) {
+            for (int x = 0; x < s.Length; x++)
+        }
 
 
 
