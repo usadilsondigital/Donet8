@@ -212,6 +212,9 @@ namespace Donet8
                       Char.GetNumericValue(ch));
             // The example displays the following output:
             //       U+D800: -1
+            //       U+DD07: -1
+
+
         }
 
 
