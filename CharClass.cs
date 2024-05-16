@@ -205,7 +205,7 @@ namespace Donet8
             string str = "input: 1";
             Console.WriteLine(Char.GetNumericValue('8'));		// Output: "8"
             Console.WriteLine(Char.GetNumericValue(str, 7));	// Output: "1"
-            int utf32 = 0x10107;
+            int utf32 = 0x10107; // AEGEAN NUMBER ONE
         }
 
 
