@@ -190,7 +190,9 @@ namespace Donet8
         This example produces the following results:
         Create a UTF-16 encoded string from a code point.
         1a) 0x41 => 0x41
-        
+        Create a code point from a UTF-16 encoded string
+
+
          */
 
 
