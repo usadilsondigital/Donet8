@@ -187,7 +187,8 @@ namespace Donet8
                        ((x == s.Length - 1) ? String.Empty : ", "));
         }
         /*
-This example produces the following results:*/
+This example produces the following results:
+        Create a UTF-16 encoded string from a code point.*/
 
 
 
