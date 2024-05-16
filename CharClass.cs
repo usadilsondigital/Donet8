@@ -180,6 +180,8 @@ namespace Donet8
 
         }
 
+        private  void Show(string s) { }
+
 
 
 
