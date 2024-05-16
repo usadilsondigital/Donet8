@@ -211,6 +211,7 @@ namespace Donet8
                 Console.WriteLine("U+{0:X4}: {1}    ", Convert.ToUInt16(ch),
                       Char.GetNumericValue(ch));
             // The example displays the following output:
+            //       U+D800: -1
         }
 
 
