@@ -201,7 +201,9 @@ namespace Donet8
          */
 
         //Converts the specified numeric Unicode character to a double-precision floating point number.
-        public double GetNumericValue(char c);
+        public double GetNumericValue(char c) {
+            Console.WriteLine(Char.GetNumericValue('8'));		// Output: "8"
+        }
 
 
 
