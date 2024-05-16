@@ -200,7 +200,8 @@ namespace Donet8
         2c) 0xD834, 0xDD61 => 0x1D161
          */
 
-        public  double GetNumericValue(char c);
+        //Converts the specified numeric Unicode character to a double-precision floating point number.
+        public double GetNumericValue(char c);
 
 
 
