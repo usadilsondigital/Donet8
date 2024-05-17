@@ -231,5 +231,6 @@ namespace Donet8
             Console.WriteLine();
             // The example displays the following output:
             //       U+D800 at position 0: 1     U+DD07 at position 1: -1
+            //       U+D800 at position 0: 2     U+DD08 at position 1: -1
     }
 }
