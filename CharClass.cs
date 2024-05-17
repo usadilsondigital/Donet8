@@ -229,5 +229,6 @@ namespace Donet8
             Convert.ToUInt16(surrogate[ctr]), ctr,
              Char.GetNumericValue(surrogate, ctr));
             Console.WriteLine();
+            // The example displays the following output:
     }
 }
