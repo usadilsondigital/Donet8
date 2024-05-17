@@ -237,5 +237,6 @@ namespace Donet8
             //       U+D800 at position 0: 5     U+DD0B at position 1: -1
             //       U+D800 at position 0: 6     U+DD0C at position 1: -1
             //       U+D800 at position 0: 7     U+DD0D at position 1: -1
+            //       U+D800 at position 0: 8     U+DD0E at position 1: -1
     }
 }
