@@ -230,5 +230,6 @@ namespace Donet8
              Char.GetNumericValue(surrogate, ctr));
             Console.WriteLine();
             // The example displays the following output:
+            //       U+D800 at position 0: 1     U+DD07 at position 1: -1
     }
 }
