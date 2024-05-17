@@ -221,7 +221,7 @@ namespace Donet8
 
         // Define a UTF32 value for each character in the
         // Aegean numbering system.
-
+        for (int utf32 = 0x10107; utf32 <= 0x10133; utf32++) {
 
 
     }
