@@ -226,7 +226,7 @@ namespace Donet8
             string surrogate = Char.ConvertFromUtf32(utf32);
         for (int ctr = 0; ctr<surrogate.Length; ctr++)
              Console.Write("U+{0:X4} at position {1}: {2}     ",
-
+            Convert.ToUInt16(surrogate[ctr]), ctr,
 
 
     }
