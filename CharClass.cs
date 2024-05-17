@@ -225,6 +225,8 @@ namespace Donet8
         for (int utf32 = 0x10107; utf32 <= 0x10133; utf32++) {
             string surrogate = Char.ConvertFromUtf32(utf32);
         for (int ctr = 0; ctr<surrogate.Length; ctr++)
+             Console.Write("U+{0:X4} at position {1}: {2}     ",
+
 
 
     }
