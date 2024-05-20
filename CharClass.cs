@@ -250,7 +250,7 @@ namespace Donet8
             //       U+D800 at position 0: 80     U+DD17 at position 1: -1
             //       U+D800 at position 0: 90     U+DD18 at position 1: -1
             //       U+D800 at position 0: 100     U+DD19 at position 1: -1
-
+            //       U+D800 at position 0: 200     U+DD1A at position 1: -1
 
 
 
