@@ -262,6 +262,8 @@ namespace Donet8
             //       U+D800 at position 0: 2000     U+DD23 at position 1: -1
             //       U+D800 at position 0: 3000     U+DD24 at position 1: -1
             //       U+D800 at position 0: 4000     U+DD25 at position 1: -1
+            //       U+D800 at position 0: 5000     U+DD26 at position 1: -1
+
 
 
 
