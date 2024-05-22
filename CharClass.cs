@@ -315,5 +315,10 @@ namespace Donet8
         //Indicates whether a character is within the specified inclusive range.
         public static bool IsBetween(char c, char minInclusive, char maxInclusive);
 
+
+
+
+        public static bool IsControl(char c);
+
     }
 }
