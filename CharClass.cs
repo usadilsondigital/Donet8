@@ -279,6 +279,7 @@ namespace Donet8
         //Indicates whether a character is categorized as an ASCII digit.
         public static bool IsAsciiDigit(char c);
 
+        //Indicates whether a character is categorized as an ASCII hexademical digit.
         public static bool IsAsciiHexDigit(char c);
 
 
