@@ -325,6 +325,7 @@ namespace Donet8
         public void IsDigitSample()
         {
             char ch = '8';
+            Console.WriteLine(Char.IsDigit(ch));                    // Output: "True"
         }
 
 
