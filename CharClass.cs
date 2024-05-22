@@ -290,7 +290,7 @@ namespace Donet8
 
 
 
-
+        //Indicates whether a character is categorized as an ASCII upper-case hexademical digit.
         public static bool IsAsciiHexDigitUpper(char c);
 
 
