@@ -308,7 +308,7 @@ namespace Donet8
         public static bool IsAsciiLetterOrDigit(char c);
 
 
-
+        //Indicates whether a character is categorized as an uppercase ASCII letter.
         public static bool IsAsciiLetterUpper(char c);
 
     }
