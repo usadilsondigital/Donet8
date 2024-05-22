@@ -299,11 +299,17 @@ namespace Donet8
         public static bool IsAsciiLetter(char c);
 
 
-
-
-
         //Indicates whether a character is categorized as a lowercase ASCII letter.
         public static bool IsAsciiLetterLower(char c);
+
+
+
+
+
+
+        public static bool IsAsciiLetterOrDigit(char c);
+
+
 
     }
 }
