@@ -317,7 +317,7 @@ namespace Donet8
 
 
 
-
+        //Indicates whether the specified Unicode character is categorized as a control character.
         public static bool IsControl(char c);
 
     }
