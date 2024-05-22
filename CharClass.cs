@@ -272,5 +272,9 @@ namespace Donet8
             //       U+D800 at position 0: 30000     U+DD2D at position 1: -1
 
 
+
+            public static bool IsAscii(char c);
+
+
     }
 }
