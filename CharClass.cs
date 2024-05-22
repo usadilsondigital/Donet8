@@ -311,5 +311,9 @@ namespace Donet8
         //Indicates whether a character is categorized as an uppercase ASCII letter.
         public static bool IsAsciiLetterUpper(char c);
 
+
+
+        public static bool IsBetween(char c, char minInclusive, char maxInclusive);
+
     }
 }
