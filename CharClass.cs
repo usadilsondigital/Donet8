@@ -297,5 +297,13 @@ namespace Donet8
 
         //Indicates whether a character is categorized as an ASCII letter.
         public static bool IsAsciiLetter(char c);
+
+
+
+
+
+
+        public static bool IsAsciiLetterLower(char c);
+
     }
 }
