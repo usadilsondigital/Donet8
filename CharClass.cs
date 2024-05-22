@@ -273,6 +273,7 @@ namespace Donet8
 
 
 
+            //Returns true if c is an ASCII character ([ U+0000..U+007F ]).
             public static bool IsAscii(char c);
 
 
