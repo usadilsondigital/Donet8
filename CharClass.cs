@@ -302,7 +302,7 @@ namespace Donet8
 
 
 
-
+        //Indicates whether a character is categorized as a lowercase ASCII letter.
         public static bool IsAsciiLetterLower(char c);
 
     }
