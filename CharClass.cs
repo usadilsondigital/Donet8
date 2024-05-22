@@ -304,12 +304,12 @@ namespace Donet8
 
 
 
-
-
         //Indicates whether a character is categorized as an ASCII letter or digit.
         public static bool IsAsciiLetterOrDigit(char c);
 
 
+
+        public static bool IsAsciiLetterUpper(char c);
 
     }
 }
