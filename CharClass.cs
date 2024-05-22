@@ -282,7 +282,7 @@ namespace Donet8
         //Indicates whether a character is categorized as an ASCII hexademical digit.
         public static bool IsAsciiHexDigit(char c);
 
-
+        //Indicates whether a character is categorized as an ASCII lower-case hexademical digit.
         public static bool IsAsciiHexDigitLower(char c);
 
 
