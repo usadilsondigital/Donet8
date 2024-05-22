@@ -324,7 +324,7 @@ namespace Donet8
 
         public void IsDigitSample()
         {
-           
+            char ch = '8';
         }
 
 
