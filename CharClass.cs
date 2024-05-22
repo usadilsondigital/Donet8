@@ -294,5 +294,8 @@ namespace Donet8
         public static bool IsAsciiHexDigitUpper(char c);
 
 
+
+
+        public static bool IsAsciiLetter(char c);
     }
 }
