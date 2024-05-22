@@ -283,6 +283,8 @@ namespace Donet8
         public static bool IsAsciiHexDigit(char c);
 
 
+        public static bool IsAsciiHexDigitLower(char c);
+
 
     }
 }
