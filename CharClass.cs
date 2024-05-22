@@ -276,14 +276,22 @@ namespace Donet8
             //Returns true if c is an ASCII character ([ U+0000..U+007F ]).
             public static bool IsAscii(char c);
 
+
         //Indicates whether a character is categorized as an ASCII digit.
         public static bool IsAsciiDigit(char c);
+
 
         //Indicates whether a character is categorized as an ASCII hexademical digit.
         public static bool IsAsciiHexDigit(char c);
 
+
         //Indicates whether a character is categorized as an ASCII lower-case hexademical digit.
         public static bool IsAsciiHexDigitLower(char c);
+
+
+
+
+        public static bool IsAsciiHexDigitUpper(char c);
 
 
     }
