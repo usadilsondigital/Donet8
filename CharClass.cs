@@ -346,7 +346,9 @@ namespace Donet8
             Console.WriteLine("Hexadecimal code points of the characters in string, s1: ");
 
             for (int i = 0; i < s1.Length; i++)
-
+            {
+                Console.WriteLine("s1[{0}] = {1:X4} ", i, (int)s1[i]);
+            }
 
 
 
