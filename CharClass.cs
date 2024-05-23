@@ -356,6 +356,7 @@ namespace Donet8
             Console.WriteLine("A3) s1[0]? - {0}", Char.IsHighSurrogate(s1, 0));
             Console.WriteLine("A4) s1[1]? - {0}", Char.IsHighSurrogate(s1, 1));
             Console.WriteLine(divider);
+            Console.WriteLine("Is each of the following characters a low surrogate?");
 
 
 
