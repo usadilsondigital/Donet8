@@ -331,6 +331,7 @@ namespace Donet8
 
         // This example demonstrates the Char.IsLowSurrogate() method
         //                                    IsHighSurrogate() method
+        //                                    IsSurrogatePair() method
         public void IsHighSurrogateExample()
         { }
 
