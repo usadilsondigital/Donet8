@@ -350,6 +350,10 @@ namespace Donet8
                 Console.WriteLine("s1[{0}] = {1:X4} ", i, (int)s1[i]);
             }
             Console.WriteLine(divider);
+            Console.WriteLine("Is each of the following characters a high surrogate?");
+
+
+
 
 
 
