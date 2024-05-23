@@ -353,7 +353,7 @@ namespace Donet8
             Console.WriteLine("Is each of the following characters a high surrogate?");
             Console.WriteLine("A1) cLow?  - {0}", Char.IsHighSurrogate(cLow));
             Console.WriteLine("A2) cHigh? - {0}", Char.IsHighSurrogate(cHigh));
-
+            Console.WriteLine("A3) s1[0]? - {0}", Char.IsHighSurrogate(s1, 0));
 
 
 
