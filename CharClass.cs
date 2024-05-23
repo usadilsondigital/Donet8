@@ -334,7 +334,10 @@ namespace Donet8
         //                                    IsSurrogatePair() method
         public void IsHighSurrogateExample()
         { 
-            char cHigh = '\uD800'; 
+            char cHigh = '\uD800';
+            char cLow = '\uDC00';
+
+
         }
 
 
