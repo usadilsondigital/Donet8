@@ -345,7 +345,7 @@ namespace Donet8
             Console.WriteLine("Characters in string, s1: 'a', high surrogate, low surrogate, 'z'");
             Console.WriteLine("Hexadecimal code points of the characters in string, s1: ");
 
-
+            for (int i = 0; i < s1.Length; i++)
 
 
 
