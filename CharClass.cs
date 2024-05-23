@@ -339,6 +339,7 @@ namespace Donet8
             string s1 = new String(new char[] { 'a', '\uD800', '\uDC00', 'z' });
             string divider = String.Concat(Environment.NewLine, new String('-', 70), Environment.NewLine);
             Console.WriteLine();
+            Console.WriteLine("Hexadecimal code point of the character, cHigh: {0:X4}", (int)cHigh);
 
 
 
@@ -347,5 +348,5 @@ namespace Donet8
 
 
 
-        }
+    }
 }
