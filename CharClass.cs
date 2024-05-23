@@ -329,7 +329,8 @@ namespace Donet8
             Console.WriteLine(Char.IsDigit("sample string", 7));	// Output: "False"
         }
 
-        public  void IsHighSurrogateExample()
+        // This example demonstrates the Char.IsLowSurrogate() method
+        public void IsHighSurrogateExample()
         { }
 
 
