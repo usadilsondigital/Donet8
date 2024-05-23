@@ -343,6 +343,7 @@ namespace Donet8
             Console.WriteLine("Hexadecimal code point of the character, cLow:  {0:X4}", (int)cLow);
             Console.WriteLine();
             Console.WriteLine("Characters in string, s1: 'a', high surrogate, low surrogate, 'z'");
+            Console.WriteLine("Hexadecimal code points of the characters in string, s1: ");
 
 
 
