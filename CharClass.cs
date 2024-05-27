@@ -415,6 +415,8 @@ This example produces the following results:
 
             char ch = '8';
             Console.WriteLine(Char.IsLetter(ch));                   // False
+
+            Console.WriteLine(Char.IsLetter("sample string", 7));   // True
         }
 
     }
