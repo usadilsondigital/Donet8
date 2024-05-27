@@ -442,6 +442,7 @@ This example produces the following results:
     public  void IsLowSurrogate()
     {
         char cHigh = '\uD800';
+        char cLow = '\uDC00';
     }
 
 
