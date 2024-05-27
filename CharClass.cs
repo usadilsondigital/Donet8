@@ -434,6 +434,7 @@ This example produces the following results:
         public  void IsLowerSample()
         {
             char ch = 'a';
+            Console.WriteLine(Char.IsLower(ch));                // Output: "True"
         }
 
 
