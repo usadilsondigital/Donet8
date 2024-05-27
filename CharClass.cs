@@ -380,7 +380,7 @@ This example produces the following results:
             s1[2] = DC00
             s1[3] = 007A
             ----------------------------------------------------------------------
-
+            Is each of the following characters a high surrogate?
 
 
 
