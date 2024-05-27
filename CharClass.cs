@@ -361,7 +361,7 @@ namespace Donet8
             Console.WriteLine("B2) cHigh? - {0}", Char.IsLowSurrogate(cHigh));
             Console.WriteLine("B3) s1[0]? - {0}", Char.IsLowSurrogate(s1, 0));
             Console.WriteLine("B4) s1[2]? - {0}", Char.IsLowSurrogate(s1, 2));
-
+            Console.WriteLine(divider);
 
 
 
