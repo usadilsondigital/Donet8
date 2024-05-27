@@ -422,7 +422,8 @@ This example produces the following results:
         public void IsLetterOrDigitSample
         {
             string str = "newline:\n";
-        
+        Console.WriteLine(Char.IsLetterOrDigit('8'));       // Output: "True"
+          
         }
 
 
