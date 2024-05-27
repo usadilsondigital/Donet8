@@ -376,6 +376,7 @@ This example produces the following results:
             Characters in string, s1: 'a', high surrogate, low surrogate, 'z'
             Hexadecimal code points of the characters in string, s1:
             s1[0] = 0061
+            s1[1] = D800
 
 
 
