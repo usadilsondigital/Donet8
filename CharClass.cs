@@ -367,6 +367,10 @@ namespace Donet8
             Console.WriteLine("C2) s1[0] and s1[1]? - {0}", Char.IsSurrogatePair(s1, 0));
             Console.WriteLine("C3) s1[1] and s1[2]? - {0}", Char.IsSurrogatePair(s1, 1));
             Console.WriteLine("C4) s1[2] and s1[3]? - {0}", Char.IsSurrogatePair(s1, 2));
+            Console.WriteLine(divider);
+
+
+
 
 
 
