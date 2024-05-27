@@ -419,5 +419,12 @@ This example produces the following results:
             Console.WriteLine(Char.IsLetter("sample string", 7));   // True
         }
 
+        public void IsLetterOrDigitSample
+        {
+          
+        }
+
+
+
     }
 }
