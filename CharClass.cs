@@ -371,7 +371,7 @@ namespace Donet8
             /*
 This example produces the following results:
             Hexadecimal code point of the character, cHigh: D800
-
+            Hexadecimal code point of the character, cLow:  DC00
 
 
 
