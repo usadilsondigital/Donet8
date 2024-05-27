@@ -363,7 +363,7 @@ namespace Donet8
             Console.WriteLine("B4) s1[2]? - {0}", Char.IsLowSurrogate(s1, 2));
             Console.WriteLine(divider);
             Console.WriteLine("Is each of the following pairs of characters a surrogate pair?");
-
+            Console.WriteLine("C1) cHigh and cLow?  - {0}", Char.IsSurrogatePair(cHigh, cLow));
 
         }
 
