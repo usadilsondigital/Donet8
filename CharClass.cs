@@ -382,6 +382,11 @@ This example produces the following results:
             ----------------------------------------------------------------------
             Is each of the following characters a high surrogate?
 
+            A1) cLow?  - False
+
+
+
+
 
 
              */
