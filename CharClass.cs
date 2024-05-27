@@ -435,7 +435,8 @@ This example produces the following results:
         {
             char ch = 'a';
             Console.WriteLine(Char.IsLower(ch));                // Output: "True"
-        }
+        Console.WriteLine(Char.IsLower("upperCase", 5));    // Output: "False"
+    }
 
 
 
