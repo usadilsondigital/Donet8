@@ -412,6 +412,9 @@ This example produces the following results:
 
         public  void IsLetterSample()
         {
+
+            char ch = '8';
+
         }
 
     }
