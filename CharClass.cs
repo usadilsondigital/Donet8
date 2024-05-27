@@ -410,6 +410,9 @@ This example produces the following results:
         }
 
 
+        public  void IsLetterSample()
+        {
+        }
 
     }
 }
