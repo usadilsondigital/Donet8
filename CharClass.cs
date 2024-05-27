@@ -397,7 +397,7 @@ This example produces the following results:
             C1) cHigh and cLow?  - True
             C2) s1[0] and s1[1]? - False
             C3) s1[1] and s1[2]? - True
-
+            C4) s1[2] and s1[3]? - False
 
 
 
