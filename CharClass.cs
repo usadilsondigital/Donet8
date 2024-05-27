@@ -53,7 +53,7 @@ namespace Donet8
         //Converts the specified Unicode code point into a UTF-16 encoded string.
         public static string ConvertFromUtf32(int utf32);
 
-        public  void ConvertFromUtf32Example()
+        public void ConvertFromUtf32Example()
         {
             int letterA = 0x0041;//U+00041 = LATIN CAPITAL LETTER A
             int music = 0x1D161;////U+1D161 = MUSICAL SYMBOL SIXTEENTH NOTE
@@ -101,14 +101,16 @@ namespace Donet8
 
 
         }
-        private static void Show(string s) {
-            for (int x = 0; x < s.Length; x++) { 
+        private static void Show(string s)
+        {
+            for (int x = 0; x < s.Length; x++)
+            {
                 Console.Write("0x{0:X}{1}",
                      (int)s[x],
                       ((x == s.Length - 1) ? String.Empty : ", "));
 
             }
-                
+
         }
         /*
         This example produces the following results:
@@ -130,7 +132,7 @@ namespace Donet8
         */
 
         //Converts the value of a UTF-16 encoded surrogate pair into a Unicode code point.
-        public  void ConvertToUtf32Example()
+        public void ConvertToUtf32Example()
         {
             int letterA = 0x0041; // //U+00041 = LATIN CAPITAL LETTER A
             int music = 0x1D161;////U+1D161 = MUSICAL SYMBOL SIXTEENTH NOTE
@@ -181,7 +183,8 @@ namespace Donet8
 
         }
 
-        private  void Show(string s) {
+        private void Show(string s)
+        {
             for (int x = 0; x < s.Length; x++)
                 Console.Write("0x{0:X}{1}",
                       (int)s[x],
@@ -202,7 +205,8 @@ namespace Donet8
          */
 
         //Converts the specified numeric Unicode character to a double-precision floating point number.
-        public double GetNumericValue(char c) {
+        public double GetNumericValue(char c)
+        {
             string str = "input: 1";
             Console.WriteLine(Char.GetNumericValue('8'));		// Output: "8"
             Console.WriteLine(Char.GetNumericValue(str, 7));	// Output: "1"
@@ -333,7 +337,7 @@ namespace Donet8
         //                                    IsHighSurrogate() method
         //                                    IsSurrogatePair() method
         public void IsHighSurrogateExample()
-        { 
+        {
             char cHigh = '\uD800';
             char cLow = '\uDC00';
             string s1 = new String(new char[] { 'a', '\uD800', '\uDC00', 'z' });
@@ -410,7 +414,7 @@ This example produces the following results:
         }
 
 
-        public  void IsLetterSample()
+        public void IsLetterSample()
         {
 
             char ch = '8';
@@ -422,7 +426,9 @@ This example produces the following results:
         public void IsLetterOrDigitSample
         {
             string str = "newline:\n";
-        Console.WriteLine(Char.IsLetterOrDigit('8'));       // Output: "True"
+            Console.WriteLine(Char.IsLetterOrDigit('8'));       // Output: "True"
+            Console.WriteLine(Char.IsLetterOrDigit(str, 8));    // Output: "False", because it's a newline
+          
           
         }
 
