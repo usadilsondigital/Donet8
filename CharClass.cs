@@ -472,7 +472,7 @@ This example produces the following results:
         Console.WriteLine(divider);
 
         Console.WriteLine("Is each of the following pairs of characters a surrogate pair?");
-
+        Console.WriteLine("C1) cHigh and cLow?  - {0}", Char.IsSurrogatePair(cHigh, cLow));
 
 
 
