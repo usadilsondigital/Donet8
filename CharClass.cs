@@ -471,7 +471,7 @@ This example produces the following results:
 
         Console.WriteLine(divider);
 
-
+        Console.WriteLine("Is each of the following pairs of characters a surrogate pair?");
 
 
 
