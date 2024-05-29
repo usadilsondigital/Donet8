@@ -446,6 +446,9 @@ This example produces the following results:
         string s1 = new String(new char[] { 'a', '\uD800', '\uDC00', 'z' });
         string divider = String.Concat(Environment.NewLine, new String('-', 70),
                                     Environment.NewLine);
+        Console.WriteLine();
+
+
     }
 
 
