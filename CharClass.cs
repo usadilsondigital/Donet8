@@ -504,6 +504,8 @@ This example produces the following results:
         ----------------------------------------------------------------------
         Is each of the following pairs of characters a surrogate pair?
         C1) cHigh and cLow?  - True
+        C2) s1[0] and s1[1]? - False
+
 
 
 
