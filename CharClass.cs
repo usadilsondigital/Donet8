@@ -501,6 +501,9 @@ This example produces the following results:
         B2) cHigh? - False
         B3) s1[0]? - False
         B4) s1[2]? - True
+        ----------------------------------------------------------------------
+
+
 
 
 
