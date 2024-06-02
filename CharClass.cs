@@ -490,7 +490,8 @@ This example produces the following results:
         s1[3] = 007A
 
         ----------------------------------------------------------------------
-        Is each of the following characters a high surrogate?
+        Is each of the following characters a high surrogate?.
+        A1) cLow?  - False
 
 
             */
