@@ -497,7 +497,7 @@ This example produces the following results:
         A4) s1[1]? - True
         ----------------------------------------------------------------------
         Is each of the following characters a low surrogate?
-
+        B1) cLow?  - True
 
 
 
