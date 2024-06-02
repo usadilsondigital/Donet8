@@ -503,7 +503,7 @@ This example produces the following results:
         B4) s1[2]? - True
         ----------------------------------------------------------------------
         Is each of the following pairs of characters a surrogate pair?
-
+        C1) cHigh and cLow?  - True
 
 
 
