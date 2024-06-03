@@ -514,6 +514,7 @@ This example produces the following results:
     {
         string str = "non-numeric";
         Console.WriteLine(Char.IsNumber('8'));      // Output: "True"
+        Console.WriteLine(Char.IsNumber(str, 3));   // Output: "False"
     }
 
 }
