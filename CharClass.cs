@@ -426,20 +426,20 @@ This example produces the following results:
         public void IsLetterOrDigitSample
         {
             string str = "newline:\n";
-            Console.WriteLine(Char.IsLetterOrDigit('8'));       // Output: "True"
+        Console.WriteLine(Char.IsLetterOrDigit('8'));       // Output: "True"
             Console.WriteLine(Char.IsLetterOrDigit(str, 8));    // Output: "False", because it's a newline          
           
         }
-    
-        public  void IsLowerSample()
-        {
-            char ch = 'a';
-            Console.WriteLine(Char.IsLower(ch));                // Output: "True"
+
+    public void IsLowerSample()
+    {
+        char ch = 'a';
+        Console.WriteLine(Char.IsLower(ch));                // Output: "True"
         Console.WriteLine(Char.IsLower("upperCase", 5));    // Output: "False"
-        }
+    }
 
 
-    public  void IsLowSurrogate()
+    public void IsLowSurrogate()
     {
         char cHigh = '\uD800';
         char cLow = '\uDC00';
@@ -507,17 +507,13 @@ This example produces the following results:
         C2) s1[0] and s1[1]? - False
         C3) s1[1] and s1[2]? - True
         C4) s1[2] and s1[3]? - False
-
-
             */
-
-
-
-
     }
 
-
-
+    public  void IsNumberSample()
+    {
+        
+    }
 
 }
 }
