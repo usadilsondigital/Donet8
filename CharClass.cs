@@ -512,7 +512,7 @@ This example produces the following results:
 
     public  void IsNumberSample()
     {
-        
+        string str = "non-numeric";
     }
 
 }
