@@ -523,6 +523,7 @@ This example produces the following results:
         char ch = '.';
         Console.WriteLine(Char.IsPunctuation(ch));                      // Output: "True"
         Console.WriteLine(Char.IsPunctuation("no punctuation", 3));     // Output: "False"
+        U+0021 to U+0023	U+060C and U+060D	U+1800 to U+180A	U+3014 to U+301F
     }
 
 }
