@@ -516,6 +516,12 @@ This example produces the following results:
         Console.WriteLine(Char.IsNumber('8'));      // Output: "True"
         Console.WriteLine(Char.IsNumber(str, 3));   // Output: "False"
     }
+    using System;
+
+    public void IsPunctuationSample
+    {
+       
+    }
 
 }
 }
