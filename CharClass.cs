@@ -522,6 +522,7 @@ This example produces the following results:
     {            
         char ch = '.';
         Console.WriteLine(Char.IsPunctuation(ch));                      // Output: "True"
+        Console.WriteLine(Char.IsPunctuation("no punctuation", 3));     // Output: "False"
     }
 
 }
