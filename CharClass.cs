@@ -519,7 +519,9 @@ This example produces the following results:
     using System;
 
     public void IsPunctuationSample
-    {            char ch = '.';
+    {            
+        char ch = '.';
+        Console.WriteLine(Char.IsPunctuation(ch));                      // Output: "True"
     }
 
 }
