@@ -519,8 +519,7 @@ This example produces the following results:
     using System;
 
     public void IsPunctuationSample
-    {
-       
+    {            char ch = '.';
     }
 
 }
