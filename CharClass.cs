@@ -558,7 +558,7 @@ This example produces the following results:
             U+007B U+0964 and U+0965	U+2045 to U+2051	U+FE10 to U+FE19
             U+007D	U+0970	U+2053 to U+205E	U+FE30 to U+FE52
             U+00A1 U+0DF4 U+207D and U+207E	U+FE54 to U+FE61
-
+            U+00AB U+0E4F to U+0E5B U+208D and U+208E	U+FE63
 
 
 
