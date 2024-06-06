@@ -552,6 +552,9 @@ This example produces the following results:
             U+0025 to U+002A U+061B U+1944 and U+1945	U+3030
             U+002C to U+002F	U+061E and U+061F	U+19DE and U+19DF U+303D
             U+003A and U+003B U+066A to U+066D	U+1A1E and U+1A1F U+30A0
+            U+003F and U+0040	U+06D4	U+1B5A to U+1B60 U+30FB
+
+
 
     }
 
