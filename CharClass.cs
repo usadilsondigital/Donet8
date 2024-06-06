@@ -548,6 +548,7 @@ This example produces the following results:
             U+05C6 U+17D4 to U+17D6	U+3001 to U+3003	U+FF5F to U+FF65
             U+05F3 and U+05F4	U+17D8 to U+17DA U+3008 to U+3011	
 
+            U+0021 to U+0023	U+060C and U+060D	U+1800 to U+180A U+3014 to U+301F
 
     }
 
