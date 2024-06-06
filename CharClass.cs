@@ -543,7 +543,7 @@ This example produces the following results:
             U+055A to U+055F	U+1361 to U+1368	U+29FC and U+29FD U+FF1F and U+FF20
             U+0589 and U+058A U+166D and U+166E	U+2CF9 to U+2CFC U+FF3B to U+FF3D
             U+05BE U+169B and U+169C U+2CFE and U+2CFF U+FF3F
-
+            U+05C0 U+16EB to U+16ED	U+2E00 to U+2E17	U+FF5B
 
 
 
