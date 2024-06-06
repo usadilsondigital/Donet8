@@ -554,6 +554,7 @@ This example produces the following results:
             U+003A and U+003B U+066A to U+066D	U+1A1E and U+1A1F U+30A0
             U+003F and U+0040	U+06D4	U+1B5A to U+1B60 U+30FB
             U+005B to U+005D	U+0700 to U+070D	U+2010 to U+2027	U+A874 to U+A877
+            U+005F	U+07F7 to U+07F9	U+2030 to U+2043	U+FD3E and U+FD3F
 
 
     }
