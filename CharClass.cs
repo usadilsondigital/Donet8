@@ -606,7 +606,9 @@ This example produces the following results:
         for (int ctr = (int)(Char.MinValue); ctr <= (int)(Char.MaxValue); ctr++)
         {
             char ch = (Char)ctr;
-           
+            if (Char.IsSeparator(ch))
+               
+
         }
     }
 
