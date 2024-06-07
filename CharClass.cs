@@ -566,6 +566,11 @@ This example produces the following results:
             U+037E	U+104A to U+104F	U+2983 to U+2998	U+FF0C to U+FF0F
             U+0387	U+10FB U+29D8 to U+29DB U+FF1A and U+FF1B
             U+055A to U+055F	U+1361 to U+1368	U+29FC and U+29FD U+FF1F and U+FF20
+            U+0589 and U+058A U+166D and U+166E	U+2CF9 to U+2CFC U+FF3B to U+FF3D
+
+
+
+
 
     }
 
