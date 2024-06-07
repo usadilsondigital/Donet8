@@ -607,7 +607,7 @@ This example produces the following results:
         {
             char ch = (Char)ctr;
             if (Char.IsSeparator(ch))
-               
+                Console.WriteLine(@"\u{(int)ch:X4} ({Char.GetUnicodeCategory(ch)})");
 
         }
     }
