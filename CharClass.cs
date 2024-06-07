@@ -613,7 +613,7 @@ This example produces the following results:
     }
     // The example displays the following output:
     //       \u0020 (SpaceSeparator)
-
+    //       \u00A0 (SpaceSeparator)
 
 
 
