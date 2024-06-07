@@ -565,7 +565,7 @@ This example produces the following results:
             U+00BF U+0FD0 and U+0FD1 U+27E6 to U+27EB U+FF05 to U+FF0A
             U+037E	U+104A to U+104F	U+2983 to U+2998	U+FF0C to U+FF0F
             U+0387	U+10FB U+29D8 to U+29DB U+FF1A and U+FF1B
-
+            U+055A to U+055F	U+1361 to U+1368	U+29FC and U+29FD U+FF1F and U+FF20
 
     }
 
