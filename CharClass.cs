@@ -616,6 +616,7 @@ This example produces the following results:
     //       \u00A0 (SpaceSeparator)
     //       \u1680 (SpaceSeparator)
     //       \u180E (SpaceSeparator)
+    //       \u2000 (SpaceSeparator)
 
 }
 }
