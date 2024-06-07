@@ -600,5 +600,9 @@ This example produces the following results:
 
     }
 
+
+
+    public static bool IsSeparator(char c);
+
 }
 }
