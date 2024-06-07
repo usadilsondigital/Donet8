@@ -611,6 +611,7 @@ This example produces the following results:
 
         }
     }
+    // The example displays the following output:
 
 }
 }
