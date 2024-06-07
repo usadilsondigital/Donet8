@@ -575,7 +575,7 @@ This example produces the following results:
             U+0021 to U+0023	U+060C and U+060D	U+1800 to U+180A U+3014 to U+301F
             U+0025 to U+002A U+061B U+1944 and U+1945	U+3030
             U+002C to U+002F	U+061E and U+061F	U+19DE and U+19DF U+303D
-
+            U+003A and U+003B U+066A to U+066D	U+1A1E and U+1A1F U+30A0
 
 
     }
