@@ -605,6 +605,7 @@ This example produces the following results:
     public static void IsSeparator(char c) {
         for (int ctr = (int)(Char.MinValue); ctr <= (int)(Char.MaxValue); ctr++)
         {
+            char ch = (Char)ctr;
            
         }
     }
