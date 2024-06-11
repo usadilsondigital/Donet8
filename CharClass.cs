@@ -636,7 +636,7 @@ This example produces the following results:
     {
         string str = "twain1 twain2";
         Console.WriteLine(Char.IsSeparator('a'));  // Output: "False"              
-            Console.WriteLine(Char.IsSeparator(str, 6)); 
+            Console.WriteLine(Char.IsSeparator(str, 6));    // Output: "True"
     }
 
 
