@@ -634,7 +634,8 @@ This example produces the following results:
     //       \u3000 (SpaceSeparator)
     public class IsSeparatorSample
     {
-        string str = "twain1 twain2";       
+        string str = "twain1 twain2";
+        Console.WriteLine(Char.IsSeparator('a'));    
     }
 
 
