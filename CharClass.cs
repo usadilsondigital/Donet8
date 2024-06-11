@@ -623,6 +623,7 @@ This example produces the following results:
     //       \u2004 (SpaceSeparator)
     //       \u2005 (SpaceSeparator)
     //       \u2006 (SpaceSeparator)
+    //       \u2007 (SpaceSeparator)
 
 
 
