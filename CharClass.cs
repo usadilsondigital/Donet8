@@ -630,7 +630,7 @@ This example produces the following results:
     //       \u2028 (LineSeparator)
     //       \u2029 (ParagraphSeparator)
     //       \u202F (SpaceSeparator)
-
+    //       \u205F (SpaceSeparator)
 
 
 }
