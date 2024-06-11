@@ -625,6 +625,8 @@ This example produces the following results:
     //       \u2006 (SpaceSeparator)
     //       \u2007 (SpaceSeparator)
     //       \u2008 (SpaceSeparator)
+    //       \u2009 (SpaceSeparator)
+
 
 
 
