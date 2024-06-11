@@ -628,7 +628,7 @@ This example produces the following results:
     //       \u2009 (SpaceSeparator)
     //       \u200A (SpaceSeparator)
     //       \u2028 (LineSeparator)
-
+    //       \u2029 (ParagraphSeparator)
 
 
 }
