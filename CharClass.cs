@@ -635,7 +635,7 @@ This example produces the following results:
     public class IsSeparatorSample
     {
         string str = "twain1 twain2";
-        Console.WriteLine(Char.IsSeparator('a'));    
+        Console.WriteLine(Char.IsSeparator('a'));  // Output: "False"
     }
 
 
