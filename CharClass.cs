@@ -641,7 +641,8 @@ This example produces the following results:
 
         public static void IsSurrogateSample()
         {
-        string str = "\U00010F00"; 
+        string str = "\U00010F00";
+        // Unicode values between 0x10000 
     }
    
 
