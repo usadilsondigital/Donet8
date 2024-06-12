@@ -657,6 +657,10 @@ This example produces the following results:
         char cHigh = '\uD800';
         char cLow = '\uDC00';
         string s1 = new String(new char[] { 'a', '\uD800', '\uDC00', 'z' });
+        string divider = String.Concat(Environment.NewLine, new String('-', 70),
+
+
+
     }
 
 
