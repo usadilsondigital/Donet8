@@ -652,7 +652,7 @@ This example produces the following results:
 
     // This example demonstrates the Char.IsLowSurrogate() method
     //                                    IsHighSurrogate() method
-
+    //                                    IsSurrogatePair() method
 
 
 }
