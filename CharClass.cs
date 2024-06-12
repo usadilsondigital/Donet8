@@ -639,6 +639,12 @@ This example produces the following results:
             Console.WriteLine(Char.IsSeparator(str, 6));    // Output: "True"
     }
 
+        public static void IsSurrogateSample()
+        {
+          
+        }
+   
+
 
 }
 }
