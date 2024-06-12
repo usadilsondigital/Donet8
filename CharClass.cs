@@ -647,7 +647,7 @@ This example produces the following results:
         Console.WriteLine(Char.IsSurrogate('a'));
         // Output: "False"
 
-        Console.WriteLine(Char.IsSurrogate(str, 0));    
+        Console.WriteLine(Char.IsSurrogate(str, 0));    // Output: "True"
     }
    
 
