@@ -641,8 +641,8 @@ This example produces the following results:
 
         public static void IsSurrogateSample()
         {
-          
-        }
+        string str = "\U00010F00"; 
+    }
    
 
 
