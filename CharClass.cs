@@ -649,7 +649,9 @@ This example produces the following results:
 
         Console.WriteLine(Char.IsSurrogate(str, 0));    // Output: "True"
     }
-   
+
+    // This example demonstrates the Char.IsLowSurrogate() method
+
 
 
 }
