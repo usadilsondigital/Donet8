@@ -655,6 +655,7 @@ This example produces the following results:
     //                                    IsSurrogatePair() method
     public static void SurrgoateExamples() {
         char cHigh = '\uD800';
+        char cLow = '\uDC00';
     }
 
 
