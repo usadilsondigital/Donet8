@@ -656,6 +656,7 @@ This example produces the following results:
     public static void SurrgoateExamples() {
         char cHigh = '\uD800';
         char cLow = '\uDC00';
+        string s1 = new String(new char[] { 'a', '\uD800', '\uDC00', 'z' });
     }
 
 
