@@ -642,7 +642,8 @@ This example produces the following results:
         public static void IsSurrogateSample()
         {
         string str = "\U00010F00";
-        // Unicode values between 0x10000 
+        // Unicode values between 0x10000 and 0x10FFF are represented by two 16-bit "surrogate" characters
+
     }
    
 
