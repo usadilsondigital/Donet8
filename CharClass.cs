@@ -671,7 +671,7 @@ This example produces the following results:
         }
         Console.WriteLine(divider);
         Console.WriteLine("Is each of the following characters a high surrogate?");
-
+        Console.WriteLine("A1) cLow?  - {0}", Char.IsHighSurrogate(cLow));
 
 
 
