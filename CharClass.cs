@@ -663,6 +663,7 @@ This example produces the following results:
         Console.WriteLine("Hexadecimal code point of the character, cHigh: {0:X4}", (int)cHigh);
         Console.WriteLine("Hexadecimal code point of the character, cLow:  {0:X4}", (int)cLow);
         Console.WriteLine();
+        Console.WriteLine("Characters in string, s1: 'a', high surrogate, low surrogate, 'z'");
 
 
 
