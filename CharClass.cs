@@ -660,6 +660,8 @@ This example produces the following results:
         string divider = String.Concat(Environment.NewLine, new String('-', 70), Environment.NewLine);
 
         Console.WriteLine();
+        Console.WriteLine("Hexadecimal code point of the character, cHigh: {0:X4}", (int)cHigh);
+
 
 
 
