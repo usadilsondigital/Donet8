@@ -669,7 +669,7 @@ This example produces the following results:
         {
             Console.WriteLine("s1[{0}] = {1:X4} ", i, (int)s1[i]);
         }
-
+        Console.WriteLine(divider);
 
 
     }
