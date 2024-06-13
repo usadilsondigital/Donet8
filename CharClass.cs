@@ -674,7 +674,7 @@ This example produces the following results:
         Console.WriteLine("A1) cLow?  - {0}", Char.IsHighSurrogate(cLow));
         Console.WriteLine("A2) cHigh? - {0}", Char.IsHighSurrogate(cHigh));
         Console.WriteLine("A3) s1[0]? - {0}", Char.IsHighSurrogate(s1, 0));
-
+        Console.WriteLine("A4) s1[1]? - {0}", Char.IsHighSurrogate(s1, 1));
 
     }
 
