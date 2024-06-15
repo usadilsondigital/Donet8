@@ -711,6 +711,7 @@ Is each of the following characters a high surrogate?
         Is each of the following characters a low surrogate?
         B1) cLow?  - True
         B2) cHigh? - False
+        B3) s1[0]? - False
 
 */
 
