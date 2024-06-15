@@ -698,6 +698,7 @@ This example produces the following results:
         s1[0] = 0061
         s1[1] = D800
         s1[2] = DC00
+        s1[3] = 007A
 */
 
 
