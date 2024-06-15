@@ -694,6 +694,7 @@ This example produces the following results:
         Hexadecimal code point of the character, cLow:  DC00
 
         Characters in string, s1: 'a', high surrogate, low surrogate, 'z'
+        Hexadecimal code points of the characters in string, s1:
 */
 
 
