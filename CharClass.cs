@@ -708,6 +708,7 @@ Is each of the following characters a high surrogate?
         A3) s1[0]? - False
         A4) s1[1]? - True
         ----------------------------------------------------------------------
+        Is each of the following characters a low surrogate?
 
 */
 
