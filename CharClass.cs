@@ -697,6 +697,7 @@ This example produces the following results:
         Hexadecimal code points of the characters in string, s1:
         s1[0] = 0061
         s1[1] = D800
+        s1[2] = DC00
 */
 
 
